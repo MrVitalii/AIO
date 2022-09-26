@@ -1,0 +1,48 @@
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+header {
+  background-color: $white;
+  padding-top: 17px;
+  padding-bottom: 40px;
+
+  .a {
+    width: 63px;
+    height: 17px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4C4F57;
+  }
+
+  .shop {
+    left: 78px;
+    bottom: 4px
+  }
+  .position-absolute{
+    bottom: 45px;
+    right: 104px;
+  }
+
+  .count_number {
+    position: relative;
+    left: 84px;
+    bottom: 26px;
+    color: $black;
+    font-size: 14px;
+  }
+}
+
+

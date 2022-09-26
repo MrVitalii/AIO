@@ -1,0 +1,48 @@
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.main_page{
+  .container{
+    background-image: url("/images/Everything_you_need.png");
+
+    height: 629px;
+  }
+h1{
+  width: 558px;
+  height: 168px;
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 82px;
+  line-height: 102%;
+  color: $black;
+  margin-left: 810px;
+  padding-top: 183px;
+}
+  button{
+    background-color: transparent;
+    position: absolute;
+    width: 200px;
+    height: 52px;
+    left: 1062px;
+    top: 555px;
+    border: 1px solid #393D46;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #393D46;
+  }
+}
