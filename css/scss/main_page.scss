@@ -15,6 +15,7 @@ $light_grey: #5F6C81;
   .container {
     background-image: url("../images/everything_you_need.png");
     height: 629px;
+    max-width: 1440px;
   }
 
   h1 {
@@ -26,8 +27,11 @@ $light_grey: #5F6C81;
     font-size: 82px;
     line-height: 102%;
     color: $black;
-    margin-left: 810px;
-    padding-top: 183px;
+    position: absolute;
+    top: 183px;
+    left: 55%;
+
+
   }
 
   button {
@@ -35,8 +39,8 @@ $light_grey: #5F6C81;
     position: absolute;
     width: 200px;
     height: 52px;
-    left: 1062px;
-    top: 555px;
+    top: 421px;
+    left: 55%;
     border: 1px solid #393D46;
     font-family: $main_font;
     font-style: normal;
@@ -45,5 +49,6 @@ $light_grey: #5F6C81;
     line-height: 120%;
     text-align: center;
     color: #393D46;
+
   }
 }

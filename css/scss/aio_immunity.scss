@@ -1,3 +1,73 @@
-.immunity{
-  ;
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.immunity {
+  background-image: url("../images/AIO_Immunity.jpg");
+  max-width: 1270px;
+
+  h1 {
+    position: absolute;
+    top: 111px;
+    left: 55%;
+    width: 398px;
+    height: 60px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: $grey;
+  }
+
+  p {
+
+    width: 402px;
+    height: 81px;
+    top: 202px;
+    left: 55%;
+    position: absolute;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    color: #5F6C81;
+  }
+
+  height: 502px;
+  max-width: 1270px !important;
+  margin-top: 169px;
+
+  .buttons {
+    position: absolute;
+    top: 344px;
+    left: 55%;
+    .buy{
+      background-color: $grey;
+      color: white;
+      margin-right: 20px;
+    }
+  }
+
+  button {
+    width: 191.33px;
+    height: 48px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.4px;
+  }
 }

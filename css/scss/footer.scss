@@ -1,0 +1,88 @@
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+
+footer {
+  padding-top: 63px;
+  background-color: $grey;
+
+  .columns_footer{
+    margin-top: 80px;
+  }
+
+  .developers {
+    .rights {
+      position: relative;
+      bottom: 35px;
+      @include max-screen(390px) {
+        bottom: 25px;
+        right: 21%;
+        @include max-screen(280px) {
+          right: 10%;
+        }
+      }
+    }
+
+    .made2022 {
+      @include max-screen(390px) {
+        justify-content: center;
+      }
+    }
+  }
+
+  .line {
+    border-top: 2px solid #DCE5E2;;
+  }
+
+  p {
+    font-family: $main_font;
+
+    height: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: $white;
+    padding-top: 18px;
+    background: transparent;
+  }
+
+
+  }
+
+  a {
+    font-family: $main_font;
+    height: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $white;
+    text-decoration: none !important;
+    background: transparent !important;
+  }
+
+  li {
+    padding-bottom: 14px;
+  }
+
+  .aio {
+    font-family: $main_font;
+    height: 17px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color:$white;
+  }
+

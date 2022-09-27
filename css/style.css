@@ -20,18 +20,19 @@ header {
     left: 78px;
     bottom: 4px; }
   header .position-absolute {
-    bottom: 45px;
+    bottom: 35px;
     right: 104px; }
   header .count_number {
     position: relative;
     left: 84px;
-    bottom: 26px;
+    bottom: 27px;
     color: #191A1C;
     font-size: 14px; }
 
 .main_page .container {
   background-image: url("../images/everything_you_need.png");
-  height: 629px; }
+  height: 629px;
+  max-width: 1440px; }
 .main_page h1 {
   width: 558px;
   height: 168px;
@@ -41,15 +42,16 @@ header {
   font-size: 82px;
   line-height: 102%;
   color: #191A1C;
-  margin-left: 810px;
-  padding-top: 183px; }
+  position: absolute;
+  top: 183px;
+  left: 55%; }
 .main_page button {
   background-color: transparent;
   position: absolute;
   width: 200px;
   height: 52px;
-  left: 1062px;
-  top: 555px;
+  top: 421px;
+  left: 55%;
   border: 1px solid #393D46;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -58,6 +60,109 @@ header {
   line-height: 120%;
   text-align: center;
   color: #393D46; }
+
+.immunity {
+  background-image: url("../images/AIO_Immunity.jpg");
+  max-width: 1270px;
+  height: 502px;
+  max-width: 1270px !important;
+  margin-top: 169px; }
+  .immunity h1 {
+    position: absolute;
+    top: 111px;
+    left: 55%;
+    width: 398px;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: #393D46; }
+  .immunity p {
+    width: 402px;
+    height: 81px;
+    top: 202px;
+    left: 55%;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    color: #5F6C81; }
+  .immunity .buttons {
+    position: absolute;
+    top: 344px;
+    left: 55%; }
+    .immunity .buttons .buy {
+      background-color: #393D46;
+      color: white;
+      margin-right: 20px; }
+  .immunity button {
+    width: 191.33px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.4px; }
+
+footer {
+  padding-top: 63px;
+  background-color: #393D46; }
+  footer .columns_footer {
+    margin-top: 80px; }
+  footer .developers .rights {
+    position: relative;
+    bottom: 35px; }
+  @media screen and (max-width: 390px) {
+    footer .developers .rights {
+      bottom: 25px;
+      right: 21%; } }
+@media screen and (max-width: 390px) and (max-width: 280px) {
+  footer .developers .rights {
+    right: 10%; } }
+  @media screen and (max-width: 390px) {
+    footer .developers .made2022 {
+      justify-content: center; } }
+  footer .line {
+    border-top: 2px solid #DCE5E2; }
+  footer p {
+    font-family: 'Inter', sans-serif;
+    height: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #FFFFFF;
+    padding-top: 18px;
+    background: transparent; }
+
+a {
+  font-family: 'Inter', sans-serif;
+  height: 19px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none !important;
+  background: transparent !important; }
+
+li {
+  padding-bottom: 14px; }
+
+.aio {
+  font-family: 'Inter', sans-serif;
+  height: 17px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF; }
 
 .container {
   max-width: 1440px; }
