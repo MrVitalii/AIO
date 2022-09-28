@@ -1,0 +1,97 @@
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+.products{
+  padding-top: 161px;
+  padding-bottom: 170px;
+  .container{
+    max-width: 1270px;
+  }
+  .new_price {
+    width: 60px;
+    height: 20px;
+    left: 85px;
+    top: 2346px;
+    font-family: $secondary_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 120%;
+    text-align: center;
+    color: #191A1C;
+  }
+
+  .price_before {
+    font-family: $secondary_font;
+    width: 47px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-decoration-line: line-through;
+    color: rgba(57, 61, 70, 0.8);
+  }
+  button{
+    width: 191.33px;
+    height: 48px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.4px;
+  }
+  h4{
+    width: 159px;
+    height: 46px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 120%;
+    color: #393D46;
+  }
+  .products_headline{
+    width: 460px;
+    height: 18px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #5F6C81;
+  }
+  h2{
+    width: 123px;
+    height: 43px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #393D46;
+  }
+  p{
+
+    height: 72px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #5F6C81;
+
+  }
+}
