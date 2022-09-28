@@ -1,0 +1,30 @@
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.social_networks{
+  padding-top: 297px;
+  padding-bottom: 110px;
+
+li{
+  padding-right: 20px;
+  margin-top: 76px;
+}
+  h1{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 120%;
+    color: #393D46;
+  }
+}

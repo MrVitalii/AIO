@@ -16,9 +16,25 @@ header {
   padding-top: 17px;
   padding-bottom: 40px;
 
-  .a {
-    width: 63px;
-    height: 17px;
+  li {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4C4F57;
+  }
+
+  .dropdown-item{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4C4F57;
+  }
+
+  .select{
     font-family: $main_font;
     font-style: normal;
     font-weight: 500;

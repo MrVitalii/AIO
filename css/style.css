@@ -7,9 +7,21 @@ header {
   background-color: #FFFFFF;
   padding-top: 17px;
   padding-bottom: 40px; }
-  header .a {
-    width: 63px;
-    height: 17px;
+  header li {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4C4F57; }
+  header .dropdown-item {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4C4F57; }
+  header .select {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -219,6 +231,20 @@ header {
   line-height: 140%;
   letter-spacing: 0.2px;
   color: #393D46; }
+
+.social_networks {
+  padding-top: 297px;
+  padding-bottom: 110px; }
+  .social_networks li {
+    padding-right: 20px;
+    margin-top: 76px; }
+  .social_networks h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 120%;
+    color: #393D46; }
 
 footer {
   padding-top: 63px;
