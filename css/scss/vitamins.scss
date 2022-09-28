@@ -1,0 +1,56 @@
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.vitamins{
+  .container{
+    max-width: 1270px;
+  }
+  a{
+    height: 24px;
+    left: 85px;
+    top: 3391px;
+    font-family:$main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration-line: underline!important;
+    color: #5F6C81;
+  }
+  h4{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 120%;
+    color: #393D46;
+  }
+  p{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #5F6C81;
+  }
+  h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #393D46;
+
+  }
+}

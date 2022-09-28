@@ -20,7 +20,7 @@ header {
     left: 78px;
     bottom: 4px; }
   header .position-absolute {
-    bottom: 35px;
+    bottom: 46px;
     right: 104px; }
   header .count_number {
     position: relative;
@@ -184,6 +184,42 @@ header {
     line-height: 160%;
     color: #5F6C81; }
 
+.vitamins .container {
+  max-width: 1270px; }
+.vitamins a {
+  height: 24px;
+  left: 85px;
+  top: 3391px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  text-decoration-line: underline !important;
+  color: #5F6C81; }
+.vitamins h4 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 120%;
+  color: #393D46; }
+.vitamins p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  color: #5F6C81; }
+.vitamins h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #393D46; }
+
 footer {
   padding-top: 63px;
   background-color: #393D46; }
@@ -214,29 +250,26 @@ footer {
     color: #FFFFFF;
     padding-top: 18px;
     background: transparent; }
-
-a {
-  font-family: 'Inter', sans-serif;
-  height: 19px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-  text-decoration: none !important;
-  background: transparent !important; }
-
-li {
-  padding-bottom: 14px; }
-
-.aio {
-  font-family: 'Inter', sans-serif;
-  height: 17px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-  color: #FFFFFF; }
+  footer a {
+    font-family: 'Inter', sans-serif;
+    height: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none !important;
+    background: transparent !important; }
+  footer li {
+    padding-bottom: 14px; }
+  footer .aio {
+    font-family: 'Inter', sans-serif;
+    height: 17px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF; }
 
 .container {
   max-width: 1440px; }
