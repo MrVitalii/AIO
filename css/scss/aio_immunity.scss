@@ -12,8 +12,13 @@ $light_grey: #5F6C81;
 }
 
 .immunity {
-  background-image: url("../images/AIO_Immunity.jpg");
-  max-width: 1270px;
+  .container {
+    max-width: 1240px;
+  }
+
+  height: 502px;
+  margin-top: 169px;
+
 
   h1 {
     position: absolute;
@@ -44,15 +49,13 @@ $light_grey: #5F6C81;
     color: #5F6C81;
   }
 
-  height: 502px;
-  max-width: 1270px !important;
-  margin-top: 169px;
 
   .buttons {
     position: absolute;
     top: 344px;
     left: 55%;
-    .buy{
+
+    .buy {
       background-color: $grey;
       color: white;
       margin-right: 20px;
@@ -69,5 +72,74 @@ $light_grey: #5F6C81;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.4px;
+  }
+
+  .owl-nav .owl-prev:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 17px;
+    content: "\f060";
+    color: black;
+    background: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 45%;
+    border-radius: 50px;
+    z-index: 3;
+
+  }
+
+  .owl-nav .owl-next:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 17px;
+    content: "\f061";
+    color: black;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 45%;
+    left: 93%;
+    z-index: 3;
+    @include max-screen(320px) {
+      left: 90%;
+    }
+  }
+
+  .owl-dots {
+    position: absolute;
+    bottom: 13%;
+    left: 45%;
+
+    button {
+      width: 46.33px;
+    }
+
+    @include max-screen(990px) {
+      display: none;
+    }
+  }
+
+  .owl-dot span {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #FFFFFF;
+    border-radius: 50px;
+  }
+
+  .owl-dot.active span {
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #FFFFFF;
+    border: 2px solid #393D46;
+    border-radius: 50px;
   }
 }

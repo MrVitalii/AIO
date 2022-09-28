@@ -16,7 +16,7 @@ footer {
   padding-top: 63px;
   background-color: $grey;
 
-  .columns_footer{
+  .columns_footer {
     margin-top: 80px;
   }
 
@@ -41,7 +41,8 @@ footer {
   }
 
   .line {
-    border-top: 2px solid #DCE5E2;;
+    border-top: 2px solid rgba(255, 255, 255, 0.14);
+    max-width: 1355px;
   }
 
   p {
@@ -79,9 +80,9 @@ footer {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color:$white;
+    color: $white;
   }
-  }
+}
 
 
 

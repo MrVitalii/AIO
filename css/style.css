@@ -36,9 +36,9 @@ header {
     right: 104px; }
   header .count_number {
     position: relative;
-    left: 84px;
+    left: 83px;
     bottom: 27px;
-    color: #191A1C;
+    color: #FFFFFF;
     font-size: 14px; }
 
 .main_page .container {
@@ -74,11 +74,10 @@ header {
   color: #393D46; }
 
 .immunity {
-  background-image: url("../images/AIO_Immunity.jpg");
-  max-width: 1270px;
   height: 502px;
-  max-width: 1270px !important;
   margin-top: 169px; }
+  .immunity .container {
+    max-width: 1240px; }
   .immunity h1 {
     position: absolute;
     top: 111px;
@@ -121,6 +120,61 @@ header {
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.4px; }
+  .immunity .owl-nav .owl-prev:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 17px;
+    content: "\f060";
+    color: black;
+    background: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 45%;
+    border-radius: 50px;
+    z-index: 3; }
+  .immunity .owl-nav .owl-next:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 17px;
+    content: "\f061";
+    color: black;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 45%;
+    left: 93%;
+    z-index: 3; }
+  @media screen and (max-width: 320px) {
+    .immunity .owl-nav .owl-next:after {
+      left: 90%; } }
+  .immunity .owl-dots {
+    position: absolute;
+    bottom: 13%;
+    left: 45%; }
+    .immunity .owl-dots button {
+      width: 46.33px; }
+  @media screen and (max-width: 990px) {
+    .immunity .owl-dots {
+      display: none; } }
+  .immunity .owl-dot span {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #FFFFFF;
+    border-radius: 50px; }
+  .immunity .owl-dot.active span {
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #FFFFFF;
+    border: 2px solid #393D46;
+    border-radius: 50px; }
 
 .products {
   padding-top: 161px;
@@ -231,6 +285,29 @@ header {
   line-height: 140%;
   letter-spacing: 0.2px;
   color: #393D46; }
+.vitamins .owl-nav .owl-prev:after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 17px;
+  content: "\f060";
+  color: #4C4F57;
+  position: absolute;
+  right: 8%;
+  bottom: 90%;
+  z-index: 3; }
+.vitamins .owl-nav .owl-next:after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 17px;
+  content: "\f061";
+  color: #4C4F57;
+  position: absolute;
+  bottom: 90%;
+  left: 97%;
+  z-index: 3; }
+@media screen and (max-width: 320px) {
+  .vitamins .owl-nav .owl-next:after {
+    left: 90%; } }
 
 .social_networks {
   padding-top: 297px;
@@ -265,7 +342,8 @@ footer {
     footer .developers .made2022 {
       justify-content: center; } }
   footer .line {
-    border-top: 2px solid #DCE5E2; }
+    border-top: 2px solid rgba(255, 255, 255, 0.14);
+    max-width: 1355px; }
   footer p {
     font-family: 'Inter', sans-serif;
     height: 36px;

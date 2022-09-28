@@ -11,23 +11,25 @@ $light_grey: #5F6C81;
   }
 }
 
-.vitamins{
-  .container{
+.vitamins {
+  .container {
     max-width: 1270px;
   }
-  a{
+
+  a {
     height: 24px;
     left: 85px;
     top: 3391px;
-    font-family:$main_font;
+    font-family: $main_font;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    text-decoration-line: underline!important;
+    text-decoration-line: underline !important;
     color: #5F6C81;
   }
-  h4{
+
+  h4 {
     font-family: $main_font;
     font-style: normal;
     font-weight: 300;
@@ -35,7 +37,8 @@ $light_grey: #5F6C81;
     line-height: 120%;
     color: #393D46;
   }
-  p{
+
+  p {
     font-family: $main_font;
     font-style: normal;
     font-weight: 400;
@@ -43,7 +46,8 @@ $light_grey: #5F6C81;
     line-height: 120%;
     color: #5F6C81;
   }
-  h2{
+
+  h2 {
     font-family: $main_font;
     font-style: normal;
     font-weight: 600;
@@ -51,6 +55,33 @@ $light_grey: #5F6C81;
     line-height: 140%;
     letter-spacing: 0.2px;
     color: #393D46;
+  }
 
+  .owl-nav .owl-prev:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 17px;
+    content: "\f060";
+    color: #4C4F57;
+    position: absolute;
+    right: 8%;
+    bottom: 90%;
+    z-index: 3;
+
+  }
+
+  .owl-nav .owl-next:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 17px;
+    content: "\f061";
+    color: #4C4F57;
+    position: absolute;
+    bottom: 90%;
+    left: 97%;
+    z-index: 3;
+    @include max-screen(320px) {
+      left: 90%;
+    }
   }
 }
