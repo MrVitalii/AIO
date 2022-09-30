@@ -41,6 +41,9 @@ header {
     font-size: 14px;
     line-height: 17px;
     color: #4C4F57;
+    @include max-screen(991px) {
+      visibility: hidden;
+    }
   }
 
   .shop {
@@ -59,6 +62,18 @@ header {
     bottom: 27px;
     color: $white;
     font-size: 14px;
+  }
+
+  .navbar-toggler {
+
+    @include max-screen(428px) {
+      margin-top: -24px;
+      margin-left: 180px;
+    }
+    @include max-screen(320px) {
+      margin-top: -113px;
+      margin-left: 228px;
+    }
   }
 }
 

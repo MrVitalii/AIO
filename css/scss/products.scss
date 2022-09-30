@@ -55,6 +55,11 @@ $light_grey: #5F6C81;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.4px;
+    @include max-screen(428px) {
+      margin-left: 108px;
+      margin-top: 35px;
+      margin-bottom: 13px;
+    }
   }
 
   h4 {
@@ -77,6 +82,10 @@ $light_grey: #5F6C81;
     font-size: 15px;
     line-height: 120%;
     color: #5F6C81;
+    @include max-screen(428px) {
+      font-size: 13px;
+      width: 399px;
+    }
   }
 
   h2 {
@@ -100,6 +109,5 @@ $light_grey: #5F6C81;
     font-size: 15px;
     line-height: 160%;
     color: #5F6C81;
-
   }
 }

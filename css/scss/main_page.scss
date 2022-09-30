@@ -16,6 +16,9 @@ $light_grey: #5F6C81;
     background-image: url("../images/everything_you_need.png");
     height: 629px;
     max-width: 1440px;
+    @include max-screen(428px) {
+      background-image: url("../images/mobile_main.jpg");
+    }
   }
 
   h1 {
@@ -30,8 +33,12 @@ $light_grey: #5F6C81;
     position: absolute;
     top: 183px;
     left: 55%;
-
-
+    @include max-screen(428px) {
+      top: 364px;
+      left: 22%;
+      max-width: 176px;
+      font-size: 37px;
+    }
   }
 
   button {
@@ -49,6 +56,10 @@ $light_grey: #5F6C81;
     line-height: 120%;
     text-align: center;
     color: #393D46;
-
+    @include max-screen(428px) {
+      top: 478px;
+      left: 22%;
+      background-color: wheat;
+    }
   }
 }

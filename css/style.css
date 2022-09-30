@@ -28,6 +28,9 @@ header {
     font-size: 14px;
     line-height: 17px;
     color: #4C4F57; }
+  @media screen and (max-width: 991px) {
+    header .select {
+      visibility: hidden; } }
   header .shop {
     left: 78px;
     bottom: 4px; }
@@ -40,11 +43,22 @@ header {
     bottom: 27px;
     color: #FFFFFF;
     font-size: 14px; }
+  @media screen and (max-width: 428px) {
+    header .navbar-toggler {
+      margin-top: -24px;
+      margin-left: 180px; } }
+  @media screen and (max-width: 320px) {
+    header .navbar-toggler {
+      margin-top: -113px;
+      margin-left: 228px; } }
 
 .main_page .container {
   background-image: url("../images/everything_you_need.png");
   height: 629px;
   max-width: 1440px; }
+@media screen and (max-width: 428px) {
+  .main_page .container {
+    background-image: url("../images/mobile_main.jpg"); } }
 .main_page h1 {
   max-width: 558px;
   height: 168px;
@@ -57,6 +71,12 @@ header {
   position: absolute;
   top: 183px;
   left: 55%; }
+@media screen and (max-width: 428px) {
+  .main_page h1 {
+    top: 364px;
+    left: 22%;
+    max-width: 176px;
+    font-size: 37px; } }
 .main_page button {
   background-color: transparent;
   position: absolute;
@@ -72,6 +92,11 @@ header {
   line-height: 120%;
   text-align: center;
   color: #393D46; }
+@media screen and (max-width: 428px) {
+  .main_page button {
+    top: 478px;
+    left: 22%;
+    background-color: wheat; } }
 
 .immunity {
   height: 502px;
@@ -90,6 +115,12 @@ header {
     font-size: 60px;
     line-height: 100%;
     color: #393D46; }
+  @media screen and (max-width: 428px) {
+    .immunity h1 {
+      top: 111px;
+      left: 3%;
+      width: 347px;
+      font-size: 52px; } }
   .immunity p {
     width: 402px;
     height: 81px;
@@ -102,14 +133,27 @@ header {
     font-size: 17px;
     line-height: 160%;
     color: #5F6C81; }
+  @media screen and (max-width: 428px) {
+    .immunity p {
+      top: 202px;
+      left: 4%;
+      width: 347px;
+      color: dimgrey; } }
   .immunity .buttons {
     position: absolute;
     top: 344px;
     left: 55%; }
+  @media screen and (max-width: 428px) {
+    .immunity .buttons {
+      top: 344px;
+      left: 20px; } }
     .immunity .buttons .buy {
       background-color: #393D46;
       color: white;
       margin-right: 20px; }
+  @media screen and (max-width: 428px) {
+    .immunity .buttons .buy {
+      margin: 0; } }
   .immunity button {
     width: 191.33px;
     height: 48px;
@@ -133,6 +177,9 @@ header {
     bottom: 45%;
     border-radius: 50px;
     z-index: 3; }
+  @media screen and (max-width: 428px) {
+    .immunity .owl-nav .owl-prev:after {
+      visibility: hidden; } }
   .immunity .owl-nav .owl-next:after {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -147,6 +194,9 @@ header {
     bottom: 45%;
     left: 93%;
     z-index: 3; }
+  @media screen and (max-width: 428px) {
+    .immunity .owl-nav .owl-next:after {
+      visibility: hidden; } }
   @media screen and (max-width: 320px) {
     .immunity .owl-nav .owl-next:after {
       left: 90%; } }
@@ -156,9 +206,10 @@ header {
     left: 45%; }
     .immunity .owl-dots button {
       width: 46.33px; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 428px) {
     .immunity .owl-dots {
-      display: none; } }
+      bottom: 13%;
+      left: 21%; } }
   .immunity .owl-dot span {
     display: inline-block;
     box-sizing: border-box;
@@ -213,6 +264,11 @@ header {
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.4px; }
+  @media screen and (max-width: 428px) {
+    .products button {
+      margin-left: 108px;
+      margin-top: 35px;
+      margin-bottom: 13px; } }
   .products h4 {
     width: 159px;
     height: 46px;
@@ -231,6 +287,10 @@ header {
     font-size: 15px;
     line-height: 120%;
     color: #5F6C81; }
+  @media screen and (max-width: 428px) {
+    .products .products_headline {
+      font-size: 13px;
+      width: 399px; } }
   .products h2 {
     width: 123px;
     height: 43px;
@@ -252,10 +312,12 @@ header {
 
 .vitamins .container {
   max-width: 1270px; }
+@media screen and (max-width: 428px) {
+  .vitamins .owl-carousel .owl-item img {
+    width: 35%; } }
 .vitamins a {
   height: 24px;
   left: 85px;
-  top: 3391px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -277,6 +339,9 @@ header {
   font-size: 15px;
   line-height: 120%;
   color: #5F6C81; }
+@media screen and (max-width: 428px) {
+  .vitamins p {
+    font-size: 11px; } }
 .vitamins h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -295,6 +360,10 @@ header {
   right: 8%;
   bottom: 90%;
   z-index: 3; }
+@media screen and (max-width: 428px) {
+  .vitamins .owl-nav .owl-prev:after {
+    right: 89%;
+    visibility: hidden; } }
 .vitamins .owl-nav .owl-next:after {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -305,6 +374,10 @@ header {
   bottom: 90%;
   left: 97%;
   z-index: 3; }
+@media screen and (max-width: 428px) {
+  .vitamins .owl-nav .owl-next:after {
+    left: 90%;
+    visibility: hidden; } }
 @media screen and (max-width: 320px) {
   .vitamins .owl-nav .owl-next:after {
     left: 90%; } }

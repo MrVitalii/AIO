@@ -11,10 +11,12 @@ $light_grey: #5F6C81;
   }
 }
 
+
 .immunity {
   .container {
     max-width: 1240px;
   }
+
 
   height: 502px;
   margin-top: 169px;
@@ -32,10 +34,15 @@ $light_grey: #5F6C81;
     font-size: 60px;
     line-height: 100%;
     color: $grey;
+    @include max-screen(428px) {
+      top: 111px;
+      left: 3%;
+      width: 347px;
+      font-size: 52px;
+    }
   }
 
   p {
-
     width: 402px;
     height: 81px;
     top: 202px;
@@ -47,6 +54,12 @@ $light_grey: #5F6C81;
     font-size: 17px;
     line-height: 160%;
     color: #5F6C81;
+    @include max-screen(428px) {
+      top: 202px;
+      left: 4%;
+      width: 347px;
+      color: dimgrey;
+    }
   }
 
 
@@ -54,11 +67,18 @@ $light_grey: #5F6C81;
     position: absolute;
     top: 344px;
     left: 55%;
+    @include max-screen(428px) {
+      top: 344px;
+      left: 20px;
+    }
 
     .buy {
       background-color: $grey;
       color: white;
       margin-right: 20px;
+      @include max-screen(428px) {
+        margin: 0;
+      }
     }
   }
 
@@ -87,7 +107,9 @@ $light_grey: #5F6C81;
     bottom: 45%;
     border-radius: 50px;
     z-index: 3;
-
+    @include max-screen(428px) {
+      visibility: hidden;
+    }
   }
 
   .owl-nav .owl-next:after {
@@ -104,6 +126,9 @@ $light_grey: #5F6C81;
     bottom: 45%;
     left: 93%;
     z-index: 3;
+    @include max-screen(428px) {
+      visibility: hidden;
+    }
     @include max-screen(320px) {
       left: 90%;
     }
@@ -118,8 +143,9 @@ $light_grey: #5F6C81;
       width: 46.33px;
     }
 
-    @include max-screen(990px) {
-      display: none;
+    @include max-screen(428px) {
+      bottom: 13%;
+      left: 21%;
     }
   }
 

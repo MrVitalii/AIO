@@ -16,10 +16,15 @@ $light_grey: #5F6C81;
     max-width: 1270px;
   }
 
+  .owl-carousel .owl-item img {
+    @include max-screen(428px) {
+      width: 35%;
+    }
+  }
+
   a {
     height: 24px;
     left: 85px;
-    top: 3391px;
     font-family: $main_font;
     font-style: normal;
     font-weight: 400;
@@ -45,6 +50,9 @@ $light_grey: #5F6C81;
     font-size: 15px;
     line-height: 120%;
     color: #5F6C81;
+    @include max-screen(428px) {
+      font-size: 11px;
+    }
   }
 
   h2 {
@@ -67,7 +75,10 @@ $light_grey: #5F6C81;
     right: 8%;
     bottom: 90%;
     z-index: 3;
-
+    @include max-screen(428px) {
+      right: 89%;
+      visibility: hidden;
+    }
   }
 
   .owl-nav .owl-next:after {
@@ -80,6 +91,10 @@ $light_grey: #5F6C81;
     bottom: 90%;
     left: 97%;
     z-index: 3;
+    @include max-screen(428px) {
+      left: 90%;
+      visibility: hidden;
+    }
     @include max-screen(320px) {
       left: 90%;
     }
