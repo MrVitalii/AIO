@@ -11,7 +11,7 @@ $light_grey: #5F6C81;
   }
 }
 
-.about_us{
+.contacts{
   padding-top: 119px;
   padding-bottom: 163px;
   h1{
@@ -24,6 +24,16 @@ $light_grey: #5F6C81;
     color: #393D46;
     padding-left: 90px;
   }
+  h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #5F6C81;
+    padding-left: 90px;
+  }
+
   p{
     font-family: $main_font;
     font-style: normal;
@@ -31,8 +41,9 @@ $light_grey: #5F6C81;
     font-size: 15px;
     line-height: 160%;
     color: #5F6C81;
-    max-width: 409px;
+    max-width: 450px;
     padding-left: 90px;
+
   }
   img{
     padding-left: 32px;

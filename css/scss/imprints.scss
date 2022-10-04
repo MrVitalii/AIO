@@ -11,9 +11,10 @@ $light_grey: #5F6C81;
   }
 }
 
-.about_us{
+.imprints{
   padding-top: 119px;
   padding-bottom: 163px;
+  padding-left: 85px;
   h1{
     font-family: $main_font;
     font-style: normal;
@@ -22,8 +23,18 @@ $light_grey: #5F6C81;
     line-height: 120%;
     letter-spacing: 0.6px;
     color: #393D46;
-    padding-left: 90px;
+
   }
+  h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #5F6C81;
+
+  }
+
   p{
     font-family: $main_font;
     font-style: normal;
@@ -31,10 +42,9 @@ $light_grey: #5F6C81;
     font-size: 15px;
     line-height: 160%;
     color: #5F6C81;
-    max-width: 409px;
-    padding-left: 90px;
+    max-width: 450px;
+
+
   }
-  img{
-    padding-left: 32px;
-  }
+
 }
