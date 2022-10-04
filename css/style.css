@@ -448,5 +448,25 @@ footer {
     line-height: 17px;
     color: #FFFFFF; }
 
+.about_us {
+  padding-top: 119px;
+  padding-bottom: 163px; }
+  .about_us h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #393D46; }
+  .about_us p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #5F6C81;
+    max-width: 409px; }
+
 .container {
   max-width: 1440px; }
