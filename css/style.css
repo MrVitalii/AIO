@@ -534,3 +534,25 @@ footer {
 
 .container {
   max-width: 1440px; }
+
+.modal .sign_in {
+  width: 400px;
+  margin-bottom: 15px; }
+.modal .create {
+  width: 400px; }
+.modal #exampleInputEmail1 {
+  max-width: 400px; }
+.modal #exampleInputPassword1 {
+  max-width: 400px; }
+.modal .modal-content {
+  width: 87%; }
+.modal .first_name {
+  width: 400px;
+  margin-left: -15px; }
+.modal .last_name {
+  width: 400px;
+  margin-left: -15px; }
+.modal .already {
+  margin-left: 27%; }
+.modal .forgot {
+  margin-left: 29%; }

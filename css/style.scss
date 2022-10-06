@@ -31,5 +31,43 @@ $light_grey: #5F6C81;
  max-width: 1440px;
 }
 
+.modal {
+  .sign_in {
+    width: 400px;
+    margin-bottom: 15px;
+  }
+
+  .create {
+    width: 400px;
+  }
+
+  #exampleInputEmail1 {
+    max-width: 400px;
+  }
+
+  #exampleInputPassword1 {
+    max-width: 400px;
+  }
+
+  .modal-content {
+    width: 87%;
+  }
+  .first_name{
+    width: 400px;
+    margin-left: -15px;
+  }
+  .last_name{
+    width: 400px;
+    margin-left: -15px;
+  }
+.already{
+  margin-left: 27%;
+}
+  .forgot{
+    margin-left: 29%;
+  }
+}
+
+
 
 
