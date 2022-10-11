@@ -13,6 +13,7 @@
 @import "scss/about_us";
 @import "scss/contacts";
 @import "scss/imprints";
+@import "scss/privacy_policy";
 
 $main_font: 'Inter', sans-serif;
 $secondary_font: 'Poppins', sans-serif;
@@ -35,10 +36,17 @@ $light_grey: #5F6C81;
   .sign_in {
     width: 400px;
     margin-bottom: 15px;
+      height: 48px;
+      background: #393D46;
+    border: 1px solid #9C9EA3;
   }
 
   .create {
     width: 400px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #9C9EA3;
+    color: $black;
   }
 
   #exampleInputEmail1 {
@@ -62,9 +70,23 @@ $light_grey: #5F6C81;
   }
 .already{
   margin-left: 27%;
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #191A1C;
 }
   .forgot{
     margin-left: 29%;
+    color: $black;
+    font-family: $secondary_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: right;
   }
 }
 

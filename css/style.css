@@ -32,17 +32,22 @@ header {
     header .select {
       visibility: hidden; } }
   header .shop {
-    left: 78px;
-    bottom: 4px; }
-  header .position-absolute {
-    bottom: 46px;
-    right: 104px; }
-  header .count_number {
     position: relative;
-    left: 83px;
-    bottom: 27px;
-    color: #FFFFFF;
-    font-size: 14px; }
+    background: #42E8FF;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: -25px;
+    left: 77px; }
+  header span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    left: 5px;
+    bottom: 0px;
+    color: white; }
   @media screen and (max-width: 428px) {
     header .navbar-toggler {
       margin-top: -24px;
@@ -451,6 +456,9 @@ footer {
 .about_us {
   padding-top: 119px;
   padding-bottom: 163px; }
+  @media screen and (max-width: 428px) {
+    .about_us .d-flex {
+      display: list-item !important; } }
   .about_us h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -460,6 +468,9 @@ footer {
     letter-spacing: 0.6px;
     color: #393D46;
     padding-left: 90px; }
+  @media screen and (max-width: 428px) {
+    .about_us h1 {
+      padding-left: unset; } }
   .about_us p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -469,12 +480,23 @@ footer {
     color: #5F6C81;
     max-width: 409px;
     padding-left: 90px; }
+  @media screen and (max-width: 428px) {
+    .about_us p {
+      padding-left: unset;
+      width: 370px; } }
   .about_us img {
     padding-left: 32px; }
+  @media screen and (max-width: 428px) {
+    .about_us img {
+      padding-left: unset;
+      width: 407px; } }
 
 .contacts {
   padding-top: 119px;
   padding-bottom: 163px; }
+  @media screen and (max-width: 428px) {
+    .contacts .d-flex {
+      display: list-item !important; } }
   .contacts h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -503,6 +525,10 @@ footer {
     padding-left: 90px; }
   .contacts img {
     padding-left: 32px; }
+  @media screen and (max-width: 428px) {
+    .contacts img {
+      padding-left: unset;
+      width: 407px; } }
 
 .imprints {
   padding-top: 119px;
@@ -532,14 +558,66 @@ footer {
     color: #5F6C81;
     max-width: 450px; }
 
+.privacy {
+  max-width: 1030px;
+  margin-left: 30px; }
+  .privacy .main_headline {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #393D46; }
+  .privacy h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 160%;
+    color: #5F6C81;
+    padding-bottom: 30px; }
+  .privacy h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 160%;
+    color: #5F6C81;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .privacy h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #5F6C81;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .privacy p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #5F6C81; }
+
 .container {
   max-width: 1440px; }
 
 .modal .sign_in {
   width: 400px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  height: 48px;
+  background: #393D46;
+  border: 1px solid #9C9EA3; }
 .modal .create {
-  width: 400px; }
+  width: 400px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #9C9EA3;
+  color: #191A1C; }
 .modal #exampleInputEmail1 {
   max-width: 400px; }
 .modal #exampleInputPassword1 {
@@ -553,6 +631,20 @@ footer {
   width: 400px;
   margin-left: -15px; }
 .modal .already {
-  margin-left: 27%; }
+  margin-left: 27%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #191A1C; }
 .modal .forgot {
-  margin-left: 29%; }
+  margin-left: 29%;
+  color: #191A1C;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: right; }
