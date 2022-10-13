@@ -903,7 +903,7 @@ footer {
   margin-left: 1rem; }
 
 .modal-footer {
-  padding-top: 0rem; }
+  padding-top: 0; }
   .modal-footer .btn-success {
     width: 402px;
     height: 48px;
@@ -913,8 +913,14 @@ footer {
 
 .qty1 {
   position: relative;
-  left: 106px;
-  bottom: 102px; }
+  left: 99px;
+  bottom: 102px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(57, 61, 70, 0.6); }
 
 .close span {
   color: black;
@@ -923,49 +929,86 @@ footer {
 .shop_modal {
   padding-right: 0 !important;
   padding-left: 1056px; }
-
-.shop {
-  position: relative;
-  background: #42E8FF;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-  right: 7px; }
-
-span {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 20px;
-  left: 6px;
-  bottom: 0px;
-  color: white; }
-
-.modal-body .safari_only {
-  position: relative !important;
-  left: 33% !important;
-  top: 142px !important; }
-.modal-body .steps_buttons {
-  position: relative !important;
-  left: 33% !important;
-  top: 332px !important; }
-.modal-body .main_price {
-  position: relative;
-  bottom: 37px; }
-.modal-body .line-through {
-  position: relative;
-  bottom: 148px;
-  left: 304px; }
-.modal-body .minus_price {
-  position: relative;
-  bottom: 129px;
-  left: 152px; }
-.modal-body .trash {
-  position: relative;
-  bottom: 106px;
-  left: 22px; }
-
-.vitamine {
-  padding-bottom: 89px !important;
-  padding-right: 114px !important; }
+  .shop_modal .prices_modal {
+    display: grid;
+    padding-right: 9px; }
+  .shop_modal .pl-29 {
+    padding-left: 29px; }
+  .shop_modal .pl-37 {
+    padding-left: 37px; }
+  .shop_modal h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 120%;
+    color: #191A1C; }
+  .shop_modal p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #393D46; }
+  .shop_modal .shop {
+    position: relative;
+    background: #42E8FF;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    right: 7px; }
+  .shop_modal span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    left: 6px;
+    bottom: 0;
+    color: white; }
+  .shop_modal .modal-body p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #393D46; }
+  .shop_modal .modal-body .safari_only {
+    position: relative !important;
+    left: 33% !important;
+    top: 142px !important; }
+  .shop_modal .modal-body .steps_buttons {
+    position: relative !important;
+    left: 33% !important;
+    top: 332px !important; }
+  .shop_modal .modal-body .main_price {
+    position: relative;
+    bottom: 37px; }
+  .shop_modal .modal-body .line-through {
+    position: relative;
+    bottom: 148px;
+    left: 304px; }
+  .shop_modal .modal-body .minus_price {
+    position: relative;
+    bottom: 129px;
+    left: 152px;
+    color: orangered; }
+  .shop_modal .modal-body .trash {
+    position: relative;
+    bottom: 106px;
+    left: 22px; }
+  .shop_modal .modal-body .orange_prices {
+    color: orangered; }
+  .shop_modal .zink {
+    padding-bottom: 89px !important;
+    padding-right: 155px !important; }
+  .shop_modal .vitamine {
+    padding-bottom: 89px !important;
+    padding-right: 114px !important; }
+  .shop_modal tbody td {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #393D46; }

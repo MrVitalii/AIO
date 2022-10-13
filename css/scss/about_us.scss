@@ -11,14 +11,16 @@ $light_grey: #5F6C81;
   }
 }
 
-.about_us{
+.about_us {
   padding-top: 119px;
   padding-bottom: 163px;
-  @include max-screen(428px){
-    .d-flex{
-      display: list-item!important;}
+  @include max-screen(428px) {
+    .d-flex {
+      display: list-item !important;
+    }
   }
-  h1{
+
+  h1 {
     font-family: $main_font;
     font-style: normal;
     font-weight: 400;
@@ -27,11 +29,12 @@ $light_grey: #5F6C81;
     letter-spacing: 0.6px;
     color: #393D46;
     padding-left: 90px;
-    @include max-screen(428px){
+    @include max-screen(428px) {
       padding-left: unset;
     }
   }
-  p{
+
+  p {
     font-family: $main_font;
     font-style: normal;
     font-weight: 400;
@@ -40,14 +43,15 @@ $light_grey: #5F6C81;
     color: #5F6C81;
     max-width: 409px;
     padding-left: 90px;
-    @include max-screen(428px){
+    @include max-screen(428px) {
       padding-left: unset;
       width: 370px;
     }
   }
-  img{
+
+  img {
     padding-left: 32px;
-    @include max-screen(428px){
+    @include max-screen(428px) {
       padding-left: unset;
       width: 407px;
     }
