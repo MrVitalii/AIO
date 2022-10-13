@@ -14,6 +14,7 @@
 @import "scss/contacts";
 @import "scss/imprints";
 @import "scss/privacy_policy";
+@import "scss/checkout_sign";
 
 $main_font: 'Inter', sans-serif;
 $secondary_font: 'Poppins', sans-serif;
@@ -28,16 +29,16 @@ $light_grey: #5F6C81;
   }
 }
 
-.container{
- max-width: 1440px;
+.container {
+  max-width: 1440px;
 }
 
 .modal {
   .sign_in {
     width: 400px;
     margin-bottom: 15px;
-      height: 48px;
-      background: #393D46;
+    height: 48px;
+    background: #393D46;
     border: 1px solid #9C9EA3;
   }
 
@@ -60,25 +61,29 @@ $light_grey: #5F6C81;
   .modal-content {
     width: 87%;
   }
-  .first_name{
+
+  .first_name {
     width: 400px;
     margin-left: -15px;
   }
-  .last_name{
+
+  .last_name {
     width: 400px;
     margin-left: -15px;
   }
-.already{
-  margin-left: 27%;
-  font-family: $main_font;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 120%;
-  text-align: center;
-  color: #191A1C;
-}
-  .forgot{
+
+  .already {
+    margin-left: 27%;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #191A1C;
+  }
+
+  .forgot {
     margin-left: 29%;
     color: $black;
     font-family: $secondary_font;
