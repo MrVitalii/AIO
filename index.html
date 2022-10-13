@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AIO</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scss/checkout_sign.scss">
 </head>
 <body>
 <header>
@@ -50,9 +51,10 @@
             <div class="d-none d-lg-block">
                 <a href="#" class="mr-5 " data-toggle="modal" data-target="#exampleModal"><img src="images/user.svg"
                                                                                                alt="user_icon"></a>
-                <a class="nav-item active" href="#"> <img src="images/shop.svg" alt="shop_icon"></a>
+                <a class="nav-item active" href="#" data-toggle="modal" data-target="#cartModal"> <img
+                        src="images/shop.svg" alt="shop_icon"></a>
 
-                <div class="shop"> <span class="position-absolute">2</span></div>
+                <div class="shop"><span class="position-absolute">2</span></div>
             </div>
 
             <div>
@@ -86,7 +88,7 @@
 <section class="immunity">
     <div class="container owl-carousel">
         <div class="row position-relative">
-            <img class="m-0 m-auto" src="images/AIO_Immunity.jpg">
+            <img class="m-0 m-auto" src="images/AIO_Immunity.jpg" alt="logo">
             <h1>
                 AiO Immunity
             </h1>
@@ -106,7 +108,7 @@
         </div>
 
         <div class="row position-relative">
-            <img class="w-100" src="images/AIO_Immunity.jpg">
+            <img class="w-100" src="images/AIO_Immunity.jpg" alt="logo">
             <h1>
                 AiO Immunity
             </h1>
@@ -126,7 +128,7 @@
         </div>
 
         <div class="row position-relative">
-            <img class="w-100" src="images/AIO_Immunity.jpg">
+            <img class="w-100" src="images/AIO_Immunity.jpg" alt="logo">
             <h1>
                 AiO Immunity
             </h1>
@@ -146,7 +148,7 @@
         </div>
 
         <div class="row position-relative">
-            <img class="w-100" src="images/AIO_Immunity.jpg">
+            <img class="w-100" src="images/AIO_Immunity.jpg" alt="logo">
             <h1>
                 AiO Immunity
             </h1>
@@ -166,7 +168,7 @@
         </div>
 
         <div class="row position-relative">
-            <img class="w-100" src="images/AIO_Immunity.jpg">
+            <img class="w-100" src="images/AIO_Immunity.jpg" alt="logo">
             <h1>
                 AiO Immunity
             </h1>
@@ -369,11 +371,11 @@
         <div class="row text-center text-md-left  pb-3 pt-4">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-2">
                 <a href="#"><img class="pb-3" src="images/logo_footer.svg" alt="logo"></a>
-                <div class="d-flex"><img class="mr-2" src="images/Adress_logo.svg">
+                <div class="d-flex"><img class="mr-2" src="images/Adress_logo.svg" alt="logo">
                     <p class=" pl-0">Normannen Str. 2, 81925 Munich, Germany</p></div>
-                <div class="d-flex"><img class="mr-2" src="images/email.svg">
+                <div class="d-flex"><img class="mr-2" src="images/email.svg" alt="logo">
                     <p class=" pl-0">info@byvit.de</p></div>
-                <div class="d-flex"><img class="mr-2" src="images/phone.svg">
+                <div class="d-flex"><img class="mr-2" src="images/phone.svg" alt="logo">
                     <p class=" pl-0">+49 176 378 993 35</p></div>
             </div>
 
@@ -497,6 +499,91 @@
                     <button type="submit" class="btn btn-primary sign_in">Sign up</button>
                     <a href="#" class="already">Already Have an Account</a>
                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal shop cart-->
+<div class="shop_modal modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <a class="nav-item active" href="#" data-toggle="modal" data-target="#cartModal"> <img
+                        src="images/shop.svg" alt="shop_icon"></a>
+                <div class="shop"><span class="position-absolute">2</span></div>
+                <h5 class="modal-title ml-4" id="exampleModalLabel2">
+                    Cart
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-image">
+
+                    <tbody>
+                    <tr>
+                        <td class="">
+                            <img src="images/vitamin_c_shop.jpg"
+                                 class="img-fluid img-thumbnail" alt="Sheep">
+                        </td>
+                        <td class="vitamine">Vitamine C</td>
+                        <td class="main_price">$209.30</td>
+                    <tr class="qty1">
+                        <th>QTY: 1</th>
+                    </tr>
+                    <th class="line-through">$299.00</th>
+                    <td class="minus_price">-30%</td>
+                    <td><a href="#"> <img class="trash" src="images/trash.svg"></a></td>
+                    <tr>
+                        <div class="def-number-input number-input safari_only">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                    class="minus"></button>
+                            <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
+                                   type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                    class="plus"></button>
+                        </div>
+                    </tr>
+                    </tr>
+
+                    <tr>
+                        <td class="">
+                            <img src="images/supplement.jpg"
+                                 class="img-fluid img-thumbnail" alt="Sheep">
+                        </td>
+                        <td class="vitamine">Vitamine C</td>
+                        <td class="main_price">$209.30</td>
+                    <tr class="qty1">
+                        <th>QTY: 1</th>
+                    </tr>
+                    <th class="line-through">$299.00</th>
+                    <td class="minus_price">-4%</td>
+                    <td><a href="#"> <img class="trash" src="images/trash.svg"></a></td>
+                    <tr>
+                        <div class="def-number-input number-input safari_only steps_buttons">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                    class="minus"></button>
+                            <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
+                                   type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                    class="plus"></button>
+                        </div>
+                    </tr>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+                <div class="d-flex justify-content-end">
+                    <span class="price text-success">$303.86</span>
+
+                </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+                <a type="button" class="btn btn-success" href="checkout_sign_in.html">CHECKOUT</a>
             </div>
         </div>
     </div>

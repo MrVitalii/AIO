@@ -96,5 +96,119 @@ $light_grey: #5F6C81;
 }
 
 
+.table-image {
+  thead {
+    td, th {
+      border: 0;
+      color: #666;
+      font-size: 0.8rem;
+    }
+  }
+
+  td, th {
+    vertical-align: middle;
+    text-align: center;
+    border-top: none;
+
+    &.qty {
+      max-width: 2rem;
+    }
+  }
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.modal-footer {
+  padding-top: 0rem;
+  .btn-success{
+    width: 402px;
+    height: 48px;
+    background: #393D46;
+    padding-top: 13px;
+    border-color: #393D46;
+  }
+}
+
+.qty1{
+  position: relative;
+  left: 106px;
+  bottom: 102px;
+}
+
+.close{
+  span{
+    color: black;
+   font-size: 26px;
+  }
+}
+
+.shop_modal {
+  padding-right: 0 !important;
+  padding-left: 1056px;
+}
+
+.shop {
+  position: relative;
+  background: #42E8FF;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  right: 7px;
+}
+
+span {
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  left: 6px;
+  bottom: 0px;
+  color: white;
+}
+
+.modal-body{
+  .safari_only{
+    position: relative!important;
+    left: 33%!important;
+    top: 142px!important;
+  }
+
+  .steps_buttons{
+    position: relative!important;
+    left: 33%!important;
+    top: 332px!important;
+  }
+  .main_price{
+    position: relative;
+    bottom: 37px;
+  }
+.line-through{
+  position: relative;
+  bottom: 148px;
+  left: 304px;
+}
+  .minus_price{
+    position: relative;
+    bottom: 129px;
+    left: 152px;
+  }
+  .trash{
+    position: relative;
+    bottom: 106px;
+    left: 22px;
+  }
+  }
+
+
+.vitamine{
+  padding-bottom: 89px!important;
+  padding-right: 114px!important;
+}
+
+
+
 
 
