@@ -50,7 +50,7 @@
             <div class="d-none d-lg-block">
                 <a href="#" class="mr-5 " data-toggle="modal" data-target="#exampleModal"><img src="images/user.svg"
                                                                                                alt="user_icon"></a>
-                <a class="nav-item active" href="#"> <img src="images/shop.svg" alt="shop_icon"></a>
+                <a class="nav-item active" href="#" data-toggle="modal" data-target="#cartModal"> <img src="images/shop.svg" alt="shop_icon"></a>
 
                 <div class="shop"><span class="position-absolute">2</span></div>
             </div>
@@ -148,7 +148,186 @@
 <script src="js/owl.carousel.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/scripts.js"></script>
+
+<!-- Modal window sign in-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login Your Account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                               placeholder="Enter your email">
+                        <!--                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                               placeholder="Enter your password">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                        <a href="#" class="forgot">Forgot Your Password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary sign_in">Sign in</button>
+                </form>
+                <button type="submit" data-toggle="modal" data-target="#exampleModal1" class="btn btn-primary create">
+                    Create an account
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal window create an account-->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel1">Create a New Account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div>
+                        <div class="col pb-3 first_name">
+                            <label>First Name</label>
+                            <input type="text" id="first_name" class="form-control "
+                                   placeholder="Enter your first name">
+                        </div>
+                        <div class="col pb-3 last_name">
+                            <label>Last Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your last name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail11" aria-describedby="emailHelp"
+                               placeholder="Enter your email">
+                        <!--                        <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword11"
+                               placeholder="Enter your password">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck11">
+                        <label class="form-check-label" for="exampleCheck1">Sign Up for Newsletter</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary sign_in">Sign up</button>
+                    <a href="#" class="already">Already Have an Account</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal shop cart-->
+<div class="shop_modal modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <a class="nav-item active" href="#" data-toggle="modal" data-target="#cartModal"> <img
+                        src="images/shop.svg" alt="shop_icon"></a>
+                <div class="shop"><span class="position-absolute">2</span></div>
+                <h5 class="modal-title ml-4" id="exampleModalLabel2">
+                    Cart
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-image">
+
+                    <tbody>
+                    <tr>
+                        <td class="">
+                            <img src="images/vitamin_c_shop.jpg"
+                                 class="img-fluid img-thumbnail" alt="Sheep">
+                        </td>
+                        <td class="vitamine">Vitamine C</td>
+                        <td class="main_price">$209.30</td>
+                    <tr class="qty1">
+                        <th>QTY: 1</th>
+                    </tr>
+                    <th class="line-through">$299.00</th>
+                    <td class="minus_price">-30%</td>
+                    <td><a href="#"> <img class="trash" src="images/trash.svg"></a></td>
+                    <tr>
+                        <div class="def-number-input number-input safari_only">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                    class="minus"></button>
+                            <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
+                                   type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                    class="plus"></button>
+                        </div>
+                    </tr>
+                    </tr>
+
+                    <tr>
+                        <td class="">
+                            <img src="images/supplement.jpg"
+                                 class="img-fluid img-thumbnail" alt="Sheep">
+                        </td>
+                        <td class="zink">Zink</td>
+                        <td class="main_price">$209.30</td>
+                    <tr class="qty1">
+                        <th>QTY: 1</th>
+                    </tr>
+                    <th class="line-through">$299.00</th>
+                    <td class="minus_price">-4%</td>
+                    <td><a href="#"> <img class="trash" src="images/trash.svg"></a></td>
+                    <tr>
+                        <div class="def-number-input number-input safari_only steps_buttons">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                    class="minus"></button>
+                            <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
+                                   type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                    class="plus"></button>
+                        </div>
+                    </tr>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div>
+                    <div class="position-absolute pl-3">
+                        <p class=" ">Subtotal</p>
+                        <p class=" ">Shipping</p>
+                        <p class="orange_prices">Total you save</p>
+                        <h4 class=" ">Total</h4>
+                    </div>
+
+                    <div class="justify-content-end prices_modal">
+                        <p class="pl-29">$291.86</p>
+                        <p class="pl-37">$12.00</p>
+                        <p class="orange_prices pl-37">$94.00</p>
+                        <h4>$303.86</h4>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+                <a type="button" class="btn btn-success" href="checkout_sign_in.html">CHECKOUT</a>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
-</body>
-</html>
+
