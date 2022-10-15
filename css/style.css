@@ -1001,7 +1001,8 @@ footer {
     font-weight: 400;
     font-size: 15px;
     line-height: 120%;
-    color: #5F6C81; }
+    color: #5F6C81;
+    padding-bottom: 46px; }
   .overall_vitamins h4 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1032,6 +1033,94 @@ footer {
     padding-left: 14px;
     padding-top: 9px; }
   .overall_vitamins .down {
+    bottom: 0;
+    height: 24px;
+    padding-left: 14px;
+    padding-top: 9px; }
+
+button {
+  width: 330px;
+  height: 48px;
+  background: #393D46;
+  border: 1px solid #393D46;
+  color: white; }
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+.products_advanced {
+  padding-top: 119px; }
+  .products_advanced p {
+    width: 422px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #5F6C81; }
+  .products_advanced h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #393D46; }
+  .products_advanced .text_overall {
+    margin-bottom: 370px; }
+  .products_advanced .row {
+    margin-left: 15px; }
+
+.advanced_vitamins {
+  padding-top: 130px;
+  padding-bottom: 163px; }
+  .advanced_vitamins h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #393D46; }
+  .advanced_vitamins p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #5F6C81;
+    padding-bottom: 46px; }
+  .advanced_vitamins h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 120%;
+    color: #393D46; }
+  .advanced_vitamins .pt130 {
+    padding-top: 130px; }
+  .advanced_vitamins .container {
+    max-width: 1375px; }
+  .advanced_vitamins input {
+    overflow: visible;
+    width: 47px;
+    height: 48px;
+    border: 1px solid #4C5058;
+    background: #393D46;
+    color: white;
+    text-align: center; }
+  .advanced_vitamins .numbers {
+    border: 1px solid #4C5058;
+    display: inline-grid;
+    position: absolute;
+    width: 41px;
+    background: #393D46; }
+  .advanced_vitamins .up {
+    height: 24px;
+    padding-left: 14px;
+    padding-top: 9px; }
+  .advanced_vitamins .down {
     bottom: 0;
     height: 24px;
     padding-left: 14px;
