@@ -259,7 +259,7 @@ header {
     line-height: 120%;
     text-decoration-line: line-through;
     color: rgba(57, 61, 70, 0.8); }
-  .products button {
+  .products a {
     width: 191.33px;
     height: 48px;
     font-family: 'Inter', sans-serif;
@@ -270,7 +270,7 @@ header {
     text-align: center;
     letter-spacing: 0.4px; }
   @media screen and (max-width: 428px) {
-    .products button {
+    .products a {
       margin-left: 108px;
       margin-top: 35px;
       margin-bottom: 13px; } }
@@ -960,6 +960,93 @@ footer {
     margin-left: 71px; }
   .advanced_bottles .under_column {
     top: 181px; }
+
+.products_overall {
+  padding-top: 119px; }
+  .products_overall p {
+    width: 412px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #5F6C81; }
+  .products_overall h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #393D46; }
+  .products_overall .text_overall {
+    margin-bottom: 335px; }
+  .products_overall .row {
+    margin-left: 15px; }
+
+.overall_vitamins {
+  padding-top: 130px;
+  padding-bottom: 163px; }
+  .overall_vitamins h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #393D46; }
+  .overall_vitamins p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #5F6C81; }
+  .overall_vitamins h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 120%;
+    color: #393D46; }
+  .overall_vitamins .pt130 {
+    padding-top: 130px; }
+  .overall_vitamins .container {
+    max-width: 1375px; }
+  .overall_vitamins input {
+    overflow: visible;
+    width: 47px;
+    height: 48px;
+    border: 1px solid #4C5058;
+    background: #393D46;
+    color: white;
+    text-align: center; }
+  .overall_vitamins .numbers {
+    border: 1px solid #4C5058;
+    display: inline-grid;
+    position: absolute;
+    width: 41px;
+    background: #393D46; }
+  .overall_vitamins .up {
+    height: 24px;
+    padding-left: 14px;
+    padding-top: 9px; }
+  .overall_vitamins .down {
+    bottom: 0;
+    height: 24px;
+    padding-left: 14px;
+    padding-top: 9px; }
+
+button {
+  width: 330px;
+  height: 48px;
+  background: #393D46;
+  border: 1px solid #393D46;
+  color: white; }
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
 
 .container {
   max-width: 1440px; }

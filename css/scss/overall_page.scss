@@ -1,0 +1,130 @@
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.products_overall {
+  p {
+    width: 412px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #5F6C81;
+  }
+
+  h2 {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #393D46;
+  }
+
+  .text_overall {
+    margin-bottom: 335px;
+  }
+
+  .row {
+    margin-left: 15px;
+  }
+
+  padding-top: 119px;
+}
+
+.overall_vitamins {
+  padding-top: 130px;
+  padding-bottom: 163px;
+
+  h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #393D46;
+  }
+
+  p{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #5F6C81;
+  }
+
+  h4{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 120%;
+    color: #393D46;
+  }
+
+  .pt130 {
+    padding-top: 130px;
+  }
+
+  .container {
+    max-width: 1375px;
+  }
+
+  input {
+    overflow: visible;
+    width: 47px;
+    height: 48px;
+    border: 1px solid #4C5058;
+    background: #393D46;
+    color: white;
+    text-align: center
+  }
+
+  .numbers {
+    border: 1px solid #4C5058;
+    display: inline-grid;
+    position: absolute;
+    width: 41px;
+    background: #393D46;
+  }
+
+  .up {
+    height: 24px;
+    padding-left: 14px;
+    padding-top: 9px;
+  }
+
+  .down {
+    bottom: 0;
+    height: 24px;
+    padding-left: 14px;
+    padding-top: 9px;
+  }
+}
+
+button {
+  width: 330px;
+  height: 48px;
+  background: #393D46;
+  border: 1px solid #393D46;
+  color: white;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -74,173 +74,39 @@
     </div>
 </header>
 
-<section class="main_page">
-
-    <div class="container position-relative">
-        <div class="row d-flex">
-            <h1>
-                Everything you need.
-            </h1>
-        </div>
-        <button>
-            To the shop
-        </button>
-    </div>
-
-</section>
-
-<section class="immunity">
-    <div class="container owl-carousel">
-        <div class="row position-relative">
-            <img class="m-0 m-auto" src="images/AIO_Immunity.jpg" alt="logo">
-            <h1>
-                AiO Immunity
-            </h1>
-            <p>
-                Due to its properties and characteristics, AiO Immunity is able to meet certain nutritional needs in
-                case of
-                deficiency.
-            </p>
-            <div class="buttons">
-                <button class="buy">
-                    Buy
-                </button>
-                <button>
-                    Learn more
-                </button>
-            </div>
-        </div>
-
-        <div class="row position-relative">
-            <img class="w-100" src="images/AIO_Immunity.jpg" alt="logo">
-            <h1>
-                AiO Immunity
-            </h1>
-            <p class="">
-                Due to its properties and characteristics, AiO Immunity is able to meet certain nutritional needs in
-                case of
-                deficiency.
-            </p>
-            <div class="buttons">
-                <button class="buy">
-                    Buy
-                </button>
-                <button>
-                    Learn more
-                </button>
-            </div>
-        </div>
-
-        <div class="row position-relative">
-            <img class="w-100" src="images/AIO_Immunity.jpg" alt="logo">
-            <h1>
-                AiO Immunity
-            </h1>
-            <p class="">
-                Due to its properties and characteristics, AiO Immunity is able to meet certain nutritional needs in
-                case of
-                deficiency.
-            </p>
-            <div class="buttons">
-                <button class="buy">
-                    Buy
-                </button>
-                <button>
-                    Learn more
-                </button>
-            </div>
-        </div>
-
-        <div class="row position-relative">
-            <img class="w-100" src="images/AIO_Immunity.jpg" alt="logo">
-            <h1>
-                AiO Immunity
-            </h1>
-            <p class="">
-                Due to its properties and characteristics, AiO Immunity is able to meet certain nutritional needs in
-                case of
-                deficiency.
-            </p>
-            <div class="buttons">
-                <button class="buy">
-                    Buy
-                </button>
-                <button>
-                    Learn more
-                </button>
-            </div>
-        </div>
-
-        <div class="row position-relative">
-            <img class="w-100" src="images/AIO_Immunity.jpg" alt="logo">
-            <h1>
-                AiO Immunity
-            </h1>
-            <p class="">
-                Due to its properties and characteristics, AiO Immunity is able to meet certain nutritional needs in
-                case of
-                deficiency.
-            </p>
-            <div class="buttons">
-                <button class="buy">
-                    Buy
-                </button>
-                <button>
-                    Learn more
-                </button>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="products">
+<section class="products_overall">
     <div class="container">
-        <h4>Products</h4>
-        <p class="products_headline">Compact form that you can easily take with you wherever you go</p>
         <div class="row align-items-center">
-            <div class="col-12 col-lg-6">
-                <img src="images/89.jpg" class="w-100 d-block mb-3" alt="logo">
-                <p>
-                    <span class="new_price">$89.00</span>
-                    <span class="price_before">$89.00</span>
-                </p>
+            <div class="col-6 col-lg-6">
+                <img src="images/89.jpg" class="d-block mb-3" alt="logo">
+            </div>
+
+            <div class="col-12 col-lg-6 text_overall">
                 <h2>
                     Overall
                 </h2>
+
                 <p>
-                    In the Overall Line everyone will find something suitable <br> for themselves, as we have developed
-                    this
-                    line based on <br> the most common problems in society.
+                    In the Overall Line everyone will find something suitable for themselves, as we have developed this
+                    line based on the most common problems in society.
                 </p>
-                <button type="submit" href=#>
-                    Learn more
-                </button>
-            </div>
-            <div class="col-12 col-lg-6 ">
-                <img src="images/199.jpg" class="w-100 d-block mb-3" alt="logo">
                 <p>
-                    <span class="new_price">$199.00</span>
+                    The main directions are immunity, physical and mental activity, vegan nutrition and support of the
+                    organism in coping with stress and disorders.
                 </p>
-                <h2>
-                    Advanced
-                </h2>
                 <p>
-                    The Advanced Line is based on unique formulas developed by leading doctors. These products aim to
-                    slow down the aging process and increase physical endurance by normalizing metabolic processes in
-                    the body.
+                    In addition, individual elements such as omega-3 fatty acids, vitamin C, vitamin D3, zinc and
+                    melatonin of the highest quality are available.
                 </p>
-                <button href="#">
-                    Learn more
-                </button>
             </div>
         </div>
     </div>
 </section>
 
-<section class="vitamins">
-    <div class="owl-carousel container">
+<section class="overall_vitamins">
+    <div class="container">
         <div>
-            <h4>Vitamins&Minerals</h4>
+            <h4>Products</h4>
             <p class="products_headline">One of the key elements needed to keep our body functioning properly. </p>
             <div class="row align-items-center">
                 <div class="col-12 col-lg-4">
@@ -249,49 +115,66 @@
                     <h2>
                         Vitamin C
                     </h2>
-                    <ul class="list-group list-unstyled">
-                        <li><a href="#">AiO Immunity</a></li>
-                        <li><a href="#">AiO Active</a></li>
-                        <li><a href="#">AiO Vegan</a></li>
-                        <li><a href="#">AiO Sport</a></li>
-                    </ul>
+                    <div class="d-flex">
+                        <button>Buy now</button>
+                        <div>
+                            <input min="0" name="quantity" value="1" type="number" id="number">
 
+                            <a class="numbers down"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                    src="images/arrow_down.svg"> </a>
+                            <a class="numbers up"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                    src="images/arrow_up.svg"></a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-12 col-lg-4 pb-4">
+                <div class="col-12 col-lg-4 ">
                     <img src="images/Pill_bottle.jpg" class=" d-block mb-3" alt="logo">
 
                     <h2>
                         Vitamin D3
                     </h2>
-                    <ul class="list-group list-unstyled">
-                        <li><a href="#">AiO Vegan</a></li>
-                        <li><a href="#">AiO Sport</a></li>
-                        <li><a href="#">AiO Immunity</a></li>
-                    </ul>
+                    <div class="d-flex">
+                        <button>Buy now</button>
+                        <div>
+                            <input min="0" name="quantity" value="1" type="number" id="number">
 
+                            <a class="numbers down"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                    src="images/arrow_down.svg"> </a>
+                            <a class="numbers up"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                    src="images/arrow_up.svg"></a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-12 col-lg-4 pb-4">
+                <div class="col-12 col-lg-4 ">
                     <img src="images/Pill_bottle.jpg" class=" d-block mb-3" alt="logo">
 
                     <h2>
                         Zink
                     </h2>
+                    <div class="d-flex">
+                        <button>Buy now</button>
+                        <div>
+                            <input min="0" name="quantity" value="1" type="number" id="number">
 
-                    <ul class="list-group list-unstyled">
-                        <li><a href="#">AiO Active</a></li>
-                        <li><a href="#">AiO Immunity</a></li>
-                        <li><a href="#">AiO Vegan</a></li>
-
-                    </ul>
+                            <a class="numbers down"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                    src="images/arrow_down.svg"> </a>
+                            <a class="numbers up"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                    src="images/arrow_up.svg"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div>
-            <h4>Vitamins&Minerals</h4>
-            <p class="products_headline">One of the key elements needed to keep our body functioning properly. </p>
+        <div class="pt130">
             <div class="row align-items-center">
                 <div class="col-12 col-lg-4">
                     <img src="images/Pill_bottle.jpg" class=" d-block mb-3" alt="logo">
@@ -299,73 +182,135 @@
                     <h2>
                         Vitamin C
                     </h2>
-                    <ul class="list-group list-unstyled">
-                        <li><a href="#">AiO Immunity</a></li>
-                        <li><a href="#">AiO Active</a></li>
-                        <li><a href="#">AiO Vegan</a></li>
-                        <li><a href="#">AiO Sport</a></li>
-                    </ul>
+                    <div class="d-flex">
+                        <button>Buy now</button>
+                        <div>
+                            <input min="0" name="quantity" value="1" type="number" id="number">
 
+                            <a class="numbers down"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                    src="images/arrow_down.svg"> </a>
+                            <a class="numbers up"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                    src="images/arrow_up.svg"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-4 pb-4">
+                <div class="col-12 col-lg-4 ">
                     <img src="images/Pill_bottle.jpg" class=" d-block mb-3" alt="logo">
 
                     <h2>
                         Vitamin D3
                     </h2>
-                    <ul class="list-group list-unstyled">
-                        <li><a href="#">AiO Vegan</a></li>
-                        <li><a href="#">AiO Sport</a></li>
-                        <li><a href="#">AiO Immunity</a></li>
-                    </ul>
+                    <div class="d-flex">
+                        <button>Buy now</button>
+                        <div>
+                            <input min="0" name="quantity" value="1" type="number" id="number">
 
+                            <a class="numbers down"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                    src="images/arrow_down.svg"> </a>
+                            <a class="numbers up"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                    src="images/arrow_up.svg"></a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-12 col-lg-4 pb-4">
+                <div class="col-12 col-lg-4 ">
                     <img src="images/Pill_bottle.jpg" class=" d-block mb-3" alt="logo">
 
                     <h2>
                         Zink
                     </h2>
+                    <div class="d-flex">
+                        <button>Buy now</button>
+                        <div>
+                            <input min="0" name="quantity" value="1" type="number" id="number">
+                            <a class="numbers down"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                    src="images/arrow_down.svg"> </a>
+                            <a class="numbers up"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                    src="images/arrow_up.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                    <ul class="list-group list-unstyled">
-                        <li><a href="#">AiO Active</a></li>
-                        <li><a href="#">AiO Immunity</a></li>
-                        <li><a href="#">AiO Vegan</a></li>
 
-                    </ul>
+        <div class="pt130">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-4">
+                    <img src="images/Pill_bottle.jpg" class=" d-block mb-3" alt="logo">
+
+                    <h2>
+                        Vitamin C
+                    </h2>
+                    <div class="d-flex">
+                        <button>Buy now</button>
+                        <div>
+                            <input min="0" name="quantity" value="1" type="number" id="number">
+
+                            <a class="numbers down"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                    src="images/arrow_down.svg"> </a>
+                            <a class="numbers up"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                    src="images/arrow_up.svg"></a>
+                        </div>
+                    </div>
+                    </div>
+
+
+
+                <div class="col-12 col-lg-4 ">
+                    <img src="images/Pill_bottle.jpg" class=" d-block mb-3" alt="logo">
+
+                    <h2>
+                        Vitamin D3
+                    </h2>
+                    <div class="d-flex">
+                        <button>Buy now</button>
+                        <div>
+                            <input min="0" name="quantity" value="1" type="number" id="number">
+
+                            <a class="numbers down"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                    src="images/arrow_down.svg"> </a>
+                            <a class="numbers up"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                    src="images/arrow_up.svg"></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-lg-4 ">
+                    <img src="images/Pill_bottle.jpg" class=" d-block mb-3" alt="logo">
+
+                    <h2>
+                        Zink
+                    </h2>
+                    <div class="d-flex">
+                        <button>Buy now</button>
+                        <div>
+                            <input min="0" name="quantity" value="1" type="number" id="number">
+
+                            <a class="numbers down"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                    src="images/arrow_down.svg"> </a>
+                            <a class="numbers up"
+                               onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                    src="images/arrow_up.svg"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
 
-<section class="social_networks container">
-    <h1 class="text-center">We are in social networks</h1>
-    <ul class="list-unstyled d-flex justify-content-center row">
-        <li>
-            <a href="https://uk-ua.facebook.com/"> <img src="images/Facebook.svg" alt="facebook"></a>
-        </li>
-        <li>
-            <a href="https://www.google.com/account/about/"> <img src="images/google_logo.svg" alt="google"/></a>
-
-        </li>
-        <li>
-            <a href="https://www.instagram.com/?hl=ru"> <img src="images/Instagram.svg" alt="Instagram"/></a>
-
-        </li>
-
-        <li>
-            <a href="https://ru.pinterest.com/"> <img src="images/Pinterest.svg" alt="Pinterest"/>
-            </a>
-
-        </li>
-        <li>
-            <a href="https://twitter.com/?lang=ru"> <img src="images/Twitter.svg" alt="Twitter"/>
-            </a>
-
-        </li>
-    </ul>
 
 </section>
 
@@ -386,7 +331,7 @@
             <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto">
                 <ul class="list-group list-unstyled columns_footer">
                     <li><a href="#" class="list-group-item border-0 m-0 p-0">Shop</a></li>
-                    <li><a href="Overall_page.html" class="list-group-item border-0 m-0 p-0">Overall</a></li>
+                    <li><a href="#" class="list-group-item border-0 m-0 p-0">Overall</a></li>
                     <li><a href="#" class="list-group-item border-0 m-0 p-0">Advanced</a></li>
                 </ul>
             </div>
@@ -407,7 +352,6 @@
                     <li><a href="Privacy_policy.html" class="list-group-item border-0 m-0 p-0">Privacy</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
 
