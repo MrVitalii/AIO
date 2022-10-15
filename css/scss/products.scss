@@ -15,6 +15,22 @@ $light_grey: #5F6C81;
   padding-top: 161px;
   padding-bottom: 170px;
 
+  .primary_button{
+    width: 191.33px!important;
+    height: 48px!important;
+    border: 1px solid #393D46!important;
+    padding: 16px !important;
+    text-decoration: none!important;
+    font-family: $main_font;
+    font-style: normal!important;
+    font-weight: 600!important;
+    font-size: 14px!important;
+    line-height: 120%!important;
+    text-align: center!important;
+    letter-spacing: 0.4px!important;
+    color: #393D46!important;
+  }
+
   .container {
     max-width: 1270px;
   }

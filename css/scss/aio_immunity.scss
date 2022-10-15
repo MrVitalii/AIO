@@ -67,24 +67,34 @@ $light_grey: #5F6C81;
     position: absolute;
     top: 344px;
     left: 55%;
+
     @include max-screen(428px) {
       top: 344px;
       left: 20px;
     }
 
     .buy {
-      background-color: $grey;
-      color: white;
-      margin-right: 20px;
+      background: #393D46;
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 120%;
+      text-align: center;
+      letter-spacing: 0.4px;
+      color: #FFFFFF;
+      padding: 16px;
+      text-decoration: none;
       @include max-screen(428px) {
         margin: 0;
       }
     }
   }
 
-  button {
+  a {
     width: 191.33px;
     height: 48px;
+    border: 1px solid #393D46;
     font-family: $main_font;
     font-style: normal;
     font-weight: 600;
@@ -92,6 +102,9 @@ $light_grey: #5F6C81;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.4px;
+    color: #393D46;
+    padding: 16px;
+    text-decoration: none;
   }
 
   .owl-nav .owl-prev:after {
@@ -105,6 +118,7 @@ $light_grey: #5F6C81;
     width: 30px;
     height: 30px;
     bottom: 45%;
+    right: 93%;
     border-radius: 50px;
     z-index: 3;
     @include max-screen(428px) {

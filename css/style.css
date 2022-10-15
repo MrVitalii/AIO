@@ -82,7 +82,7 @@ header {
     left: 22%;
     max-width: 176px;
     font-size: 37px; } }
-.main_page button {
+.main_page a {
   background-color: transparent;
   position: absolute;
   width: 200px;
@@ -96,9 +96,11 @@ header {
   font-size: 14px;
   line-height: 120%;
   text-align: center;
-  color: #393D46; }
+  color: #393D46;
+  padding: 17px;
+  text-decoration: none; }
 @media screen and (max-width: 428px) {
-  .main_page button {
+  .main_page a {
     top: 478px;
     left: 22%;
     background-color: wheat; } }
@@ -153,22 +155,34 @@ header {
       top: 344px;
       left: 20px; } }
     .immunity .buttons .buy {
-      background-color: #393D46;
-      color: white;
-      margin-right: 20px; }
+      background: #393D46;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 120%;
+      text-align: center;
+      letter-spacing: 0.4px;
+      color: #FFFFFF;
+      padding: 16px;
+      text-decoration: none; }
   @media screen and (max-width: 428px) {
     .immunity .buttons .buy {
       margin: 0; } }
-  .immunity button {
+  .immunity a {
     width: 191.33px;
     height: 48px;
+    border: 1px solid #393D46;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 120%;
     text-align: center;
-    letter-spacing: 0.4px; }
+    letter-spacing: 0.4px;
+    color: #393D46;
+    padding: 16px;
+    text-decoration: none; }
   .immunity .owl-nav .owl-prev:after {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -180,6 +194,7 @@ header {
     width: 30px;
     height: 30px;
     bottom: 45%;
+    right: 93%;
     border-radius: 50px;
     z-index: 3; }
   @media screen and (max-width: 428px) {
@@ -235,6 +250,20 @@ header {
 .products {
   padding-top: 161px;
   padding-bottom: 170px; }
+  .products .primary_button {
+    width: 191.33px !important;
+    height: 48px !important;
+    border: 1px solid #393D46 !important;
+    padding: 16px !important;
+    text-decoration: none !important;
+    font-family: 'Inter', sans-serif;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 120% !important;
+    text-align: center !important;
+    letter-spacing: 0.4px !important;
+    color: #393D46 !important; }
   .products .container {
     max-width: 1270px; }
   .products .new_price {
@@ -855,7 +884,14 @@ footer {
     background-color: transparent;
     border: 1px solid #393D46;
     margin-top: 60px;
-    margin-left: 85px; }
+    margin-left: 85px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center; }
   .main_page_about_lines .main_headline {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -913,7 +949,14 @@ footer {
     background-color: transparent;
     border: 1px solid #393D46;
     margin-top: 60px;
-    margin-left: 85px; }
+    margin-left: 85px;
+    color: #191A1C;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center; }
   .advanced .main_headline {
     font-family: 'Inter', sans-serif;
     font-style: normal;
