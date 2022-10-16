@@ -7,6 +7,9 @@ header {
   background-color: #FFFFFF;
   padding-top: 17px;
   padding-bottom: 40px; }
+  header Li:hover {
+    transform: scale(0.9);
+    transition: 0.5s; }
   header li {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -422,6 +425,9 @@ header {
   .social_networks li {
     padding-right: 20px;
     margin-top: 76px; }
+    .social_networks li:hover {
+      transform: scale(0.9);
+      transition: 0.5s; }
   .social_networks h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1080,17 +1086,15 @@ footer {
     height: 24px;
     padding-left: 14px;
     padding-top: 9px; }
-
-button {
-  width: 330px;
-  height: 48px;
-  background: #393D46;
-  border: 1px solid #393D46;
-  color: white; }
-
-input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0; }
+  .overall_vitamins button {
+    width: 330px;
+    height: 48px;
+    background: #393D46;
+    border: 1px solid #393D46;
+    color: white; }
+  .overall_vitamins input[type="number"]::-webkit-outer-spin-button, .overall_vitamins input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
 
 .products_advanced {
   padding-top: 119px; }
@@ -1168,17 +1172,15 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
     height: 24px;
     padding-left: 14px;
     padding-top: 9px; }
-
-button {
-  width: 330px;
-  height: 48px;
-  background: #393D46;
-  border: 1px solid #393D46;
-  color: white; }
-
-input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0; }
+  .advanced_vitamins button {
+    width: 330px;
+    height: 48px;
+    background: #393D46;
+    border: 1px solid #393D46;
+    color: white; }
+  .advanced_vitamins input[type="number"]::-webkit-outer-spin-button, .advanced_vitamins input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
 
 .container {
   max-width: 1440px; }

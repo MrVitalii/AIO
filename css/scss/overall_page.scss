@@ -47,7 +47,7 @@ $light_grey: #5F6C81;
   padding-top: 130px;
   padding-bottom: 163px;
 
-  h2{
+  h2 {
     font-family: $main_font;
     font-style: normal;
     font-weight: 600;
@@ -57,7 +57,7 @@ $light_grey: #5F6C81;
     color: #393D46;
   }
 
-  p{
+  p {
     font-family: $main_font;
     font-style: normal;
     font-weight: 400;
@@ -67,7 +67,7 @@ $light_grey: #5F6C81;
     padding-bottom: 46px;
   }
 
-  h4{
+  h4 {
     font-family: $main_font;
     font-style: normal;
     font-weight: 300;
@@ -114,18 +114,19 @@ $light_grey: #5F6C81;
     padding-left: 14px;
     padding-top: 9px;
   }
+  button {
+    width: 330px;
+    height: 48px;
+    background: #393D46;
+    border: 1px solid #393D46;
+    color: white;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 }
 
-button {
-  width: 330px;
-  height: 48px;
-  background: #393D46;
-  border: 1px solid #393D46;
-  color: white;
-}
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
