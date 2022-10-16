@@ -15,7 +15,7 @@
 @import "scss/imprints";
 @import "scss/privacy_policy";
 @import "scss/checkout_sign";
-@import "scss/main_page_about_lines";
+@import "scss/About_lines";
 @import "scss/overall_page";
 @import "scss/advanced_page";
 
@@ -37,12 +37,18 @@ $light_grey: #5F6C81;
 }
 
 .modal {
+  @include max-screen(428px){
+    left: 24px;
+  }
   .sign_in {
     width: 400px;
     margin-bottom: 15px;
     height: 48px;
     background: #393D46;
     border: 1px solid #9C9EA3;
+    @include max-screen(428px){
+     width: 324px;
+    }
   }
 
   .create {
@@ -51,6 +57,9 @@ $light_grey: #5F6C81;
     background: #FFFFFF;
     border: 1px solid #9C9EA3;
     color: $black;
+    @include max-screen(428px){
+      width: 324px;
+    }
   }
 
   #exampleInputEmail1 {
@@ -95,6 +104,9 @@ $light_grey: #5F6C81;
     font-size: 14px;
     line-height: 120%;
     text-align: right;
+    @include max-screen(428px){
+    margin-left: 12%;
+    }
   }
 }
 
@@ -145,6 +157,9 @@ $light_grey: #5F6C81;
   font-size: 13px;
   line-height: 17px;
   color: rgba(57, 61, 70, 0.6);
+  @include max-screen(428px){
+    left: 68px;
+  }
 }
 
 .close {
@@ -157,6 +172,9 @@ $light_grey: #5F6C81;
 .shop_modal {
   padding-right: 0 !important;
   padding-left: 1056px;
+  @include max-screen(428px) {
+    padding-left: 0 !important;
+  }
 
   .prices_modal {
     display: grid;
@@ -235,12 +253,18 @@ $light_grey: #5F6C81;
     .main_price {
       position: relative;
       bottom: 37px;
+      @include max-screen(428px) {
+        right: 15px;
+      }
     }
 
     .line-through {
       position: relative;
       bottom: 148px;
       left: 304px;
+      @include max-screen(428px) {
+        left: 262px;
+      }
     }
 
     .minus_price {
@@ -248,12 +272,18 @@ $light_grey: #5F6C81;
       bottom: 129px;
       left: 152px;
       color: orangered;
+      @include max-screen(428px) {
+        left: 135px;
+      }
     }
 
     .trash {
       position: relative;
       bottom: 106px;
       left: 22px;
+      @include max-screen(428px) {
+        left: 4px;
+      }
     }
 
     .orange_prices {
@@ -269,20 +299,25 @@ $light_grey: #5F6C81;
   .vitamine {
     padding-bottom: 89px !important;
     padding-right: 114px !important;
-  }
+    @include max-screen(428px) {
+      width: 324px;
+      padding-right: 110px!important;
+    }
+      }
 
-  tbody {
-    td {
+    tbody {
+      td {
 
-      font-family: $main_font;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 120%;
-      color: #393D46;
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        color: #393D46;
+      }
     }
   }
-}
+
 
 
 

@@ -16,7 +16,17 @@ header {
   padding-top: 17px;
   padding-bottom: 40px;
 
-  Li {
+  a {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4C4F57;
+    text-decoration: none;
+  }
+
+  .hover{
     &:hover {
       transform: scale(0.9);
       transition: 0.5s;
@@ -30,6 +40,7 @@ header {
     font-size: 14px;
     line-height: 17px;
     color: #4C4F57;
+    text-decoration: none;
   }
 
   .dropdown-item {

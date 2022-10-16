@@ -22,19 +22,19 @@ $light_grey: #5F6C81;
   .buy {
     width: 200px;
     height: 52px;
-    left: 85px;
-    top: 510px;
     background-color: transparent;
     border: 1px solid #393D46;
     margin-top: 60px;
     margin-left: 85px;
     color: black;
+    padding-top: 15px;
     font-family: $main_font;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 120%;
     text-align: center;
+    text-decoration: none;
   }
 
   .main_headline {
@@ -106,19 +106,19 @@ $light_grey: #5F6C81;
   .buy {
     width: 200px;
     height: 52px;
-    left: 85px;
-    top: 510px;
     background-color: transparent;
     border: 1px solid #393D46;
     margin-top: 60px;
     margin-left: 85px;
     color: $black;
+    padding-top: 15px !important;
     font-family: $main_font;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 120%;
     text-align: center;
+    text-decoration: none;
   }
 
   .main_headline {

@@ -7,7 +7,15 @@ header {
   background-color: #FFFFFF;
   padding-top: 17px;
   padding-bottom: 40px; }
-  header Li:hover {
+  header a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4C4F57;
+    text-decoration: none; }
+  header .hover:hover {
     transform: scale(0.9);
     transition: 0.5s; }
   header li {
@@ -16,7 +24,8 @@ header {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #4C4F57; }
+    color: #4C4F57;
+    text-decoration: none; }
   header .dropdown-item {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -911,19 +920,19 @@ footer {
   .main_page_about_lines .buy {
     width: 200px;
     height: 52px;
-    left: 85px;
-    top: 510px;
     background-color: transparent;
     border: 1px solid #393D46;
     margin-top: 60px;
     margin-left: 85px;
     color: black;
+    padding-top: 15px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 120%;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
   .main_page_about_lines .main_headline {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -976,19 +985,19 @@ footer {
   .advanced .buy {
     width: 200px;
     height: 52px;
-    left: 85px;
-    top: 510px;
     background-color: transparent;
     border: 1px solid #393D46;
     margin-top: 60px;
     margin-left: 85px;
     color: #191A1C;
+    padding-top: 15px !important;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 120%;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
   .advanced .main_headline {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1112,12 +1121,15 @@ footer {
     height: 24px;
     padding-left: 14px;
     padding-top: 9px; }
-  .overall_vitamins button {
+  .overall_vitamins a {
     width: 330px;
     height: 48px;
     background: #393D46;
     border: 1px solid #393D46;
-    color: white; }
+    color: white !important;
+    text-align: center;
+    padding-top: 13px;
+    text-decoration: none; }
   .overall_vitamins input[type="number"]::-webkit-outer-spin-button, .overall_vitamins input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; }
@@ -1198,12 +1210,15 @@ footer {
     height: 24px;
     padding-left: 14px;
     padding-top: 9px; }
-  .advanced_vitamins button {
+  .advanced_vitamins a {
     width: 330px;
     height: 48px;
     background: #393D46;
     border: 1px solid #393D46;
-    color: white; }
+    color: white !important;
+    text-align: center;
+    padding-top: 13px;
+    text-decoration: none; }
   .advanced_vitamins input[type="number"]::-webkit-outer-spin-button, .advanced_vitamins input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; }
@@ -1211,18 +1226,27 @@ footer {
 .container {
   max-width: 1440px; }
 
+@media screen and (max-width: 428px) {
+  .modal {
+    left: 24px; } }
 .modal .sign_in {
   width: 400px;
   margin-bottom: 15px;
   height: 48px;
   background: #393D46;
   border: 1px solid #9C9EA3; }
+@media screen and (max-width: 428px) {
+  .modal .sign_in {
+    width: 324px; } }
 .modal .create {
   width: 400px;
   height: 48px;
   background: #FFFFFF;
   border: 1px solid #9C9EA3;
   color: #191A1C; }
+@media screen and (max-width: 428px) {
+  .modal .create {
+    width: 324px; } }
 .modal #exampleInputEmail1 {
   max-width: 400px; }
 .modal #exampleInputPassword1 {
@@ -1253,6 +1277,9 @@ footer {
   font-size: 14px;
   line-height: 120%;
   text-align: right; }
+@media screen and (max-width: 428px) {
+  .modal .forgot {
+    margin-left: 12%; } }
 
 .table-image thead td, .table-image thead th {
   border: 0;
@@ -1287,6 +1314,9 @@ footer {
   font-size: 13px;
   line-height: 17px;
   color: rgba(57, 61, 70, 0.6); }
+  @media screen and (max-width: 428px) {
+    .qty1 {
+      left: 68px; } }
 
 .close span {
   color: black;
@@ -1295,6 +1325,9 @@ footer {
 .shop_modal {
   padding-right: 0 !important;
   padding-left: 1056px; }
+  @media screen and (max-width: 428px) {
+    .shop_modal {
+      padding-left: 0 !important; } }
   .shop_modal .prices_modal {
     display: grid;
     padding-right: 9px; }
@@ -1350,19 +1383,31 @@ footer {
   .shop_modal .modal-body .main_price {
     position: relative;
     bottom: 37px; }
+  @media screen and (max-width: 428px) {
+    .shop_modal .modal-body .main_price {
+      right: 15px; } }
   .shop_modal .modal-body .line-through {
     position: relative;
     bottom: 148px;
     left: 304px; }
+  @media screen and (max-width: 428px) {
+    .shop_modal .modal-body .line-through {
+      left: 262px; } }
   .shop_modal .modal-body .minus_price {
     position: relative;
     bottom: 129px;
     left: 152px;
     color: orangered; }
+  @media screen and (max-width: 428px) {
+    .shop_modal .modal-body .minus_price {
+      left: 135px; } }
   .shop_modal .modal-body .trash {
     position: relative;
     bottom: 106px;
     left: 22px; }
+  @media screen and (max-width: 428px) {
+    .shop_modal .modal-body .trash {
+      left: 4px; } }
   .shop_modal .modal-body .orange_prices {
     color: orangered; }
   .shop_modal .zink {
@@ -1371,6 +1416,10 @@ footer {
   .shop_modal .vitamine {
     padding-bottom: 89px !important;
     padding-right: 114px !important; }
+  @media screen and (max-width: 428px) {
+    .shop_modal .vitamine {
+      width: 324px;
+      padding-right: 110px !important; } }
   .shop_modal tbody td {
     font-family: 'Inter', sans-serif;
     font-style: normal;
