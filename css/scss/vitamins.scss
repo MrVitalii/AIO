@@ -44,6 +44,10 @@ $light_grey: #5F6C81;
     font-size: 38px;
     line-height: 120%;
     color: #393D46;
+    margin-left: 80px;
+    @include max-screen(428px) {
+    margin-left: 25px;
+    }
   }
 
   p {
@@ -53,8 +57,10 @@ $light_grey: #5F6C81;
     font-size: 15px;
     line-height: 120%;
     color: #5F6C81;
+    margin-left: 85px;
     @include max-screen(428px) {
       font-size: 11px;
+      margin-left: 34px;
     }
   }
 
@@ -76,7 +82,7 @@ $light_grey: #5F6C81;
     color: #4C4F57;
     position: absolute;
     right: 8%;
-    bottom: 90%;
+    bottom: 103%;
     z-index: 3;
     @include max-screen(428px) {
       right: 89%;
@@ -91,7 +97,7 @@ $light_grey: #5F6C81;
     content: "\f061";
     color: #4C4F57;
     position: absolute;
-    bottom: 90%;
+    bottom: 103%;
     left: 97%;
     z-index: 3;
     @include max-screen(428px) {

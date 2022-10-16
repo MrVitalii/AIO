@@ -386,17 +386,23 @@ header {
   font-weight: 300;
   font-size: 38px;
   line-height: 120%;
-  color: #393D46; }
+  color: #393D46;
+  margin-left: 80px; }
+@media screen and (max-width: 428px) {
+  .vitamins h4 {
+    margin-left: 25px; } }
 .vitamins p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 120%;
-  color: #5F6C81; }
+  color: #5F6C81;
+  margin-left: 85px; }
 @media screen and (max-width: 428px) {
   .vitamins p {
-    font-size: 11px; } }
+    font-size: 11px;
+    margin-left: 34px; } }
 .vitamins h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -413,7 +419,7 @@ header {
   color: #4C4F57;
   position: absolute;
   right: 8%;
-  bottom: 90%;
+  bottom: 103%;
   z-index: 3; }
 @media screen and (max-width: 428px) {
   .vitamins .owl-nav .owl-prev:after {
@@ -426,7 +432,7 @@ header {
   content: "\f061";
   color: #4C4F57;
   position: absolute;
-  bottom: 90%;
+  bottom: 103%;
   left: 97%;
   z-index: 3; }
 @media screen and (max-width: 428px) {
