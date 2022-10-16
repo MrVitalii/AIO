@@ -85,6 +85,11 @@ $light_grey: #5F6C81;
       color: #FFFFFF;
       padding: 16px;
       text-decoration: none;
+      &:hover {
+        background-color: transparent;
+        color: black;
+        transition: 0.5s;
+      }
       @include max-screen(428px) {
         margin: 0;
       }
@@ -105,6 +110,11 @@ $light_grey: #5F6C81;
     color: #393D46;
     padding: 16px;
     text-decoration: none;
+    &:hover {
+      background-color: #393D46;
+      color: white;
+      transition: 0.5s;
+    }
   }
 
   .owl-nav .owl-prev:after {

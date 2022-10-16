@@ -71,6 +71,11 @@ $light_grey: #5F6C81;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.4px;
+    &:hover {
+      background-color: #393D46;
+      color: white!important;
+      transition: 0.5s;
+    }
     @include max-screen(428px) {
       margin-left: 108px;
       margin-top: 35px;

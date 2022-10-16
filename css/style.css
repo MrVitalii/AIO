@@ -102,6 +102,10 @@ header {
   color: #393D46;
   padding: 17px;
   text-decoration: none; }
+  .main_page a:hover {
+    background-color: #393D46;
+    color: white !important;
+    transition: 0.5s; }
 @media screen and (max-width: 428px) {
   .main_page a {
     top: 478px;
@@ -169,6 +173,10 @@ header {
       color: #FFFFFF;
       padding: 16px;
       text-decoration: none; }
+      .immunity .buttons .buy:hover {
+        background-color: transparent;
+        color: black;
+        transition: 0.5s; }
   @media screen and (max-width: 428px) {
     .immunity .buttons .buy {
       margin: 0; } }
@@ -186,6 +194,10 @@ header {
     color: #393D46;
     padding: 16px;
     text-decoration: none; }
+    .immunity a:hover {
+      background-color: #393D46;
+      color: white;
+      transition: 0.5s; }
   .immunity .owl-nav .owl-prev:after {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -301,6 +313,10 @@ header {
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.4px; }
+    .products a:hover {
+      background-color: #393D46;
+      color: white !important;
+      transition: 0.5s; }
   @media screen and (max-width: 428px) {
     .products a {
       margin-left: 108px;
@@ -362,6 +378,8 @@ header {
   line-height: 160%;
   text-decoration-line: underline !important;
   color: #5F6C81; }
+  .vitamins a:hover {
+    color: #42E8FF; }
 .vitamins h4 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -426,8 +444,8 @@ header {
     padding-right: 20px;
     margin-top: 76px; }
     .social_networks li:hover {
-      transform: scale(0.9);
-      transition: 0.5s; }
+      transform: scale(1.12);
+      transition: 0.4s; }
   .social_networks h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -477,6 +495,8 @@ footer {
     color: #FFFFFF;
     text-decoration: none !important;
     background: transparent !important; }
+    footer a:hover {
+      color: #42E8FF; }
   footer li {
     padding-bottom: 14px; }
   footer .aio {

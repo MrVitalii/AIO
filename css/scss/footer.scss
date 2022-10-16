@@ -67,6 +67,9 @@ footer {
     color: $white;
     text-decoration: none !important;
     background: transparent !important;
+    &:hover {
+      color:  #42E8FF;
+    }
   }
 
   li {

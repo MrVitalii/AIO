@@ -58,6 +58,11 @@ $light_grey: #5F6C81;
     color: #393D46;
     padding: 17px;
     text-decoration: none;
+    &:hover {
+      background-color: #393D46;
+      color: white!important;
+      transition: 0.5s;
+    }
     @include max-screen(428px) {
       top: 478px;
       left: 22%;

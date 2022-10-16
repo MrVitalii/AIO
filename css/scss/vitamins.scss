@@ -32,6 +32,9 @@ $light_grey: #5F6C81;
     line-height: 160%;
     text-decoration-line: underline !important;
     color: #5F6C81;
+    &:hover {
+      color:  #42E8FF;
+    }
   }
 
   h4 {
