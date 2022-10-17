@@ -1,0 +1,215 @@
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.product_page {
+  padding-top: 119px;
+  padding-left: 85px;
+
+ .margin_left90{
+   margin-left: 90px;
+ }
+
+  .text-product{
+    .Ingredients{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;
+      text-decoration-line: underline;
+      color: #5F6C81;
+    }
+
+    .main_price{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 120%;
+      letter-spacing: 0.6px;
+      color: #393D46;
+    }
+
+    .line-through{
+      font-family: $main_font!important;
+      font-style: normal!important;
+      font-weight: 300!important;
+      font-size: 21px!important;
+      line-height: 120%!important;
+      letter-spacing: 0.6px!important;
+      text-decoration-line: line-through!important;
+      color: rgba(57, 61, 70, 0.8)!important;
+      padding-top: 64px;
+    }
+
+    .minus_percent{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 21px;
+      line-height: 120%;
+      letter-spacing: 0.6px;
+      color: #F4442E;
+      padding-top: 64px;
+    }
+
+    h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #393D46;}
+
+    article{
+      width: 450px;
+      padding-top: 14px;
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;
+      color: #5F6C81;
+
+    }
+    p{
+      padding-top: 50px;
+      padding-right: 20px;
+    }
+    h3{
+      padding-top: 50px;
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 160%;
+      color: #5F6C81;
+
+    }
+   .pb30{
+     padding-bottom: 30px;
+   }
+
+    .prices{
+      padding-bottom: 50px;
+    }
+
+    .d-flex {
+      input {
+        overflow: visible;
+        width: 47px;
+        height: 48px;
+        border: 1px solid #4C5058;
+        background: #393D46;
+        color: white;
+        text-align: center
+      }
+
+      .numbers {
+        border: 1px solid #4C5058;
+        display: inline-grid;
+        position: absolute;
+        width: 41px;
+        background: #393D46;
+      }
+
+      .up {
+        height: 24px;
+        padding-left: 14px;
+        padding-top: 9px;
+        position: relative;
+        right: 49px;
+        bottom: 14px;
+      }
+
+      .down {
+        bottom: -10px;
+        right: 4px;
+        height: 24px;
+        padding-left: 14px;
+        padding-top: 9px;
+        position: relative;
+      }
+
+      a {
+        width: 330px;
+        height: 48px;
+        background: #393D46;
+        border: 1px solid #393D46;
+        color: white !important;
+        text-align: center;
+        padding-top: 13px;
+        text-decoration: none;
+      }
+
+      input[type="number"]::-webkit-outer-spin-button,
+      input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  .thumbnails {
+    //display: flex;
+    flex-direction: column;
+    line-height: 0;
+    padding-right: 10px;
+
+    li {
+      flex: auto;
+      list-style-type: none;
+    }
+
+    a {
+      display: block;
+    }
+
+    img {
+      //width: 30vmin;
+      //height: 20vmin;
+      object-fit: cover;
+      object-position: top;
+      padding-bottom: 10px;
+    }
+  }
+
+  .slides {
+    overflow: hidden;
+    width: 75vmin;
+    height: 100vmin;
+
+
+    li {
+      width: 75vmin;
+      height: 100vmin;
+      //position: absolute;
+
+      list-style-type: none;
+    }
+
+    img {
+      //height: 100vmin;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+}

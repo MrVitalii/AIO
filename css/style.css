@@ -1223,6 +1223,147 @@ footer {
     -webkit-appearance: none;
     margin: 0; }
 
+.product_page {
+  padding-top: 119px;
+  padding-left: 85px; }
+  .product_page .margin_left90 {
+    margin-left: 90px; }
+  .product_page .text-product .Ingredients {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration-line: underline;
+    color: #5F6C81; }
+  .product_page .text-product .main_price {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #393D46; }
+  .product_page .text-product .line-through {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 21px !important;
+    line-height: 120% !important;
+    letter-spacing: 0.6px !important;
+    text-decoration-line: line-through !important;
+    color: rgba(57, 61, 70, 0.8) !important;
+    padding-top: 64px; }
+  .product_page .text-product .minus_percent {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #F4442E;
+    padding-top: 64px; }
+  .product_page .text-product h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+    color: #393D46; }
+  .product_page .text-product article {
+    width: 450px;
+    padding-top: 14px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #5F6C81; }
+  .product_page .text-product p {
+    padding-top: 50px;
+    padding-right: 20px; }
+  .product_page .text-product h3 {
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 160%;
+    color: #5F6C81; }
+  .product_page .text-product .pb30 {
+    padding-bottom: 30px; }
+  .product_page .text-product .prices {
+    padding-bottom: 50px; }
+  .product_page .text-product .d-flex input {
+    overflow: visible;
+    width: 47px;
+    height: 48px;
+    border: 1px solid #4C5058;
+    background: #393D46;
+    color: white;
+    text-align: center; }
+  .product_page .text-product .d-flex .numbers {
+    border: 1px solid #4C5058;
+    display: inline-grid;
+    position: absolute;
+    width: 41px;
+    background: #393D46; }
+  .product_page .text-product .d-flex .up {
+    height: 24px;
+    padding-left: 14px;
+    padding-top: 9px;
+    position: relative;
+    right: 49px;
+    bottom: 14px; }
+  .product_page .text-product .d-flex .down {
+    bottom: -10px;
+    right: 4px;
+    height: 24px;
+    padding-left: 14px;
+    padding-top: 9px;
+    position: relative; }
+  .product_page .text-product .d-flex a {
+    width: 330px;
+    height: 48px;
+    background: #393D46;
+    border: 1px solid #393D46;
+    color: white !important;
+    text-align: center;
+    padding-top: 13px;
+    text-decoration: none; }
+  .product_page .text-product .d-flex input[type="number"]::-webkit-outer-spin-button, .product_page .text-product .d-flex input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .product_page *, .product_page *::before, .product_page *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0; }
+  .product_page .thumbnails {
+    flex-direction: column;
+    line-height: 0;
+    padding-right: 10px; }
+    .product_page .thumbnails li {
+      flex: auto;
+      list-style-type: none; }
+    .product_page .thumbnails a {
+      display: block; }
+    .product_page .thumbnails img {
+      object-fit: cover;
+      object-position: top;
+      padding-bottom: 10px; }
+  .product_page .slides {
+    overflow: hidden;
+    width: 75vmin;
+    height: 100vmin; }
+    .product_page .slides li {
+      width: 75vmin;
+      height: 100vmin;
+      list-style-type: none; }
+    .product_page .slides img {
+      object-fit: cover;
+      object-position: top; }
+
 .container {
   max-width: 1440px; }
 

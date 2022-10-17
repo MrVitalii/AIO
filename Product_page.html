@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AIO</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+
+    <div class="container">
+        <div class="navbar navbar-expand-lg navbar-light d-flex  justify-content-between">
+            <a href="index.html"> <img src="images/aio_logo.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-center text-dark" id="navbarSupportedContent">
+                <ul class="navbar-nav m-0 ">
+                    <li class="nav-item active dropdown mr-lg-3">
+                        <a class="nav-link active hover" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown"
+                           aria-expanded="false">
+                            Shop
+                            <img src="images/Vector.svg" alt="vector">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Order</a>
+                                <a class="dropdown-item" href="#">Buy</a>
+                                <a class="dropdown-item" href="#">Help</a>
+                                <a class="dropdown-item" href="#"> <i class="fa-solid fa-magnifying-glass"></i> Find</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal"><img
+                                        class="pr-1 pb-2"
+                                        src="images/user.svg">Login</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cartModal"><img
+                                        class="pr-1 pb-2"
+                                        src="images/shop.svg">Shopping
+                                    cart</a>
+
+                            </div>
+                        </a>
+                    <li class="nav-item active mr-lg-3">
+                        <a class="nav-link hover" href="About%20lines.html">About Lines</a>
+                    </li>
+
+                    <li class="nav-item active  mr-lg-3">
+                        <a class="nav-link hover" href="About%20us.html">About Us</a>
+                    </li>
+                    <li class="nav-item active hover">
+                        <a class="nav-link" href="Contacts.html">Contacts</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <div class="d-none d-lg-block">
+                <a href="#" class="mr-5" data-toggle="modal" data-target="#exampleModal"><img src="images/user.svg"
+                                                                                              alt="user_icon"></a>
+                <a class="nav-item active" href="#" data-toggle="modal" data-target="#cartModal"> <img
+                        src="images/shop.svg" alt="shop_icon"></a>
+
+                <div class="shop"><span class="position-absolute">2</span></div>
+            </div>
+
+            <div>
+                <select class="border-0 ml-5 mb-3 select">
+                    <option>EN</option>
+                    <option>DEU</option>
+                    <option>RU</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<!--<section class="product_page">-->
+<!--    <div class="container">-->
+<!--        <div class="row align-items-center">-->
+<!--            <div class="col-6 col-lg-6">-->
+<!--                <img src="images/Vitamine_C_Product.jpg" class="d-block mb-3" alt="logo">-->
+<!--            </div>-->
+
+<!--            <div class="col-12 col-lg-6 text_overall">-->
+<!--                <h2>-->
+<!--                    Vitamin C-->
+<!--                </h2>-->
+
+<!--                <p>-->
+<!--                    Vitamin C is one of the key elements needed to keep our body functioning properly. It is involved in-->
+<!--                    strengthening the immune system during periods of exacerbation, in the synthesis of collagen for-->
+<!--                    long-term maintenance of skin elasticity and has antioxidant properties.-->
+<!--                </p>-->
+
+<!--                <h2>KEY INGREDIENTS</h2>-->
+
+<!--                <p>As calcium ascorbate, amla extract, acelora berry extract</p>-->
+<!--                <a>-->
+<!--                    VIEW FULL LIST OF INGREDIENTS-->
+<!--                </a>-->
+
+<!--                <p class="d-flex">$29.99</p>-->
+<!--                <p>$60.00</p>-->
+<!--                <p>-30%</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<section>
+<div class="container product_page">
+    <div class="row">
+    <ul class="thumbnails">
+        <li>
+            <a href="#slide1"><img src="images/Vitamine_C_mini.jpg"></a>
+        </li>
+        <li>
+            <a href="#slide2"><img src="images/Vitamine_C_mini.jpg"></a>
+        </li>
+        <li>
+            <a href="#slide3"><img src="images/Vitamine_C_mini.jpg"></a>
+        </li>
+        <li>
+            <a href="#slide4"><img src="images/Vitamine_C_mini.jpg"></a>
+        </li>
+    </ul>
+
+    <ul class="slides">
+        <li id="slide1"><img src="images/Vitamine_C_Product.jpg" alt="" ></li>
+        <li id="slide2"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
+        <li id="slide3"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
+        <li id="slide4"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
+    </ul>
+
+        <div class="text-product margin_left90">
+            <h2 class="">
+                Vitamin C
+            </h2>
+
+            <article>
+                Vitamin C is one of the key elements needed to keep our body functioning properly. It is involved in
+                strengthening the immune system during periods of exacerbation, in the synthesis of collagen for
+                long-term maintenance of skin elasticity and has antioxidant properties.
+            </article>
+
+            <h3>KEY INGREDIENTS</h3>
+
+            <article class="pb30">As calcium ascorbate, amla extract, acelora berry extract</article>
+
+            <a href="#" class="Ingredients">
+                VIEW FULL LIST OF INGREDIENTS
+            </a>
+
+            <div class="d-flex prices">
+                <p class="main_price">$29.99</p>
+                <p class="line-through">$60.00</p>
+                <p class="minus_percent">-30%</p>
+            </div>
+
+            <div class="d-flex prices">
+                <a href="#">Buy now</a>
+                <div>
+                    <input min="0" name="quantity" value="1" type="number" id="number">
+
+                    <a class="numbers down"
+                       onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                            src="images/arrow_down.svg"> </a>
+                    <a class="numbers up"
+                       onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                            src="images/arrow_up.svg"></a>
+                </div>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+<footer class=" text-white">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left  pb-3 pt-4">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-2">
+                <a href="#"><img class="pb-3" src="images/logo_footer.svg" alt="logo"></a>
+                <div class="d-flex"><img class="mr-2" src="images/Adress_logo.svg" alt="logo">
+                    <p class=" pl-0">Normannen Str. 2, 81925 Munich, Germany</p></div>
+                <div class="d-flex"><img class="mr-2" src="images/email.svg" alt="logo">
+                    <p class=" pl-0">info@byvit.de</p></div>
+                <div class="d-flex"><img class="mr-2" src="images/phone.svg" alt="logo">
+                    <p class=" pl-0">+49 176 378 993 35</p></div>
+            </div>
+
+
+            <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto">
+                <ul class="list-group list-unstyled columns_footer">
+                    <li><a href="#" class="list-group-item border-0 m-0 p-0">Shop</a></li>
+                    <li><a href="Overall_page.html" class="list-group-item border-0 m-0 p-0">Overall</a></li>
+                    <li><a href="Advanced.html" class="list-group-item border-0 m-0 p-0">Advanced</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto">
+
+                <ul class="list-group list-unstyled columns_footer">
+                    <li><a href="About%20lines.html" class="list-group-item border-0 m-0 p-0">About Lines</a></li>
+                    <li><a href="About%20us.html" class="list-group-item border-0 m-0 p-0">About Us</a></li>
+                    <li><a href="Contacts.html" class="list-group-item border-0 m-0 p-0">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto">
+
+                <ul class="list-unstyled list-group columns_footer">
+                    <li><a href="Imprint.html" class="list-group-item border-0 m-0 p-0">Imprint</a></li>
+                    <li><a href="Privacy_policy.html" class="list-group-item border-0 m-0 p-0">Privacy</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container developers line">
+        <p class="d-flex justify-content-md-start aio made2022"> ©AiO 2022</p>
+        <p class="d-flex justify-content-end rights aio">All rights reserved.</p>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/63a54c3f84.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- Modal window sign in-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login Your Account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                               placeholder="Enter your email">
+                        <!--                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                               placeholder="Enter your password">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                        <a href="#" class="forgot">Forgot Your Password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary sign_in">Sign in</button>
+                </form>
+                <button type="submit" data-toggle="modal" data-target="#exampleModal1" class="btn btn-primary create">
+                    Create an account
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal window create an account-->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel1">Create a New Account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div>
+                        <div class="col pb-3 first_name">
+                            <label>First Name</label>
+                            <input type="text" id="first_name" class="form-control "
+                                   placeholder="Enter your first name">
+                        </div>
+                        <div class="col pb-3 last_name">
+                            <label>Last Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your last name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail11" aria-describedby="emailHelp"
+                               placeholder="Enter your email">
+                        <!--                        <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword11"
+                               placeholder="Enter your password">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck11">
+                        <label class="form-check-label" for="exampleCheck1">Sign Up for Newsletter</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary sign_in">Sign up</button>
+                    <a href="#" class="already">Already Have an Account</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal shop cart-->
+<div class="shop_modal modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <a class="nav-item active" href="#" data-toggle="modal" data-target="#cartModal"> <img
+                        src="images/shop.svg" alt="shop_icon"></a>
+                <div class="shop"><span class="position-absolute">2</span></div>
+                <h5 class="modal-title ml-4" id="exampleModalLabel2">
+                    Cart
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-image">
+
+                    <tbody>
+                    <tr>
+                        <td class="">
+                            <img src="images/vitamin_c_shop.jpg"
+                                 class="img-fluid img-thumbnail" alt="Sheep">
+                        </td>
+                        <td class="vitamine">Vitamine C</td>
+                        <td class="main_price">$209.30</td>
+                    <tr class="qty1">
+                        <th>QTY: 1</th>
+                    </tr>
+                    <th class="line-through">$299.00</th>
+                    <td class="minus_price">-30%</td>
+                    <td><a href="#"> <img class="trash" src="images/trash.svg"></a></td>
+                    <tr>
+                        <div class="def-number-input number-input safari_only">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                    class="minus"></button>
+                            <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
+                                   type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                    class="plus"></button>
+                        </div>
+                    </tr>
+                    </tr>
+
+                    <tr>
+                        <td class="">
+                            <img src="images/supplement.jpg"
+                                 class="img-fluid img-thumbnail" alt="Sheep">
+                        </td>
+                        <td class="zink">Zink</td>
+                        <td class="main_price">$209.30</td>
+                    <tr class="qty1">
+                        <th>QTY: 1</th>
+                    </tr>
+                    <th class="line-through">$299.00</th>
+                    <td class="minus_price">-4%</td>
+                    <td><a href="#"> <img class="trash" src="images/trash.svg"></a></td>
+                    <tr>
+                        <div class="def-number-input number-input safari_only steps_buttons">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                    class="minus"></button>
+                            <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
+                                   type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                    class="plus"></button>
+                        </div>
+                    </tr>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div>
+                    <div class="position-absolute pl-3">
+                        <p class=" ">Subtotal</p>
+                        <p class=" ">Shipping</p>
+                        <p class="orange_prices">Total you save</p>
+                        <h4 class=" ">Total</h4>
+                    </div>
+
+                    <div class="justify-content-end prices_modal">
+                        <p class="pl-29">$291.86</p>
+                        <p class="pl-37">$12.00</p>
+                        <p class="orange_prices pl-37">$94.00</p>
+                        <h4>$303.86</h4>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+                <a type="button" class="btn btn-success" href="checkout_sign_in.html">CHECKOUT</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
