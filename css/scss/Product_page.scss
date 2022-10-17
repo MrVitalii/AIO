@@ -213,3 +213,50 @@ $light_grey: #5F6C81;
     }
   }
 }
+
+.ingredients_modal{
+  .table{
+    margin-bottom: 0;
+  }
+  td{
+    vertical-align: baseline!important;
+    text-align: start!important;
+
+  }
+  .modal-body{
+    h4{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 130%;
+      color: #000000;
+    }
+    p{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 160%;
+      color: #5F6C81;
+
+    }
+    .main_paragraph{
+      width: 250px;
+    }
+  }
+  .modal-content {
+    width: 714px!important;
+    .modal-header{
+      border-bottom: 1px solid #dee2e6!important;
+      h5{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 120%;
+      color: #393D46;
+      }
+    }
+  }
+}

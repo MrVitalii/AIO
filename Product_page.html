@@ -82,106 +82,73 @@
     </div>
 </header>
 
-<!--<section class="product_page">-->
-<!--    <div class="container">-->
-<!--        <div class="row align-items-center">-->
-<!--            <div class="col-6 col-lg-6">-->
-<!--                <img src="images/Vitamine_C_Product.jpg" class="d-block mb-3" alt="logo">-->
-<!--            </div>-->
-
-<!--            <div class="col-12 col-lg-6 text_overall">-->
-<!--                <h2>-->
-<!--                    Vitamin C-->
-<!--                </h2>-->
-
-<!--                <p>-->
-<!--                    Vitamin C is one of the key elements needed to keep our body functioning properly. It is involved in-->
-<!--                    strengthening the immune system during periods of exacerbation, in the synthesis of collagen for-->
-<!--                    long-term maintenance of skin elasticity and has antioxidant properties.-->
-<!--                </p>-->
-
-<!--                <h2>KEY INGREDIENTS</h2>-->
-
-<!--                <p>As calcium ascorbate, amla extract, acelora berry extract</p>-->
-<!--                <a>-->
-<!--                    VIEW FULL LIST OF INGREDIENTS-->
-<!--                </a>-->
-
-<!--                <p class="d-flex">$29.99</p>-->
-<!--                <p>$60.00</p>-->
-<!--                <p>-30%</p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
 <section>
-<div class="container product_page">
-    <div class="row">
-    <ul class="thumbnails">
-        <li>
-            <a href="#slide1"><img src="images/Vitamine_C_mini.jpg"></a>
-        </li>
-        <li>
-            <a href="#slide2"><img src="images/Vitamine_C_mini.jpg"></a>
-        </li>
-        <li>
-            <a href="#slide3"><img src="images/Vitamine_C_mini.jpg"></a>
-        </li>
-        <li>
-            <a href="#slide4"><img src="images/Vitamine_C_mini.jpg"></a>
-        </li>
-    </ul>
+    <div class="container product_page">
+        <div class="row">
+            <ul class="thumbnails">
+                <li>
+                    <a href="#slide1"><img src="images/Vitamine_C_mini.jpg"></a>
+                </li>
+                <li>
+                    <a href="#slide2"><img src="images/Vitamine_C_mini.jpg"></a>
+                </li>
+                <li>
+                    <a href="#slide3"><img src="images/Vitamine_C_mini.jpg"></a>
+                </li>
+                <li>
+                    <a href="#slide4"><img src="images/Vitamine_C_mini.jpg"></a>
+                </li>
+            </ul>
 
-    <ul class="slides">
-        <li id="slide1"><img src="images/Vitamine_C_Product.jpg" alt="" ></li>
-        <li id="slide2"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
-        <li id="slide3"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
-        <li id="slide4"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
-    </ul>
+            <ul class="slides">
+                <li id="slide1"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
+                <li id="slide2"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
+                <li id="slide3"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
+                <li id="slide4"><img src="images/Vitamine_C_Product.jpg" alt=""></li>
+            </ul>
 
-        <div class="text-product margin_left90">
-            <h2 class="">
-                Vitamin C
-            </h2>
+            <div class="text-product margin_left90">
+                <h2 class="">
+                    Vitamin C
+                </h2>
 
-            <article>
-                Vitamin C is one of the key elements needed to keep our body functioning properly. It is involved in
-                strengthening the immune system during periods of exacerbation, in the synthesis of collagen for
-                long-term maintenance of skin elasticity and has antioxidant properties.
-            </article>
+                <article>
+                    Vitamin C is one of the key elements needed to keep our body functioning properly. It is involved in
+                    strengthening the immune system during periods of exacerbation, in the synthesis of collagen for
+                    long-term maintenance of skin elasticity and has antioxidant properties.
+                </article>
 
-            <h3>KEY INGREDIENTS</h3>
+                <h3>KEY INGREDIENTS</h3>
 
-            <article class="pb30">As calcium ascorbate, amla extract, acelora berry extract</article>
+                <article class="pb30">As calcium ascorbate, amla extract, acelora berry extract</article>
 
-            <a href="#" class="Ingredients">
-                VIEW FULL LIST OF INGREDIENTS
-            </a>
+                <a href="#" data-toggle="modal" data-target="#cartModalIngredients" class="Ingredients">
+                    VIEW FULL LIST OF INGREDIENTS
+                </a>
 
-            <div class="d-flex prices">
-                <p class="main_price">$29.99</p>
-                <p class="line-through">$60.00</p>
-                <p class="minus_percent">-30%</p>
+                <div class="d-flex prices">
+                    <p class="main_price">$29.99</p>
+                    <p class="line-through">$60.00</p>
+                    <p class="minus_percent">-30%</p>
+                </div>
+
+                <div class="d-flex prices">
+                    <a href="#">Buy now</a>
+                    <div>
+                        <input min="0" name="quantity" value="1" type="number" id="number">
+
+                        <a class="numbers down"
+                           onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
+                                src="images/arrow_down.svg"> </a>
+                        <a class="numbers up"
+                           onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
+                                src="images/arrow_up.svg"></a>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="d-flex prices">
-                <a href="#">Buy now</a>
-                <div>
-                    <input min="0" name="quantity" value="1" type="number" id="number">
-
-                    <a class="numbers down"
-                       onclick="this.parentNode.querySelector('input[id=number]').stepDown()"> <img
-                            src="images/arrow_down.svg"> </a>
-                    <a class="numbers up"
-                       onclick="this.parentNode.querySelector('input[id=number]').stepUp()"><img
-                            src="images/arrow_up.svg"></a>
-                </div>
-                </div>
-
         </div>
     </div>
-</div>
 
 
 </section>
@@ -418,6 +385,89 @@
             </div>
         </div>
     </div>
+</div>
+
+<!-- Modal ingredients-->
+<div class="ingredients_modal modal fade" id="cartModalIngredients" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <h5 class="modal-title ml-4" id="exampleModalLabel3">
+                    INGREDIENTS
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-image">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <h4>Women's Health Blend</h4>
+                        </td>
+
+                        <td>
+                            <h4>
+                                Amount Per Serving
+                            </h4>
+                        </td>
+
+                        <td>
+                            <h4>
+                                % Daily Value
+                            </h4>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p class="main_paragraph">
+                                Calcium Fructoborate (FruiteX-B®)
+                                (providing 2 mg Boron)
+                                Ginger Extract (root)
+                                Organic Aloe Vera (ACTIValoe®)
+                                (100% Inner fillet or leaf)
+                                Marigold extract (Tagetes erecta)
+                                (flower)[std. to 5 mg trans-lutein,
+                                155 mcg trans-zeaxanthin]
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                250 mg
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                17%
+                            </p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+
+
+                    </tr>
+                    <th class="line-through"></th>
+                    <td class="minus_price"></td>
+
+                    <tr>
+
+                    </tr>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
 </div>
 </body>
 </html>

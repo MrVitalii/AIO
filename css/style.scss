@@ -73,6 +73,12 @@ $light_grey: #5F6C81;
 
   .modal-content {
     width: 87%;
+    .close{
+      span {
+        color: black !important;
+        font-size: 26px;
+      }
+    }
   }
 
   .first_name {
