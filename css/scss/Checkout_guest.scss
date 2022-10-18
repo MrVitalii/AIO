@@ -12,50 +12,59 @@ $light_grey: #5F6C81;
 }
 
 
-.checkout {
+.checkout_guest {
   margin-left: 27px;
+  width: 790px;
 
-  #exampleInputEmail1 {
-    width: 340px;
-    height: 48px;
-    background: #FDFEFE;
-    border: 1px solid #D2D4DA;
+  h1 {
+
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 120%;
+    color: #191A1C;
+    width: 220px;
+
   }
 
-  #exampleInputPassword1 {
-    width: 340px;
-    height: 48px;
-
-    background: rgba(255, 255, 255, 0.82);
-    border: 1px solid #D2D4DA;
+  span {
+    margin-left: 164px;
   }
 
-  .form-check-label {
-    margin-left: 20px;
-  }
-
-  .form-check-input {
-    position: absolute;
-    margin-top: 0.3rem;
-    margin-left: 0px;
-  }
-
-  .sign_in {
+  .delivery {
     width: 715px;
     height: 48px;
-    background-color: #393D46!important;
-    padding: 12px 248px 16px 332px;
+    background-color: #393D46 !important;
+    padding-top: 16px;
+    padding-left: 280px;
     margin-bottom: 15px;
     border: #393D46;
+    font-family: $secondary_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
   }
 
-  .create {
+  .payment {
     width: 715px;
     height: 48px;
-    border: 1px solid #9C9EA3!important;
-    color: $black;
-    background-color: transparent!important;
-    margin-bottom: 236px;
+    background-color: #393D46 !important;
+    padding-top: 16px;
+    margin-bottom: 15px;
+    border: #393D46;
+    font-family: $secondary_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
   }
 
   .form-group {
@@ -85,25 +94,125 @@ $light_grey: #5F6C81;
     margin-left: 94px;
   }
 
-  .forgot {
-    margin-left: 0%;
+  #exampleFormControlSelect1 {
+    width: 335px;
+    height: 48px;
+    background: #FDFEFE;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    color: #4C4F57;
+    border: 1px solid #D2D4DA;
+    appearance: none;
+    background: url("/images/arrow_down_grey.svg") no-repeat right;
+    background-position-x: calc(100% - 8px)
+  }
+
+  input {
     font-family: $main_font;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 120%;
-    text-align: right;
-    letter-spacing: 0.4px;
+    color: #4C4F57;
+  }
+
+  label {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
     color: #191A1C;
+    width: 200px
   }
 
-  .email_group {
-    margin-left: 170px !important;
+  .form-control {
+    width: 335px;
+    height: 48px;
+    left: 125px;
+    top: 429px;
+    background: #FDFEFE;
+    border: 1px solid #D2D4DA;
   }
 
+  .last-name {
+    position: relative;
+    left: 274px;
+  }
+
+  .province {
+    position: relative;
+    left: 284px;
+    #inputState{
+    appearance: none;
+    background: url("/images/arrow_down_grey.svg") no-repeat right;
+    background-position-x: calc(100% - 8px)}
+  }
+
+  .address {
+    width: 710px !important;
+  }
+
+  .phone-number {
+    position: relative;
+    left: 345px;
+  }
+
+  .delivery_pay{
+    input[type='radio']::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 14px;
+      height: 14px;
+      background: #FDFDFE;
+      border: 1px solid #393D46;
+      border-radius: 40px
+    }
+
+    input[type='radio']:checked::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      visibility: visible;
+      width: 6px;
+      height: 6px;
+      background: #393D46;
+      border-radius: 40px;
+    }
+
+
+    padding-top: 97px;
+    padding-bottom: 584px;
+    .w-249{
+      width: 249px;
+    }
+    label {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 120%;
+      color: rgba(57, 61, 70, 0.9);
+      padding-bottom: 57px;
+    }
+  }
+  .border-top{
+    width: 710px;
+  }
+  .form-check{
+    padding-top: 29px;
+  }
 }
 
-.shop_cart {
+.shop_cart_guest {
   margin-left: 125px;
   left: 5%;
 
@@ -220,9 +329,8 @@ $light_grey: #5F6C81;
   margin-right: 40px;
 }
 
-
 .second_column {
-  left: -29%;
+  left: -30%;
   bottom: -144px;
 }
 
