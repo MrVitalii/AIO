@@ -1897,7 +1897,7 @@ footer {
   margin-left: 38px;
   margin-right: 430px; }
 .personal_account .mr-29 {
-  margin-left: -29px; }
+  margin-left: -64px; }
 .personal_account table {
   width: 790px;
   position: relative;
@@ -1950,6 +1950,17 @@ footer {
 .personal_account .steps_buttons {
   top: 280px;
   z-index: 2; }
+.personal_account .pr-before {
+  position: relative;
+  right: 72px;
+  top: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  text-decoration-line: line-through;
+  color: rgba(57, 61, 70, 0.8); }
 
 .account-details .sign {
   font-family: 'Inter', sans-serif;

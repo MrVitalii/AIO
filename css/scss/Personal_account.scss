@@ -205,14 +205,13 @@ $light_grey: #5F6C81;
   }
 
   .mr-29 {
-    margin-left: -29px;
+    margin-left: -64px;
   }
 
   table {
     width: 790px;
     position: relative;
     right: 4%;
-
   }
 
   .sign {
@@ -283,4 +282,16 @@ $light_grey: #5F6C81;
     z-index: 2;
   }
 
+  .pr-before{
+    position: relative;
+    right: 72px;
+    top: 12px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    text-decoration-line: line-through;
+    color: rgba(57, 61, 70, 0.8);
+  }
 }
