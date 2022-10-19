@@ -1796,12 +1796,15 @@ footer {
   right: 74px; }
 .personal_account #progressbar li {
   list-style-type: none;
-  font-size: x-small;
   width: 25%;
   float: left;
   position: relative;
-  font-weight: 400;
-  color: #a09f9f; }
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 120%;
+  color: #191A1C; }
 .personal_account #progressbar #step1:before {
   content: "";
   color: #0BD11F;
@@ -1818,6 +1821,7 @@ footer {
 .personal_account #progressbar #step3:before {
   content: "";
   color: #fff;
+  color: #0BD11F !important;
   width: 7px;
   height: 7px;
   margin-right: 0px !important;
@@ -1826,14 +1830,14 @@ footer {
   line-height: 29px;
   display: block;
   font-size: 12px;
-  background: #ddd;
+  background: #0BD11F;
   margin: auto;
   z-index: -1;
   margin-bottom: 1vh; }
 .personal_account #progressbar li:after {
   content: '';
   height: 1px;
-  background: #ddd;
+  background-color: #0BD11F;
   position: absolute;
   left: 0%;
   right: 0%;
@@ -1934,7 +1938,10 @@ footer {
   top: 20px; }
 .personal_account .percent {
   position: relative;
-  left: 20px; }
+  left: 20px;
+  color: #F4442E; }
+.personal_account .orange_prices {
+  color: #F4442E; }
 .personal_account .safari_only {
   position: relative;
   left: 163px;

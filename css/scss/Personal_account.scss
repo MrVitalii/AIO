@@ -11,7 +11,6 @@ $light_grey: #5F6C81;
   }
 }
 
-
 .personal_account {
   .tracking {
     padding-top: 36px;
@@ -45,12 +44,19 @@ $light_grey: #5F6C81;
 
   #progressbar li {
     list-style-type: none;
-    font-size: x-small;
+    //font-size: x-small;
     width: 25%;
     float: left;
     position: relative;
-    font-weight: 400;
-    color: rgb(160, 159, 159);
+    //font-weight: 400;
+    //color: rgb(160, 159, 159);
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #191A1C;
+
   }
 
   #progressbar #step1:before {
@@ -82,6 +88,7 @@ $light_grey: #5F6C81;
   #progressbar #step3:before {
     content: "";
     color: #fff;
+    color: #0BD11F!important;
     width: 7px;
     height: 7px;
     margin-right: 0px !important;
@@ -92,7 +99,8 @@ $light_grey: #5F6C81;
     line-height: 29px;
     display: block;
     font-size: 12px;
-    background: #ddd;
+    //background: #ddd;
+    background: #0BD11F;
 
     margin: auto;
     z-index: -1;
@@ -102,7 +110,8 @@ $light_grey: #5F6C81;
   #progressbar li:after {
     content: '';
     height: 1px;
-    background: #ddd;
+    //background: #ddd;
+    background-color: #0BD11F;
     position: absolute;
     left: 0%;
     right: 0%;
@@ -127,6 +136,7 @@ $light_grey: #5F6C81;
   ////  float: left;
   ////  width: 68%;
   //}
+
   #progressbar li:nth-child(3):after {
     margin-left: auto;
     width: 146%;
@@ -254,6 +264,11 @@ $light_grey: #5F6C81;
   .percent {
     position: relative;
     left: 20px;
+    color: #F4442E;
+  }
+
+  .orange_prices{
+    color: #F4442E;
   }
 
   .safari_only {
