@@ -1,0 +1,271 @@
+$main_font: 'Inter', sans-serif;
+$secondary_font: 'Poppins', sans-serif;
+$white: #FFFFFF;
+$black: #191A1C;
+$grey: #393D46;
+$light_grey: #5F6C81;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+
+.personal_account {
+  .tracking {
+    padding-top: 36px;
+    padding-left: 36px;
+    padding-bottom: 95px;
+
+    .border-bottom {
+      width: 600px;
+    }
+
+    .title {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 120%;
+      color: #191A1C;
+    }
+  }
+
+  #progressbar {
+    margin-bottom: 3vh;
+    overflow: hidden;
+    color: #0BD11F;;
+    padding-left: 0px;
+    margin-top: 3vh;
+    width: 785px;
+    position: relative;
+    right: 74px
+  }
+
+  #progressbar li {
+    list-style-type: none;
+    font-size: x-small;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+    color: rgb(160, 159, 159);
+  }
+
+  #progressbar #step1:before {
+    content: "";
+    color: #0BD11F;;
+    width: 7px;
+    height: 7px;
+    margin-left: 0px !important;
+    /* padding-left: 11px !important */
+  }
+
+  #progressbar #step2:before {
+    content: "";
+    color: #fff;
+    width: 7px;
+    height: 7px;
+    margin-left: 99px;
+  }
+
+  //#progressbar #step3:before {
+  //  content: "";
+  //  color: #fff;
+  //  width: 5px;
+  //  height: 5px;
+  //  margin-right: 32% ;
+  //  /* padding-right: 11px !important */
+  //}
+
+  #progressbar #step3:before {
+    content: "";
+    color: #fff;
+    width: 7px;
+    height: 7px;
+    margin-right: 0px !important;
+    /* padding-right: 11px !important */
+  }
+
+  #progressbar li:before {
+    line-height: 29px;
+    display: block;
+    font-size: 12px;
+    background: #ddd;
+
+    margin: auto;
+    z-index: -1;
+    margin-bottom: 1vh;
+  }
+
+  #progressbar li:after {
+    content: '';
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 2vh;
+    top: 3px;
+    z-index: 1;
+  }
+
+  .progress-track {
+    padding: 0 8%;
+  }
+
+  #progressbar li:nth-child(1):after {
+    margin: auto;
+  }
+
+  #progressbar li:nth-child(2):after {
+    margin-right: auto;
+  }
+
+  ////#progressbar li:nth-child(3):after {
+  ////  float: left;
+  ////  width: 68%;
+  //}
+  #progressbar li:nth-child(3):after {
+    margin-left: auto;
+    width: 146%;
+  }
+
+  #progressbar li.active {
+    color: black;
+  }
+
+  #progressbar li.active:before,
+  #progressbar li.active:after {
+    background: #0BD11F;
+  }
+
+  .ml-39 {
+    margin-left: 39px;
+    margin-top: 111px;
+    padding-bottom: 171px;
+
+    h4 {
+      border-bottom: 1px solid #E5E8EF;
+      width: 586px;
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 120%;
+      color: #191A1C;
+      padding-bottom: 26px;
+    }
+  }
+
+  .first-part {
+    font-family: $main_font !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 120% !important;
+    color: #191A1C !important;
+
+  }
+
+  .second-part{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(57, 61, 70, 0.8);
+  }
+
+  h5 {
+    border-bottom: 1px solid #E5E8EF;
+    width: 586px;
+    position: relative;
+    top: 62px;
+    left: 3%;
+  }
+
+
+  .subtotal {
+    margin-left: 38px;
+    margin-right: 430px;
+  }
+
+  .mr-29 {
+    margin-left: -29px;
+  }
+
+  table {
+    width: 790px;
+    position: relative;
+    right: 4%;
+
+  }
+
+  .sign {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-decoration: none;
+    text-align: center;
+    color: #393D46;
+    margin-left: 38px;
+  }
+
+  .guest {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: rgba(57, 61, 70, 0.5);
+    text-decoration: none;
+    margin-left: 94px;
+  }
+
+  .vitamine {
+    position: relative;
+    bottom: 42px;
+    right: 144px;
+  }
+
+  .zink {
+    position: relative;
+    bottom: 47px;
+    right: 166px;
+  }
+
+  .line-through {
+    position: relative;
+    left: 100px;
+  }
+
+  .trash {
+    position: relative;
+    top: 20px;
+  }
+
+  .percent {
+    position: relative;
+    left: 20px;
+  }
+
+  .safari_only {
+    position: relative;
+    left: 163px;
+    top: 147px;
+    z-index: 2;
+  }
+
+  .steps_buttons {
+    top: 280px;
+    z-index: 2;
+  }
+
+}

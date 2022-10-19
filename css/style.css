@@ -1555,8 +1555,51 @@ footer {
     padding-top: 29px; }
 
 .shop_cart_guest {
-  margin-left: 125px;
-  left: 5%; }
+  margin-left: 234px; }
+  .shop_cart_guest .shop_cart {
+    margin-left: 125px;
+    left: 5%; }
+    .shop_cart_guest .shop_cart p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 120%;
+      color: #191A1C; }
+    .shop_cart_guest .shop_cart h4 {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 120%;
+      color: #393D46; }
+    .shop_cart_guest .shop_cart a {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 120%;
+      color: rgba(57, 61, 70, 0.9); }
+    .shop_cart_guest .shop_cart .trash {
+      margin-left: 35px; }
+    .shop_cart_guest .shop_cart .prices_group {
+      position: relative;
+      left: 330px;
+      bottom: 126px;
+      line-height: 10px; }
+    .shop_cart_guest .shop_cart .text-orange {
+      color: orangered; }
+    .shop_cart_guest .shop_cart h5 {
+      position: absolute;
+      left: 100%;
+      top: -2%;
+      width: 169px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 120%;
+      color: #393D46; }
   .shop_cart_guest p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1647,10 +1690,6 @@ footer {
   text-align: center;
   margin-right: 40px; }
 
-.second_column {
-  left: -30%;
-  bottom: -144px; }
-
 .info_column {
   position: absolute;
   top: 69px;
@@ -1683,51 +1722,228 @@ footer {
   line-height: 120% !important;
   color: #191A1C !important; }
 
-.number-input input[type=number]::-webkit-inner-spin-button, .number-input input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none; }
-
-.number-input button {
-  -webkit-appearance: none;
-  background-color: transparent;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  margin: 0;
-  position: relative; }
-
-.number-input button:before, .number-input button:after {
-  display: inline-block;
-  position: absolute;
-  content: '';
-  height: 2px;
-  transform: translate(-50%, -50%); }
-
-.number-input button.plus:after {
-  transform: translate(-50%, -50%) rotate(90deg); }
-
-.number-input input[type=number] {
-  text-align: center; }
-
-.number-input.number-input button {
-  height: .7rem; }
-
-.number-input.number-input button:before, .number-input.number-input button:after {
-  width: .7rem;
-  background-color: #495057; }
-
-.number-input.number-input input[type=number] {
-  max-width: 4rem;
-  padding: .5rem;
-  border: none;
-  font-size: 1rem;
-  height: 2rem;
-  color: #495057; }
-
 @media not all and (min-resolution: .001dpcm) {
   @supports (-webkit-appearance: none) and (stroke-color: transparent) {
     .number-input.def-number-input.safari_only button:before, .number-input.def-number-input.safari_only button:after {
       margin-top: -.3rem; } } }
+.shop_guest {
+  margin-left: 125px;
+  right: 34%;
+  top: 140px; }
+  .shop_guest p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    color: #191A1C; }
+  .shop_guest h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    color: #393D46; }
+  .shop_guest a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: rgba(57, 61, 70, 0.9); }
+  .shop_guest .trash {
+    margin-left: 35px; }
+  .shop_guest .prices_group {
+    position: relative;
+    left: 330px;
+    bottom: 126px;
+    line-height: 10px; }
+  .shop_guest .text-orange {
+    color: orangered; }
+  .shop_guest h5 {
+    position: absolute;
+    left: 100%;
+    top: -2%;
+    width: 169px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #393D46; }
+
+.personal_account .tracking {
+  padding-top: 36px;
+  padding-left: 36px;
+  padding-bottom: 95px; }
+  .personal_account .tracking .border-bottom {
+    width: 600px; }
+  .personal_account .tracking .title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 120%;
+    color: #191A1C; }
+.personal_account #progressbar {
+  margin-bottom: 3vh;
+  overflow: hidden;
+  color: #0BD11F;
+  padding-left: 0px;
+  margin-top: 3vh;
+  width: 785px;
+  position: relative;
+  right: 74px; }
+.personal_account #progressbar li {
+  list-style-type: none;
+  font-size: x-small;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-weight: 400;
+  color: #a09f9f; }
+.personal_account #progressbar #step1:before {
+  content: "";
+  color: #0BD11F;
+  width: 7px;
+  height: 7px;
+  margin-left: 0px !important;
+  /* padding-left: 11px !important */ }
+.personal_account #progressbar #step2:before {
+  content: "";
+  color: #fff;
+  width: 7px;
+  height: 7px;
+  margin-left: 99px; }
+.personal_account #progressbar #step3:before {
+  content: "";
+  color: #fff;
+  width: 7px;
+  height: 7px;
+  margin-right: 0px !important;
+  /* padding-right: 11px !important */ }
+.personal_account #progressbar li:before {
+  line-height: 29px;
+  display: block;
+  font-size: 12px;
+  background: #ddd;
+  margin: auto;
+  z-index: -1;
+  margin-bottom: 1vh; }
+.personal_account #progressbar li:after {
+  content: '';
+  height: 1px;
+  background: #ddd;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin-bottom: 2vh;
+  top: 3px;
+  z-index: 1; }
+.personal_account .progress-track {
+  padding: 0 8%; }
+.personal_account #progressbar li:nth-child(1):after {
+  margin: auto; }
+.personal_account #progressbar li:nth-child(2):after {
+  margin-right: auto; }
+.personal_account #progressbar li:nth-child(3):after {
+  margin-left: auto;
+  width: 146%; }
+.personal_account #progressbar li.active {
+  color: black; }
+.personal_account #progressbar li.active:before, .personal_account #progressbar li.active:after {
+  background: #0BD11F; }
+.personal_account .ml-39 {
+  margin-left: 39px;
+  margin-top: 111px;
+  padding-bottom: 171px; }
+  .personal_account .ml-39 h4 {
+    border-bottom: 1px solid #E5E8EF;
+    width: 586px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 120%;
+    color: #191A1C;
+    padding-bottom: 26px; }
+.personal_account .first-part {
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 120% !important;
+  color: #191A1C !important; }
+.personal_account .second-part {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(57, 61, 70, 0.8); }
+.personal_account h5 {
+  border-bottom: 1px solid #E5E8EF;
+  width: 586px;
+  position: relative;
+  top: 62px;
+  left: 3%; }
+.personal_account .subtotal {
+  margin-left: 38px;
+  margin-right: 430px; }
+.personal_account .mr-29 {
+  margin-left: -29px; }
+.personal_account table {
+  width: 790px;
+  position: relative;
+  right: 4%; }
+.personal_account .sign {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-decoration: none;
+  text-align: center;
+  color: #393D46;
+  margin-left: 38px; }
+.personal_account .guest {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  color: rgba(57, 61, 70, 0.5);
+  text-decoration: none;
+  margin-left: 94px; }
+.personal_account .vitamine {
+  position: relative;
+  bottom: 42px;
+  right: 144px; }
+.personal_account .zink {
+  position: relative;
+  bottom: 47px;
+  right: 166px; }
+.personal_account .line-through {
+  position: relative;
+  left: 100px; }
+.personal_account .trash {
+  position: relative;
+  top: 20px; }
+.personal_account .percent {
+  position: relative;
+  left: 20px; }
+.personal_account .safari_only {
+  position: relative;
+  left: 163px;
+  top: 147px;
+  z-index: 2; }
+.personal_account .steps_buttons {
+  top: 280px;
+  z-index: 2; }
+
 .container {
   max-width: 1440px; }
 

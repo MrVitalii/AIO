@@ -75,7 +75,7 @@
 
 <section>
     <div class="d-flex container">
-        <form class="checkout_guest">
+        <div class="checkout_guest">
             <a href="checkout_sign_in.html" class="sign">Sign in</a>
             <a href="#" class="guest">Guest checkout</a>
             <div class="row">
@@ -134,7 +134,8 @@
                         </div>
                         <div class="form-group col-md-2 phone-number">
                             <label for="inputZip">Phone Number</label>
-                            <input type="text" class="form-control" id="inputPhone" placeholder="Enter your phone number">
+                            <input type="text" class="form-control" id="inputPhone"
+                                   placeholder="Enter your phone number">
                         </div>
                     </div>
 
@@ -142,67 +143,70 @@
             </div>
             <a type="submit" class="btn btn-primary delivery d-flex">CONTINUE TO DELIVERY</a>
 
-<div class="delivery_pay">
-    <div>
-    <h1 class="pb-4">Delivery Method</h1>
-    <div class="form-check border-top">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-        <label class="form-check-label" for="flexRadioDefault1">
-            Economy $0.00
-        </label>
-        <label class="form-check-label" for="flexRadioDefault1">
-            (6-10 Business Days)
-        </label>
-    </div>
-    <div class="form-check border-top">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-        <label class="form-check-label" for="flexRadioDefault2">
-            Economy Select $12.00
-        </label>
-        <label class="form-check-label" for="flexRadioDefault2">
-            (3-4 Business Days)
-        </label>
-    </div>
-    <div class="form-check border-top border-bottom">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
-        <label class="form-check-label" for="flexRadioDefault3">
-            Expedited $25.00
-        </label>
-        <label class="form-check-label" for="flexRadioDefault3">
-            (2 Business Days)
-        </label>
-    </div>
+            <div class="delivery_pay">
+                <div>
+                    <h1 class="pb-4">Delivery Method</h1>
+                    <div class="form-check border-top">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Economy $0.00
+                        </label>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            (6-10 Business Days)
+                        </label>
+                    </div>
+                    <div class="form-check border-top">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                               checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Economy Select $12.00
+                        </label>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            (3-4 Business Days)
+                        </label>
+                    </div>
+                    <div class="form-check border-top border-bottom">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3"
+                               checked>
+                        <label class="form-check-label" for="flexRadioDefault3">
+                            Expedited $25.00
+                        </label>
+                        <label class="form-check-label" for="flexRadioDefault3">
+                            (2 Business Days)
+                        </label>
+                    </div>
 
-    <a type="submit" class="btn btn-primary payment">
-        CONTINUE TO PAYMENT
-    </a>
+                    <a type="submit" class="btn btn-primary payment">
+                        CONTINUE TO PAYMENT
+                    </a>
+                </div>
+
+                <!--Second part-->
+                <div class="pt-5">
+                    <h1 class="pb-4">Delivery Method</h1>
+                    <div class="form-check border-top">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault4">
+                        <label class="form-check-label" for="flexRadioDefault4">
+                            <img src="images/PayPall.svg">
+                        </label>
+                        <label class="form-check-label w-249" for="flexRadioDefault4">
+                            4 interest-free payments of $56.62
+                        </label>
+                    </div>
+                    <div class="form-check border-top">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault5"
+                               checked>
+                        <label class="form-check-label" for="flexRadioDefault5">
+                            <img src="images/Fondy.svg">
+                        </label>
+                    </div>
+
+                    <a type="submit" href="Personal_account.html" class="btn btn-primary payment">
+                        Review Your Order
+                    </a>
+                </div>
+            </div>
         </div>
-
-    <!--Second part-->
-    <div class="pt-5">
-    <h1 class="pb-4">Delivery Method</h1>
-    <div class="form-check border-top">
-        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault4">
-        <label class="form-check-label" for="flexRadioDefault4">
-         <img src="images/PayPall.svg">
-        </label>
-        <label class="form-check-label w-249" for="flexRadioDefault4">
-            4 interest-free payments of $56.62
-        </label>
-    </div>
-    <div class="form-check border-top">
-        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault5" checked>
-        <label class="form-check-label" for="flexRadioDefault5">
-           <img src="images/Fondy.svg">
-        </label>
-    </div>
-
-    <a type="submit" class="btn btn-primary payment">
-        Review Your Order
-    </a>
-</div>
-</div>
-        </form>
 
         <div class="shop_cart_guest d-flex position-relative">
             <h4>Summary</h4>
@@ -232,7 +236,7 @@
             </div>
         </div>
 
-        <div class="shop_cart second_column d-flex position-relative">
+        <div class=" shop_guest d-flex position-relative">
             <div class="position-absolute mt-5"><img alt="logo" src="images/supplement.jpg">
                 <h5>
                     Zink

@@ -146,10 +146,12 @@ $light_grey: #5F6C81;
   .province {
     position: relative;
     left: 284px;
-    #inputState{
-    appearance: none;
-    background: url("/images/arrow_down_grey.svg") no-repeat right;
-    background-position-x: calc(100% - 8px)}
+
+    #inputState {
+      appearance: none;
+      background: url("/images/arrow_down_grey.svg") no-repeat right;
+      background-position-x: calc(100% - 8px)
+    }
   }
 
   .address {
@@ -161,7 +163,7 @@ $light_grey: #5F6C81;
     left: 345px;
   }
 
-  .delivery_pay{
+  .delivery_pay {
     input[type='radio']::before {
       content: '';
       position: absolute;
@@ -191,9 +193,11 @@ $light_grey: #5F6C81;
 
     padding-top: 97px;
     padding-bottom: 584px;
-    .w-249{
+
+    .w-249 {
       width: 249px;
     }
+
     label {
       font-family: $main_font;
       font-style: normal;
@@ -204,17 +208,80 @@ $light_grey: #5F6C81;
       padding-bottom: 57px;
     }
   }
-  .border-top{
+
+  .border-top {
     width: 710px;
   }
-  .form-check{
+
+  .form-check {
     padding-top: 29px;
   }
 }
 
 .shop_cart_guest {
-  margin-left: 125px;
-  left: 5%;
+  margin-left: 234px;
+
+
+  .shop_cart {
+    margin-left: 125px;
+    left: 5%;
+
+    p {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 120%;
+      color: #191A1C;
+    }
+
+    h4 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 120%;
+      color: #393D46;
+
+    }
+
+    a {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 120%;
+      color: rgba(57, 61, 70, 0.9);
+    }
+
+    .trash {
+      margin-left: 35px;
+    }
+
+    .prices_group {
+      position: relative;
+      left: 330px;
+      bottom: 126px;
+      line-height: 10px;
+    }
+
+    .text-orange {
+      color: orangered;
+    }
+
+    h5 {
+      position: absolute;
+      left: 100%;
+      top: -2%;
+      width: 169px;
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 120%;
+      color: #393D46;
+    }
+  }
 
   p {
     font-family: $main_font;
@@ -329,10 +396,6 @@ $light_grey: #5F6C81;
   margin-right: 40px;
 }
 
-.second_column {
-  left: -30%;
-  bottom: -144px;
-}
 
 .info_column {
   position: absolute;
@@ -371,63 +434,6 @@ $light_grey: #5F6C81;
   color: #191A1C !important;
 }
 
-
-.number-input input[type=number]::-webkit-inner-spin-button,
-.number-input input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-}
-
-.number-input button {
-  -webkit-appearance: none;
-  background-color: transparent;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  margin: 0;
-  position: relative;
-}
-
-.number-input button:before,
-.number-input button:after {
-  display: inline-block;
-  position: absolute;
-  content: '';
-  height: 2px;
-  transform: translate(-50%, -50%);
-}
-
-.number-input button.plus:after {
-  transform: translate(-50%, -50%) rotate(90deg);
-}
-
-.number-input input[type=number] {
-  text-align: center;
-}
-
-
-.number-input.number-input button {
-
-  height: .7rem;
-}
-
-
-.number-input.number-input button:before,
-.number-input.number-input button:after {
-  width: .7rem;
-  background-color: #495057;
-}
-
-.number-input.number-input input[type=number] {
-  max-width: 4rem;
-  padding: .5rem;
-  border: none;
-
-  font-size: 1rem;
-  height: 2rem;
-  color: #495057;
-}
-
 @media not all and (min-resolution: .001dpcm) {
   @supports (-webkit-appearance: none) and (stroke-color:transparent) {
 
@@ -437,6 +443,69 @@ $light_grey: #5F6C81;
     }
   }
 }
+
+.shop_guest {
+  margin-left: 125px;
+  right: 34%;
+  top: 140px;
+
+  p {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    color: #191A1C;
+  }
+
+  h4 {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    color: #393D46;
+
+  }
+
+  a {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: rgba(57, 61, 70, 0.9);
+  }
+
+  .trash {
+    margin-left: 35px;
+  }
+
+  .prices_group {
+    position: relative;
+    left: 330px;
+    bottom: 126px;
+    line-height: 10px;
+  }
+
+  .text-orange {
+    color: orangered;
+  }
+
+  h5 {
+    position: absolute;
+    left: 100%;
+    top: -2%;
+    width: 169px;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #393D46;
+  }
+}
+
 
 
 
