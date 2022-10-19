@@ -1951,6 +1951,96 @@ footer {
   top: 280px;
   z-index: 2; }
 
+.account-details .sign {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-decoration: none;
+  text-align: center;
+  color: rgba(57, 61, 70, 0.5);
+  margin-left: 38px; }
+.account-details .guest {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  color: #393D46;
+  text-decoration: none;
+  margin-left: 94px; }
+.account-details .small-line {
+  margin-left: 217px; }
+.account-details .first_cart {
+  max-width: 790px;
+  margin-left: 37px;
+  padding-bottom: 111px; }
+.account-details .second_cart {
+  max-width: 790px;
+  margin-left: 37px;
+  padding-bottom: 163px; }
+.account-details .mr-317 {
+  margin-right: 317px; }
+.account-details .mr-296 {
+  margin-right: 296px; }
+.account-details .mr-324 {
+  margin-right: 324px; }
+.account-details .mr-271 {
+  margin-right: 271px; }
+.account-details .mr-256 {
+  margin-right: 256px; }
+.account-details .mb-51 {
+  margin-bottom: 51px; }
+.account-details .mb-43 {
+  margin-bottom: 43px; }
+.account-details .mt-36 {
+  margin-top: 36px; }
+.account-details .edit {
+  margin-left: 540px; }
+.account-details .save {
+  width: 715px;
+  height: 48px;
+  background-color: #393D46 !important;
+  padding-top: 16px;
+  margin-top: 55px;
+  margin-bottom: 15px;
+  border: #393D46;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+.account-details h5 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 120%;
+  color: #191A1C; }
+.account-details .bold {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+  color: #191A1C; }
+.account-details p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  color: #4C4F57; }
+.account-details .pr-12 {
+  padding-right: 12px; }
+.account-details .pt {
+  padding-top: 17px; }
+
 .container {
   max-width: 1440px; }
 
