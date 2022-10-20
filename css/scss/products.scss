@@ -29,6 +29,19 @@ $light_grey: #5F6C81;
     text-align: center!important;
     letter-spacing: 0.4px!important;
     color: #393D46!important;
+    @include max-screen(1024px){
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    @include max-screen(428px){
+      margin-top: 41px;
+    }
+    @include max-screen(390px){
+      margin-left: 80px;
+    }
+    @include max-screen(360px){
+      margin-top: 54px;
+    }
   }
 
   .container {
@@ -106,6 +119,13 @@ $light_grey: #5F6C81;
     @include max-screen(428px) {
       font-size: 13px;
       width: 399px;
+    }
+    @include max-screen(390px){
+      font-size: 12px;
+      width: 357px;
+    }
+    @include max-screen(360px){
+      width: 330px;
     }
   }
 

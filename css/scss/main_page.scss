@@ -33,6 +33,11 @@ $light_grey: #5F6C81;
     position: absolute;
     top: 183px;
     left: 55%;
+    @include max-screen(1024px){
+      top: 377px;
+      left: 24%;
+      font-size: 54px;
+    }
     @include max-screen(428px) {
       top: 364px;
       left: 22%;
@@ -62,6 +67,10 @@ $light_grey: #5F6C81;
       background-color: #393D46;
       color: white!important;
       transition: 0.5s;
+    }
+    @include max-screen(1024px){
+      top: 452px;
+      left: 37%;
     }
     @include max-screen(428px) {
       top: 478px;

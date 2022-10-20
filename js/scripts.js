@@ -2,9 +2,10 @@ $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
         loop:true,
-        margin:0,
+        margin:50,
         nav:true,
-        autoWidth: true,
+        freeDrag: true,
+        autoWidth: false,
         navText: [ '', '' ],
         lazyLoad: true,
         autoplay: true,

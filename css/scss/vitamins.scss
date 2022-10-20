@@ -16,10 +16,12 @@ $light_grey: #5F6C81;
     max-width: 1270px;
   }
 
-  .owl-carousel .owl-item img {
-    @include max-screen(428px) {
-      width: 35%;
-    }
+  .owl-carousel .owl-item {
+      @include max-screen(1024px){
+      }
+      @include max-screen(428px) {
+        width: 100%;
+      }
   }
 
   a {
@@ -45,8 +47,14 @@ $light_grey: #5F6C81;
     line-height: 120%;
     color: #393D46;
     margin-left: 80px;
+    @include max-screen(1024px){
+      margin-left: 11px;
+    }
     @include max-screen(428px) {
     margin-left: 25px;
+    }
+    @include max-screen(390px){
+      margin-left: 4px;
     }
   }
 
@@ -58,9 +66,15 @@ $light_grey: #5F6C81;
     line-height: 120%;
     color: #5F6C81;
     margin-left: 85px;
+    @include max-screen(1024px){
+      margin-left: 18px;
+    }
     @include max-screen(428px) {
       font-size: 11px;
       margin-left: 34px;
+    }
+    @include max-screen(390px){
+      margin-left: 13px;
     }
   }
 
@@ -81,9 +95,12 @@ $light_grey: #5F6C81;
     content: "\f060";
     color: #4C4F57;
     position: absolute;
-    right: 8%;
+    right: 9%;
     bottom: 103%;
     z-index: 3;
+    @include max-screen(820px){
+      right: 13%;
+    }
     @include max-screen(428px) {
       right: 89%;
       visibility: hidden;
@@ -98,8 +115,11 @@ $light_grey: #5F6C81;
     color: #4C4F57;
     position: absolute;
     bottom: 103%;
-    left: 97%;
+    left: 96%;
     z-index: 3;
+    @include max-screen(820px){
+      left: 92%;
+    }
     @include max-screen(428px) {
       left: 90%;
       visibility: hidden;
@@ -109,3 +129,4 @@ $light_grey: #5F6C81;
     }
   }
 }
+
