@@ -2368,7 +2368,7 @@ footer {
       right: 58px; } }
   @media screen and (max-width: 360px) {
     .shop_modal .modal-body .main_price {
-      right: 73px; } }
+      right: 87px; } }
   .shop_modal .modal-body .line-through {
     position: relative;
     bottom: 148px;
@@ -2381,7 +2381,7 @@ footer {
       left: 220px; } }
   @media screen and (max-width: 360px) {
     .shop_modal .modal-body .line-through {
-      left: 204px; } }
+      left: 190px; } }
   .shop_modal .modal-body .minus_price {
     position: relative;
     bottom: 129px;
@@ -2395,7 +2395,7 @@ footer {
       left: 91px; } }
   @media screen and (max-width: 360px) {
     .shop_modal .modal-body .minus_price {
-      left: 76px !important; } }
+      left: 64px !important; } }
   .shop_modal .modal-body .trash {
     position: relative;
     bottom: 106px;
@@ -2408,7 +2408,7 @@ footer {
       left: -39px; } }
   @media screen and (max-width: 360px) {
     .shop_modal .modal-body .trash {
-      left: -58px; } }
+      left: -67px; } }
   .shop_modal .modal-body .orange_prices {
     color: orangered; }
   .shop_modal .zink {
