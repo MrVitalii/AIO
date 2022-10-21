@@ -25,8 +25,21 @@ $light_grey: #5F6C81;
   #exampleInputPassword1 {
     width: 340px;
     height: 48px;
-
     background: rgba(255, 255, 255, 0.82);
+    border: 1px solid #D2D4DA;
+  }
+
+  #exampleInputPassword2 {
+    width: 340px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid #D2D4DA;
+  }
+
+  #exampleInputEmail2 {
+    width: 340px;
+    height: 48px;
+    background: #FDFEFE;
     border: 1px solid #D2D4DA;
   }
 

@@ -68,6 +68,9 @@ $light_grey: #5F6C81;
     left: 24px;
     width: 101%;
   }
+  @include max-screen(414px){
+    width: 102%;
+  }
 
 
   .sign_in {

@@ -140,6 +140,9 @@ header {
   @media screen and (max-width: 428px) {
     .immunity .owl-carousel {
       width: 100% !important; } }
+  @media screen and (max-width: 412px) {
+    .immunity .owl-carousel {
+      width: 99% !important; } }
   @media screen and (max-width: 390px) {
     .immunity .owl-carousel {
       width: 98% !important; } }
@@ -283,6 +286,9 @@ header {
   @media screen and (max-width: 428px) {
     .immunity a {
       width: 182.33px; } }
+  @media screen and (max-width: 412px) {
+    .immunity a {
+      width: 180.33px; } }
   @media screen and (max-width: 390px) {
     .immunity a {
       width: 164.33px; } }
@@ -469,6 +475,9 @@ header {
     .products .products_headline {
       font-size: 13px;
       width: 399px; } }
+  @media screen and (max-width: 412px) {
+    .products .products_headline {
+      width: 370px; } }
   @media screen and (max-width: 390px) {
     .products .products_headline {
       font-size: 12px;
@@ -831,6 +840,16 @@ footer {
     width: 340px;
     height: 48px;
     background: rgba(255, 255, 255, 0.82);
+    border: 1px solid #D2D4DA; }
+  .checkout #exampleInputPassword2 {
+    width: 340px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid #D2D4DA; }
+  .checkout #exampleInputEmail2 {
+    width: 340px;
+    height: 48px;
+    background: #FDFEFE;
     border: 1px solid #D2D4DA; }
   .checkout .form-check-label {
     margin-left: 20px; }
@@ -1466,11 +1485,11 @@ footer {
     padding-left: 14px;
     padding-top: 9px;
     position: relative;
-    right: 49px;
+    right: 50px;
     bottom: 14px; }
   .product_page .text-product .d-flex .down {
     bottom: -10px;
-    right: 4px;
+    right: 5px;
     height: 24px;
     padding-left: 14px;
     padding-top: 9px;
@@ -2230,6 +2249,9 @@ footer {
   .modal {
     left: 24px;
     width: 101%; } }
+@media screen and (max-width: 414px) {
+  .modal {
+    width: 102%; } }
 .modal .sign_in {
   width: 400px;
   margin-bottom: 15px;

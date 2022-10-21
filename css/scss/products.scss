@@ -126,6 +126,9 @@ $light_grey: #5F6C81;
       font-size: 13px;
       width: 399px;
     }
+    @include max-screen(412px){
+      width: 370px;
+    }
     @include max-screen(390px) {
       font-size: 12px;
       width: 357px;

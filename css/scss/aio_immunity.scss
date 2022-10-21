@@ -24,6 +24,9 @@ $light_grey: #5F6C81;
     @include max-screen(428px) {
       width: 100% !important;
     }
+    @include max-screen(412px){
+      width: 99%!important;
+    }
     @include max-screen(390px) {
       width: 98% !important;
     }
@@ -185,6 +188,9 @@ $light_grey: #5F6C81;
     text-decoration: none;
     @include max-screen(428px) {
       width: 182.33px;
+    }
+    @include max-screen(412px){
+      width: 180.33px;
     }
     @include max-screen(390px) {
       width: 164.33px;
