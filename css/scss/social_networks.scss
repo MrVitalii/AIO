@@ -18,10 +18,11 @@ $light_grey: #5F6C81;
   li {
     padding-right: 20px;
     margin-top: 76px;
-      &:hover {
-        transform: scale(1.12);
-        transition: 0.40s;
-      }
+
+    &:hover {
+      transform: scale(1.12);
+      transition: 0.40s;
+    }
   }
 
   h1 {

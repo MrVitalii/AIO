@@ -15,8 +15,8 @@ $light_grey: #5F6C81;
   padding-top: 119px;
   padding-left: 85px;
 
-  .text-product{
-    .Ingredients{
+  .text-product {
+    .Ingredients {
       font-family: $main_font;
       font-style: normal;
       font-weight: 400;
@@ -26,7 +26,7 @@ $light_grey: #5F6C81;
       color: #5F6C81;
     }
 
-    .main_price{
+    .main_price {
       font-family: $main_font;
       font-style: normal;
       font-weight: 400;
@@ -36,19 +36,19 @@ $light_grey: #5F6C81;
       color: #393D46;
     }
 
-    .line-through{
-      font-family: $main_font!important;
-      font-style: normal!important;
-      font-weight: 300!important;
-      font-size: 21px!important;
-      line-height: 120%!important;
-      letter-spacing: 0.6px!important;
-      text-decoration-line: line-through!important;
-      color: rgba(57, 61, 70, 0.8)!important;
+    .line-through {
+      font-family: $main_font !important;
+      font-style: normal !important;
+      font-weight: 300 !important;
+      font-size: 21px !important;
+      line-height: 120% !important;
+      letter-spacing: 0.6px !important;
+      text-decoration-line: line-through !important;
+      color: rgba(57, 61, 70, 0.8) !important;
       padding-top: 64px;
     }
 
-    .minus_percent{
+    .minus_percent {
       font-family: $main_font;
       font-style: normal;
       font-weight: 700;
@@ -59,16 +59,17 @@ $light_grey: #5F6C81;
       padding-top: 64px;
     }
 
-    h2{
-    font-family: $main_font;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 120%;
-    letter-spacing: 0.6px;
-    color: #393D46;}
+    h2 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 120%;
+      letter-spacing: 0.6px;
+      color: #393D46;
+    }
 
-    article{
+    article {
       width: 450px;
       padding-top: 14px;
       font-family: $main_font;
@@ -79,11 +80,13 @@ $light_grey: #5F6C81;
       color: #5F6C81;
 
     }
-    p{
+
+    p {
       padding-top: 50px;
       padding-right: 20px;
     }
-    h3{
+
+    h3 {
       padding-top: 50px;
       font-family: $main_font;
       font-style: normal;
@@ -93,11 +96,12 @@ $light_grey: #5F6C81;
       color: #5F6C81;
 
     }
-   .pb30{
-     padding-bottom: 30px;
-   }
 
-    .prices{
+    .pb30 {
+      padding-bottom: 30px;
+    }
+
+    .prices {
       padding-bottom: 50px;
     }
 
@@ -164,6 +168,7 @@ $light_grey: #5F6C81;
     margin: 0;
     padding: 0;
   }
+
   .thumbnails {
     //display: flex;
     flex-direction: column;
@@ -210,17 +215,19 @@ $light_grey: #5F6C81;
   }
 }
 
-.ingredients_modal{
-  .table{
+.ingredients_modal {
+  .table {
     margin-bottom: 0;
   }
-  td{
-    vertical-align: baseline!important;
-    text-align: start!important;
+
+  td {
+    vertical-align: baseline !important;
+    text-align: start !important;
 
   }
-  .modal-body{
-    h4{
+
+  .modal-body {
+    h4 {
       font-family: $main_font;
       font-style: normal;
       font-weight: 600;
@@ -228,7 +235,8 @@ $light_grey: #5F6C81;
       line-height: 130%;
       color: #000000;
     }
-    p{
+
+    p {
       font-family: $main_font;
       font-style: normal;
       font-weight: 400;
@@ -237,21 +245,25 @@ $light_grey: #5F6C81;
       color: #5F6C81;
 
     }
-    .main_paragraph{
+
+    .main_paragraph {
       width: 250px;
     }
   }
+
   .modal-content {
-    width: 714px!important;
-    .modal-header{
-      border-bottom: 1px solid #dee2e6!important;
-      h5{
-      font-family: $main_font;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 23px;
-      line-height: 120%;
-      color: #393D46;
+    width: 714px !important;
+
+    .modal-header {
+      border-bottom: 1px solid #dee2e6 !important;
+
+      h5 {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 120%;
+        color: #393D46;
       }
     }
   }

@@ -15,34 +15,34 @@ $light_grey: #5F6C81;
   padding-top: 161px;
   padding-bottom: 170px;
 
-  .primary_button{
-    width: 191.33px!important;
-    height: 48px!important;
-    border: 1px solid #393D46!important;
+  .primary_button {
+    width: 191.33px !important;
+    height: 48px !important;
+    border: 1px solid #393D46 !important;
     padding: 16px !important;
-    text-decoration: none!important;
+    text-decoration: none !important;
     font-family: $main_font;
-    font-style: normal!important;
-    font-weight: 600!important;
-    font-size: 14px!important;
-    line-height: 120%!important;
-    text-align: center!important;
-    letter-spacing: 0.4px!important;
-    color: #393D46!important;
-    @include max-screen(1024px){
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 120% !important;
+    text-align: center !important;
+    letter-spacing: 0.4px !important;
+    color: #393D46 !important;
+    @include max-screen(1024px) {
       margin-top: 20px;
       margin-bottom: 20px;
     }
-    @include max-screen(428px){
+    @include max-screen(428px) {
       margin-top: 41px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       margin-left: 80px;
     }
-    @include max-screen(360px){
+    @include max-screen(360px) {
       margin-top: 54px;
     }
-    @include max-screen(320px){
+    @include max-screen(320px) {
       margin-top: 85px;
       margin-left: 47px;
     }
@@ -88,11 +88,13 @@ $light_grey: #5F6C81;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.4px;
+
     &:hover {
       background-color: #393D46;
-      color: white!important;
+      color: white !important;
       transition: 0.5s;
     }
+
     @include max-screen(428px) {
       margin-left: 108px;
       margin-top: 35px;
@@ -124,14 +126,14 @@ $light_grey: #5F6C81;
       font-size: 13px;
       width: 399px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       font-size: 12px;
       width: 357px;
     }
-    @include max-screen(360px){
+    @include max-screen(360px) {
       width: 330px;
     }
-    @include max-screen(320px){
+    @include max-screen(320px) {
       width: 286px;
     }
   }
