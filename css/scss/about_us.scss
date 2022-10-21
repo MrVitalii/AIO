@@ -32,6 +32,18 @@ $light_grey: #5F6C81;
     @include max-screen(428px) {
       padding-left: unset;
     }
+    @include max-screen(414px){
+      font-size: 35px;
+    }
+    @include max-screen(375px){
+      font-size: 30px;
+    }
+    @include max-screen(360px){
+      font-size: 29px;
+    }
+    @include max-screen(320px){
+      font-size: 25px;
+    }
   }
 
   p {
@@ -47,13 +59,44 @@ $light_grey: #5F6C81;
       padding-left: unset;
       width: 370px;
     }
+    @include max-screen(375px){
+      width: 342px;
+    }
+    @include max-screen(360px){
+      width: 328px;
+    }
+    @include max-screen(320px){
+      width: 285px;
+    }
   }
 
   img {
     padding-left: 32px;
+    max-width: 662px;
+    @include max-screen(1024px) {
+      width: 520px;
+    }
+    @include max-screen(820px) {
+      width: 442px;
+    }
+    @include max-screen(768px) {
+      width: 410px;
+    }
     @include max-screen(428px) {
       padding-left: unset;
-      width: 407px;
+      width: 400px;
+    }
+    @include max-screen(414px) {
+      width: 395px;
+    }
+    @include max-screen(375px){
+      width: 355px;
+    }
+    @include max-screen(360px){
+      width: 342px;
+    }
+    @include max-screen(360px){
+      width: 304px;
     }
   }
 }

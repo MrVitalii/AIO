@@ -49,6 +49,12 @@ footer {
     color: $white;
     padding-top: 18px;
     background: transparent;
+    @include max-screen(360px){
+      font-size: 14px;
+    }
+    @include max-screen(320px){
+      font-size: 12px;
+    }
   }
 
   a {

@@ -405,7 +405,7 @@ header {
       margin-left: 80px; } }
   @media screen and (max-width: 360px) {
     .products .primary_button {
-      margin-top: 54px; } }
+      margin-top: 70px; } }
   @media screen and (max-width: 320px) {
     .products .primary_button {
       margin-top: 85px;
@@ -653,6 +653,12 @@ footer {
     color: #FFFFFF;
     padding-top: 18px;
     background: transparent; }
+  @media screen and (max-width: 360px) {
+    footer p {
+      font-size: 14px; } }
+  @media screen and (max-width: 320px) {
+    footer p {
+      font-size: 12px; } }
   footer a {
     font-family: 'Inter', sans-serif;
     height: 19px;
@@ -694,6 +700,18 @@ footer {
   @media screen and (max-width: 428px) {
     .about_us h1 {
       padding-left: unset; } }
+  @media screen and (max-width: 414px) {
+    .about_us h1 {
+      font-size: 35px; } }
+  @media screen and (max-width: 375px) {
+    .about_us h1 {
+      font-size: 30px; } }
+  @media screen and (max-width: 360px) {
+    .about_us h1 {
+      font-size: 29px; } }
+  @media screen and (max-width: 320px) {
+    .about_us h1 {
+      font-size: 25px; } }
   .about_us p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -707,12 +725,43 @@ footer {
     .about_us p {
       padding-left: unset;
       width: 370px; } }
+  @media screen and (max-width: 375px) {
+    .about_us p {
+      width: 342px; } }
+  @media screen and (max-width: 360px) {
+    .about_us p {
+      width: 328px; } }
+  @media screen and (max-width: 320px) {
+    .about_us p {
+      width: 285px; } }
   .about_us img {
-    padding-left: 32px; }
+    padding-left: 32px;
+    max-width: 662px; }
+  @media screen and (max-width: 1024px) {
+    .about_us img {
+      width: 520px; } }
+  @media screen and (max-width: 820px) {
+    .about_us img {
+      width: 442px; } }
+  @media screen and (max-width: 768px) {
+    .about_us img {
+      width: 410px; } }
   @media screen and (max-width: 428px) {
     .about_us img {
       padding-left: unset;
-      width: 407px; } }
+      width: 400px; } }
+  @media screen and (max-width: 414px) {
+    .about_us img {
+      width: 395px; } }
+  @media screen and (max-width: 375px) {
+    .about_us img {
+      width: 355px; } }
+  @media screen and (max-width: 360px) {
+    .about_us img {
+      width: 342px; } }
+  @media screen and (max-width: 360px) {
+    .about_us img {
+      width: 304px; } }
 
 .contacts {
   padding-top: 119px;
@@ -729,6 +778,9 @@ footer {
     letter-spacing: 0.6px;
     color: #393D46;
     padding-left: 90px; }
+  @media screen and (max-width: 428px) {
+    .contacts h1 {
+      padding: 0; } }
   .contacts h2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -737,6 +789,25 @@ footer {
     line-height: 160%;
     color: #5F6C81;
     padding-left: 90px; }
+  @media screen and (max-width: 428px) {
+    .contacts h2 {
+      padding: 0;
+      font-size: 17px; } }
+  @media screen and (max-width: 414px) {
+    .contacts h2 {
+      font-size: 16px; } }
+  @media screen and (max-width: 390px) {
+    .contacts h2 {
+      font-size: 15px; } }
+  @media screen and (max-width: 375px) {
+    .contacts h2 {
+      font-size: 14px; } }
+  @media screen and (max-width: 360px) {
+    .contacts h2 {
+      font-size: 13px; } }
+  @media screen and (max-width: 320px) {
+    .contacts h2 {
+      font-size: 11px; } }
   .contacts p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -746,12 +817,46 @@ footer {
     color: #5F6C81;
     max-width: 450px;
     padding-left: 90px; }
+  @media screen and (max-width: 428px) {
+    .contacts p {
+      padding: 0;
+      width: 360px; } }
+  @media screen and (max-width: 390px) {
+    .contacts p {
+      width: 359px; } }
+  @media screen and (max-width: 375px) {
+    .contacts p {
+      width: 320px; } }
+  @media screen and (max-width: 320px) {
+    .contacts p {
+      width: 282px; } }
   .contacts img {
     padding-left: 32px; }
+  @media screen and (max-width: 1024px) {
+    .contacts img {
+      width: 428px; } }
+  @media screen and (max-width: 992px) {
+    .contacts img {
+      width: 416px; } }
   @media screen and (max-width: 428px) {
     .contacts img {
       padding-left: unset;
       width: 407px; } }
+  @media screen and (max-width: 414px) {
+    .contacts img {
+      width: 382px; } }
+  @media screen and (max-width: 390px) {
+    .contacts img {
+      width: 365px; } }
+  @media screen and (max-width: 375px) {
+    .contacts img {
+      width: 344px; } }
+  @media screen and (max-width: 360px) {
+    .contacts img {
+      width: 333px; } }
+  @media screen and (max-width: 320px) {
+    .contacts img {
+      width: 295px; } }
 
 .imprints {
   padding-top: 119px;
@@ -2226,20 +2331,20 @@ footer {
 .container {
   max-width: 1440px; }
 
-.create-account .form-control {
+.form-control {
   width: 400px; }
-@media screen and (max-width: 428px) {
-  .create-account .form-control {
-    width: 315px; } }
-@media screen and (max-width: 375px) {
-  .create-account .form-control {
-    width: 281px; } }
-@media screen and (max-width: 360px) {
-  .create-account .form-control {
-    width: 260px; } }
-@media screen and (max-width: 320px) {
-  .create-account .form-control {
-    width: 232px; } }
+  @media screen and (max-width: 428px) {
+    .form-control {
+      width: 315px; } }
+  @media screen and (max-width: 375px) {
+    .form-control {
+      width: 281px; } }
+  @media screen and (max-width: 360px) {
+    .form-control {
+      width: 260px; } }
+  @media screen and (max-width: 320px) {
+    .form-control {
+      width: 232px; } }
 
 .owl-carousel .owl-item img {
   display: block;
