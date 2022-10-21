@@ -1681,7 +1681,7 @@ footer {
   @media screen and (max-width: 320px) {
     .advanced_vitamins a {
       width: 201px; } }
-  .advanced_vitamins input[type="number"]::-webkit-outer-spin-button, .advanced_vitamins input[type="number"]::-webkit-inner-spin-button {
+  .advanced_vitamins input[type="number1"]::-webkit-outer-spin-button, .advanced_vitamins input[type="number1"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; }
 
