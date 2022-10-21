@@ -32,12 +32,6 @@ footer {
         }
       }
     }
-
-    .made2022 {
-      @include max-screen(390px) {
-
-      }
-    }
   }
 
   .line {
