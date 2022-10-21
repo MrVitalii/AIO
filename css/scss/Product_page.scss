@@ -16,6 +16,11 @@ $light_grey: #5F6C81;
   padding-left: 85px;
 
   .text-product {
+
+    @include max-screen(1024px) {
+      margin-left: 79px;
+    }
+
     .Ingredients {
       font-family: $main_font;
       font-style: normal;
@@ -24,6 +29,9 @@ $light_grey: #5F6C81;
       line-height: 160%;
       text-decoration-line: underline;
       color: #5F6C81;
+      @include max-screen(428px) {
+        margin-left: -132px;
+      }
     }
 
     .main_price {
@@ -34,6 +42,15 @@ $light_grey: #5F6C81;
       line-height: 120%;
       letter-spacing: 0.6px;
       color: #393D46;
+      @include max-screen(428px) {
+        margin-left: -138px;
+      }
+      @include max-screen(375px) {
+        margin-left: -146px;
+      }
+      @include max-screen(360px) {
+        margin-left: -152px;
+      }
     }
 
     .line-through {
@@ -67,6 +84,9 @@ $light_grey: #5F6C81;
       line-height: 120%;
       letter-spacing: 0.6px;
       color: #393D46;
+      @include max-screen(428px) {
+        margin-left: -139px;
+      }
     }
 
     article {
@@ -78,12 +98,33 @@ $light_grey: #5F6C81;
       font-size: 15px;
       line-height: 160%;
       color: #5F6C81;
-
+      @include max-screen(428px) {
+        width: 389px;
+        margin-left: -133px;
+      }
+      @include max-screen(414px) {
+        width: 363px;
+      }
+      @include max-screen(375px) {
+        width: 333px;
+      }
+      @include max-screen(360px) {
+        width: 306px;
+      }
+      @include max-screen(320px) {
+        width: 265px;
+      }
     }
 
     p {
       padding-top: 50px;
       padding-right: 20px;
+      @include max-screen(360px) {
+        padding-right: 10px;
+      }
+      @include max-screen(320px) {
+        padding-right: 3px;
+      }
     }
 
     h3 {
@@ -94,7 +135,9 @@ $light_grey: #5F6C81;
       font-size: 15px;
       line-height: 160%;
       color: #5F6C81;
-
+      @include max-screen(428px) {
+        margin-left: -132px;
+      }
     }
 
     .pb30 {
@@ -131,15 +174,21 @@ $light_grey: #5F6C81;
         position: relative;
         right: 50px;
         bottom: 14px;
+        @include max-screen(428px) {
+          right: -259px;
+        }
       }
 
       .down {
         bottom: -10px;
-        right: 5px;
+        right: 4px;
         height: 24px;
         padding-left: 14px;
         padding-top: 9px;
         position: relative;
+        @include max-screen(428px) {
+          right: -152px;
+        }
       }
 
       a {
@@ -151,6 +200,19 @@ $light_grey: #5F6C81;
         text-align: center;
         padding-top: 13px;
         text-decoration: none;
+        @include max-screen(428px) {
+          margin-left: -152px;
+          width: 300px;
+        }
+        @include max-screen(375px) {
+          width: 261px;
+        }
+        @include max-screen(360px) {
+          width: 244px;
+        }
+        @include max-screen(320px) {
+          width: 209px;
+        }
       }
 
       input[type="number"]::-webkit-outer-spin-button,
@@ -174,6 +236,10 @@ $light_grey: #5F6C81;
     flex-direction: column;
     line-height: 0;
     padding-right: 10px;
+    @include max-screen(428px) {
+      position: absolute;
+      left: 17px;
+    }
 
     li {
       flex: auto;
@@ -198,7 +264,6 @@ $light_grey: #5F6C81;
     width: 75vmin;
     height: 100vmin;
 
-
     li {
       width: 75vmin;
       height: 100vmin;
@@ -211,6 +276,10 @@ $light_grey: #5F6C81;
       //height: 100vmin;
       object-fit: cover;
       object-position: top;
+      @include max-screen(428px) {
+        width: 311px;
+        margin-left: 11px;
+      }
     }
   }
 }
