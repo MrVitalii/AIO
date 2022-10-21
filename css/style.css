@@ -180,6 +180,9 @@ header {
       left: 4%;
       width: 345px;
       font-size: 48px; } }
+  @media screen and (max-width: 320px) {
+    .immunity h1 {
+      font-size: 42px; } }
   .immunity p {
     width: 402px;
     height: 81px;
@@ -212,6 +215,11 @@ header {
       left: 6%;
       font-size: 16px;
       width: 328px; } }
+  @media screen and (max-width: 320px) {
+    .immunity p {
+      left: 6%;
+      width: 288px;
+      top: 45%; } }
   .immunity .buttons {
     position: absolute;
     top: 344px;
@@ -236,6 +244,9 @@ header {
   @media screen and (max-width: 360px) {
     .immunity .buttons {
       top: 313px; } }
+  @media screen and (max-width: 320px) {
+    .immunity .buttons {
+      top: 288px; } }
     .immunity .buttons .buy {
       background: #393D46;
       font-family: 'Inter', sans-serif;
@@ -278,6 +289,9 @@ header {
   @media screen and (max-width: 360px) {
     .immunity a {
       width: 150.33px; } }
+  @media screen and (max-width: 320px) {
+    .immunity a {
+      width: 128.33px; } }
     .immunity a:hover {
       background-color: #393D46;
       color: white;
@@ -329,6 +343,10 @@ header {
   @media screen and (max-width: 820px) {
     .immunity .owl-dots {
       bottom: 13%; } }
+  @media screen and (max-width: 320px) {
+    .immunity .owl-dots {
+      left: 14% !important;
+      bottom: 9% !important; } }
     .immunity .owl-dots button {
       width: 46.33px; }
   @media screen and (max-width: 428px) {
@@ -382,6 +400,10 @@ header {
   @media screen and (max-width: 360px) {
     .products .primary_button {
       margin-top: 54px; } }
+  @media screen and (max-width: 320px) {
+    .products .primary_button {
+      margin-top: 85px;
+      margin-left: 47px; } }
   .products .container {
     max-width: 1270px; }
   .products .new_price {
@@ -454,6 +476,9 @@ header {
   @media screen and (max-width: 360px) {
     .products .products_headline {
       width: 330px; } }
+  @media screen and (max-width: 320px) {
+    .products .products_headline {
+      width: 286px; } }
   .products h2 {
     width: 123px;
     height: 43px;
@@ -507,6 +532,9 @@ header {
 @media screen and (max-width: 390px) {
   .vitamins h4 {
     margin-left: 4px; } }
+@media screen and (max-width: 320px) {
+  .vitamins h4 {
+    font-size: 32px; } }
 .vitamins p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -720,6 +748,9 @@ footer {
   padding-top: 119px;
   padding-bottom: 163px;
   padding-left: 85px; }
+  @media screen and (max-width: 375px) {
+    .imprints .col-12 {
+      margin-left: -29px; } }
   .imprints h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2176,13 +2207,29 @@ footer {
 .container {
   max-width: 1440px; }
 
+.create-account .form-control {
+  width: 400px; }
+@media screen and (max-width: 428px) {
+  .create-account .form-control {
+    width: 315px; } }
+@media screen and (max-width: 375px) {
+  .create-account .form-control {
+    width: 281px; } }
+@media screen and (max-width: 360px) {
+  .create-account .form-control {
+    width: 260px; } }
+@media screen and (max-width: 320px) {
+  .create-account .form-control {
+    width: 232px; } }
+
 .owl-carousel .owl-item img {
   display: block;
   width: 97% !important; }
 
 @media screen and (max-width: 428px) {
   .modal {
-    left: 24px; } }
+    left: 24px;
+    width: 101%; } }
 .modal .sign_in {
   width: 400px;
   margin-bottom: 15px;
@@ -2195,9 +2242,15 @@ footer {
 @media screen and (max-width: 390px) {
   .modal .sign_in {
     width: 293px; } }
+@media screen and (max-width: 375px) {
+  .modal .sign_in {
+    width: 281px; } }
 @media screen and (max-width: 360px) {
   .modal .sign_in {
     width: 266px; } }
+@media screen and (max-width: 320px) {
+  .modal .sign_in {
+    width: 234px; } }
 .modal .create {
   width: 400px;
   height: 48px;
@@ -2210,9 +2263,15 @@ footer {
 @media screen and (max-width: 390px) {
   .modal .create {
     width: 293px; } }
+@media screen and (max-width: 375px) {
+  .modal .create {
+    width: 281px; } }
 @media screen and (max-width: 360px) {
   .modal .create {
     width: 266px; } }
+@media screen and (max-width: 320px) {
+  .modal .create {
+    width: 234px; } }
 .modal #exampleInputEmail1 {
   max-width: 400px; }
 .modal #exampleInputPassword1 {
@@ -2237,6 +2296,9 @@ footer {
   line-height: 120%;
   text-align: center;
   color: #191A1C; }
+@media screen and (max-width: 360px) {
+  .modal .already {
+    margin-left: 18%; } }
 .modal .forgot {
   margin-left: 29%;
   color: #191A1C;
@@ -2249,6 +2311,9 @@ footer {
 @media screen and (max-width: 428px) {
   .modal .forgot {
     margin-left: 12%; } }
+@media screen and (max-width: 414px) {
+  .modal .forgot {
+    margin-left: 9%; } }
 @media screen and (max-width: 390px) {
   .modal .forgot {
     margin-left: -8%;
@@ -2363,12 +2428,18 @@ footer {
   @media screen and (max-width: 428px) {
     .shop_modal .modal-body .main_price {
       right: 15px; } }
+  @media screen and (max-width: 414px) {
+    .shop_modal .modal-body .main_price {
+      right: 37px; } }
   @media screen and (max-width: 390px) {
     .shop_modal .modal-body .main_price {
       right: 58px; } }
   @media screen and (max-width: 360px) {
     .shop_modal .modal-body .main_price {
       right: 87px; } }
+  @media screen and (max-width: 320px) {
+    .shop_modal .modal-body .main_price {
+      right: 113px; } }
   .shop_modal .modal-body .line-through {
     position: relative;
     bottom: 148px;
@@ -2376,12 +2447,18 @@ footer {
   @media screen and (max-width: 428px) {
     .shop_modal .modal-body .line-through {
       left: 262px; } }
+  @media screen and (max-width: 414px) {
+    .shop_modal .modal-body .line-through {
+      left: 240px; } }
   @media screen and (max-width: 390px) {
     .shop_modal .modal-body .line-through {
       left: 220px; } }
   @media screen and (max-width: 360px) {
     .shop_modal .modal-body .line-through {
       left: 190px; } }
+  @media screen and (max-width: 320px) {
+    .shop_modal .modal-body .line-through {
+      left: 164px; } }
   .shop_modal .modal-body .minus_price {
     position: relative;
     bottom: 129px;
@@ -2390,12 +2467,18 @@ footer {
   @media screen and (max-width: 428px) {
     .shop_modal .modal-body .minus_price {
       left: 135px; } }
+  @media screen and (max-width: 414px) {
+    .shop_modal .modal-body .minus_price {
+      left: 114px; } }
   @media screen and (max-width: 390px) {
     .shop_modal .modal-body .minus_price {
       left: 91px; } }
   @media screen and (max-width: 360px) {
     .shop_modal .modal-body .minus_price {
       left: 64px !important; } }
+  @media screen and (max-width: 320px) {
+    .shop_modal .modal-body .minus_price {
+      left: 34px !important; } }
   .shop_modal .modal-body .trash {
     position: relative;
     bottom: 106px;
@@ -2403,12 +2486,18 @@ footer {
   @media screen and (max-width: 428px) {
     .shop_modal .modal-body .trash {
       left: 4px; } }
+  @media screen and (max-width: 414px) {
+    .shop_modal .modal-body .trash {
+      left: -19px; } }
   @media screen and (max-width: 390px) {
     .shop_modal .modal-body .trash {
       left: -39px; } }
   @media screen and (max-width: 360px) {
     .shop_modal .modal-body .trash {
       left: -67px; } }
+  @media screen and (max-width: 320px) {
+    .shop_modal .modal-body .trash {
+      left: -99px; } }
   .shop_modal .modal-body .orange_prices {
     color: orangered; }
   .shop_modal .zink {

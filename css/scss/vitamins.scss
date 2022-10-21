@@ -56,6 +56,9 @@ $light_grey: #5F6C81;
     @include max-screen(390px){
       margin-left: 4px;
     }
+    @include max-screen(320px){
+      font-size: 32px;
+    }
   }
 
   p {

@@ -69,6 +69,9 @@ $light_grey: #5F6C81;
       width: 345px;
       font-size: 48px;
     }
+    @include max-screen(320px){
+      font-size: 42px;
+    }
   }
 
   p {
@@ -103,6 +106,11 @@ $light_grey: #5F6C81;
       font-size: 16px;
       width: 328px;
     }
+    @include max-screen(320px){
+      left: 6%;
+      width: 288px;
+      top: 45%;
+    }
   }
 
   .buttons {
@@ -128,6 +136,9 @@ $light_grey: #5F6C81;
     }
     @include max-screen(360px){
       top: 313px;
+    }
+    @include max-screen(320px){
+      top: 288px;
     }
 
 
@@ -178,6 +189,9 @@ $light_grey: #5F6C81;
     }
     @include max-screen(360px){
       width: 150.33px;
+    }
+    @include max-screen(320px){
+      width: 128.33px;
     }
 
     &:hover {
@@ -237,6 +251,10 @@ $light_grey: #5F6C81;
     }
     @include max-screen(820px){
       bottom: 13%;
+    }
+    @include max-screen(320px){
+      left: 14%!important;
+      bottom: 9%!important;
     }
 
     button {
