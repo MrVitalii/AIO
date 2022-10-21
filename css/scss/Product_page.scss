@@ -178,7 +178,7 @@ $light_grey: #5F6C81;
           right: -259px;
           @include max-screen(360px) {
             position: absolute;
-            top: 1221px;
+            top: 1219px;
             right: 16px;
           }
         }
@@ -186,7 +186,7 @@ $light_grey: #5F6C81;
 
       .down {
         bottom: -10px;
-        right: 4px;
+        right: 5px;
         height: 24px;
         padding-left: 14px;
         padding-top: 9px;
@@ -196,7 +196,7 @@ $light_grey: #5F6C81;
         }
         @include max-screen(360px) {
           position: absolute;
-          top: 1245px;
+          top: 1243px;
           right: 16px;
         }
       }
