@@ -11,7 +11,7 @@ $(document).ready(function(){
         navText: [ '', '' ],
         lazyLoad: true,
         autoplay: true,
-        autoplayTimeout: 20000,
+        autoplayTimeout: 12000,
         autoplaySpeed: 6500,
         responsive:{
             0:{

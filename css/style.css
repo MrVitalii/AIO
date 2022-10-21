@@ -1325,6 +1325,30 @@ footer {
 
 .products_overall {
   padding-top: 119px; }
+  @media screen and (max-width: 1024px) {
+    .products_overall img {
+      width: 500px;
+      margin-left: -17px;
+      margin-top: -118px; } }
+  @media screen and (max-width: 992px) {
+    .products_overall img {
+      width: 485px;
+      margin-top: -123px; } }
+  @media screen and (max-width: 428px) {
+    .products_overall img {
+      width: 375px; } }
+  @media screen and (max-width: 414px) {
+    .products_overall img {
+      width: 360px; } }
+  @media screen and (max-width: 375px) {
+    .products_overall img {
+      width: 324px; } }
+  @media screen and (max-width: 360px) {
+    .products_overall img {
+      width: 307px; } }
+  @media screen and (max-width: 320px) {
+    .products_overall img {
+      width: 265px; } }
   .products_overall p {
     width: 412px;
     font-family: 'Inter', sans-serif;
@@ -1333,6 +1357,18 @@ footer {
     font-size: 15px;
     line-height: 160%;
     color: #5F6C81; }
+  @media screen and (max-width: 428px) {
+    .products_overall p {
+      width: 345px; } }
+  @media screen and (max-width: 375px) {
+    .products_overall p {
+      width: 299px; } }
+  @media screen and (max-width: 360px) {
+    .products_overall p {
+      width: 270px; } }
+  @media screen and (max-width: 320px) {
+    .products_overall p {
+      width: 246px; } }
   .products_overall h2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1341,6 +1377,9 @@ footer {
     line-height: 120%;
     letter-spacing: 0.6px;
     color: #393D46; }
+  @media screen and (max-width: 992px) {
+    .products_overall h2 {
+      margin-top: 14px; } }
   .products_overall .text_overall {
     margin-bottom: 335px; }
   .products_overall .row {
@@ -1349,6 +1388,30 @@ footer {
 .overall_vitamins {
   padding-top: 130px;
   padding-bottom: 163px; }
+  @media screen and (max-width: 1024px) {
+    .overall_vitamins .d-block {
+      width: 300px; } }
+  @media screen and (max-width: 992px) {
+    .overall_vitamins .d-block {
+      width: 242px; } }
+  @media screen and (max-width: 768px) {
+    .overall_vitamins .d-block {
+      width: 225px; } }
+  @media screen and (max-width: 428px) {
+    .overall_vitamins .d-block {
+      width: 390px; } }
+  @media screen and (max-width: 414px) {
+    .overall_vitamins .d-block {
+      width: 382px; } }
+  @media screen and (max-width: 375px) {
+    .overall_vitamins .d-block {
+      width: 342px; } }
+  @media screen and (max-width: 360px) {
+    .overall_vitamins .d-block {
+      width: 327px; } }
+  @media screen and (max-width: 320px) {
+    .overall_vitamins .d-block {
+      width: 288px; } }
   .overall_vitamins h2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1408,6 +1471,35 @@ footer {
     text-align: center;
     padding-top: 13px;
     text-decoration: none; }
+    .overall_vitamins a:hover {
+      background-color: transparent;
+      color: black !important;
+      transition: 0.5s; }
+  @media screen and (max-width: 1024px) {
+    .overall_vitamins a {
+      width: 218px; } }
+  @media screen and (max-width: 992px) {
+    .overall_vitamins a {
+      width: 156px; } }
+  @media screen and (max-width: 768px) {
+    .overall_vitamins a {
+      width: 140px; } }
+  @media screen and (max-width: 428px) {
+    .overall_vitamins a {
+      width: 302px;
+      margin-bottom: 20px; } }
+  @media screen and (max-width: 414px) {
+    .overall_vitamins a {
+      width: 296px; } }
+  @media screen and (max-width: 375px) {
+    .overall_vitamins a {
+      width: 255px; } }
+  @media screen and (max-width: 360px) {
+    .overall_vitamins a {
+      width: 240px; } }
+  @media screen and (max-width: 320px) {
+    .overall_vitamins a {
+      width: 201px; } }
   .overall_vitamins input[type="number"]::-webkit-outer-spin-button, .overall_vitamins input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; }
