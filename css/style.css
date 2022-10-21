@@ -1825,7 +1825,7 @@ footer {
 @media screen and (max-width: 428px) and (max-width: 360px) {
   .product_page .text-product .d-flex .up {
     position: absolute;
-    top: 1219px;
+    top: 1221px;
     right: 16px; } }
   .product_page .text-product .d-flex .down {
     bottom: -10px;
@@ -1840,7 +1840,7 @@ footer {
   @media screen and (max-width: 360px) {
     .product_page .text-product .d-flex .down {
       position: absolute;
-      top: 1243px;
+      top: 1245px;
       right: 16px; } }
   .product_page .text-product .d-flex a {
     width: 330px;
