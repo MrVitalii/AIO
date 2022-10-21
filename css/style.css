@@ -1822,6 +1822,11 @@ footer {
   @media screen and (max-width: 428px) {
     .product_page .text-product .d-flex .up {
       right: -259px; } }
+@media screen and (max-width: 428px) and (max-width: 360px) {
+  .product_page .text-product .d-flex .up {
+    position: absolute;
+    top: 1219px;
+    right: 16px; } }
   .product_page .text-product .d-flex .down {
     bottom: -10px;
     right: 4px;
@@ -1832,6 +1837,11 @@ footer {
   @media screen and (max-width: 428px) {
     .product_page .text-product .d-flex .down {
       right: -152px; } }
+  @media screen and (max-width: 360px) {
+    .product_page .text-product .d-flex .down {
+      position: absolute;
+      top: 1243px;
+      right: 16px; } }
   .product_page .text-product .d-flex a {
     width: 330px;
     height: 48px;
@@ -1894,6 +1904,12 @@ footer {
       width: 311px;
       margin-left: 11px; } }
 
+@media screen and (max-width: 1024px) {
+  .ingredients_modal .modal-dialog {
+    left: -87px; } }
+@media screen and (max-width: 768px) {
+  .ingredients_modal .modal-dialog {
+    left: -102px; } }
 .ingredients_modal .table {
   margin-bottom: 0; }
 .ingredients_modal td {
@@ -1917,6 +1933,9 @@ footer {
   width: 250px; }
 .ingredients_modal .modal-content {
   width: 714px !important; }
+@media screen and (max-width: 428px) {
+  .ingredients_modal .modal-content {
+    width: 485px !important; } }
   .ingredients_modal .modal-content .modal-header {
     border-bottom: 1px solid #dee2e6 !important; }
     .ingredients_modal .modal-content .modal-header h5 {

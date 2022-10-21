@@ -176,6 +176,11 @@ $light_grey: #5F6C81;
         bottom: 14px;
         @include max-screen(428px) {
           right: -259px;
+          @include max-screen(360px) {
+            position: absolute;
+            top: 1219px;
+            right: 16px;
+          }
         }
       }
 
@@ -188,6 +193,11 @@ $light_grey: #5F6C81;
         position: relative;
         @include max-screen(428px) {
           right: -152px;
+        }
+        @include max-screen(360px) {
+          position: absolute;
+          top: 1243px;
+          right: 16px;
         }
       }
 
@@ -285,6 +295,15 @@ $light_grey: #5F6C81;
 }
 
 .ingredients_modal {
+  .modal-dialog {
+    @include max-screen(1024px) {
+      left: -87px;
+    }
+    @include max-screen(768px) {
+      left: -102px;
+    }
+  }
+
   .table {
     margin-bottom: 0;
   }
@@ -322,6 +341,9 @@ $light_grey: #5F6C81;
 
   .modal-content {
     width: 714px !important;
+    @include max-screen(428px) {
+      width: 485px !important;
+    }
 
     .modal-header {
       border-bottom: 1px solid #dee2e6 !important;
