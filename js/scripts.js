@@ -6,6 +6,8 @@ $(document).ready(function(){
         nav:true,
         freeDrag: true,
         autoWidth: false,
+        mouseDrag : true,
+        touchDrag : true,
         navText: [ '', '' ],
         lazyLoad: true,
         autoplay: true,
