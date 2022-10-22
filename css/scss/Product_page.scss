@@ -177,9 +177,9 @@ $light_grey: #5F6C81;
         @include max-screen(428px) {
           right: -259px;
           @include max-screen(360px) {
-            position: absolute;
-            top: 1219px;
-            right: 16px;
+
+
+            right: -258px;
           }
         }
       }
@@ -195,9 +195,7 @@ $light_grey: #5F6C81;
           right: -152px;
         }
         @include max-screen(360px) {
-          position: absolute;
-          top: 1243px;
-          right: 16px;
+          right: -151px;
         }
       }
 
@@ -295,12 +293,18 @@ $light_grey: #5F6C81;
 }
 
 .ingredients_modal {
+  .woman{
+    margin-left: 87px;
+  }
   .modal-dialog {
     @include max-screen(1024px) {
       left: -87px;
     }
     @include max-screen(768px) {
       left: -102px;
+    }
+    @include max-screen(414px){
+      left: -107px;
     }
   }
 
@@ -336,13 +340,35 @@ $light_grey: #5F6C81;
 
     .main_paragraph {
       width: 250px;
+      @include max-screen(428px){
+        width: 199px;
+        margin-left: 87px;
+      }
+      @include max-screen(375px){
+        width: 163px;
+      }
+      @include max-screen(360px){
+        width: 149px;
+      }
+      @include max-screen(320px){
+        width: 111px;
+      }
     }
   }
 
   .modal-content {
     width: 714px !important;
     @include max-screen(428px) {
-      width: 485px !important;
+      width: 470px !important;
+    }
+    @include max-screen(375px){
+      width: 436px!important;
+    }
+    @include max-screen(360px){
+      width: 417px!important;
+    }
+    @include max-screen(320px){
+      width: 381px!important;
     }
 
     .modal-header {
@@ -355,6 +381,10 @@ $light_grey: #5F6C81;
         font-size: 23px;
         line-height: 120%;
         color: #393D46;
+        @include max-screen(428px){
+          position: relative;
+          left: 62px;
+        }
       }
     }
   }

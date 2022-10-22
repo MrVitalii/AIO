@@ -1824,9 +1824,7 @@ footer {
       right: -259px; } }
 @media screen and (max-width: 428px) and (max-width: 360px) {
   .product_page .text-product .d-flex .up {
-    position: absolute;
-    top: 1219px;
-    right: 16px; } }
+    right: -258px; } }
   .product_page .text-product .d-flex .down {
     bottom: -10px;
     right: 5px;
@@ -1839,9 +1837,7 @@ footer {
       right: -152px; } }
   @media screen and (max-width: 360px) {
     .product_page .text-product .d-flex .down {
-      position: absolute;
-      top: 1243px;
-      right: 16px; } }
+      right: -151px; } }
   .product_page .text-product .d-flex a {
     width: 330px;
     height: 48px;
@@ -1904,12 +1900,17 @@ footer {
       width: 311px;
       margin-left: 11px; } }
 
+.ingredients_modal .woman {
+  margin-left: 87px; }
 @media screen and (max-width: 1024px) {
   .ingredients_modal .modal-dialog {
     left: -87px; } }
 @media screen and (max-width: 768px) {
   .ingredients_modal .modal-dialog {
     left: -102px; } }
+@media screen and (max-width: 414px) {
+  .ingredients_modal .modal-dialog {
+    left: -107px; } }
 .ingredients_modal .table {
   margin-bottom: 0; }
 .ingredients_modal td {
@@ -1931,11 +1932,33 @@ footer {
   color: #5F6C81; }
 .ingredients_modal .modal-body .main_paragraph {
   width: 250px; }
+@media screen and (max-width: 428px) {
+  .ingredients_modal .modal-body .main_paragraph {
+    width: 199px;
+    margin-left: 87px; } }
+@media screen and (max-width: 375px) {
+  .ingredients_modal .modal-body .main_paragraph {
+    width: 163px; } }
+@media screen and (max-width: 360px) {
+  .ingredients_modal .modal-body .main_paragraph {
+    width: 149px; } }
+@media screen and (max-width: 320px) {
+  .ingredients_modal .modal-body .main_paragraph {
+    width: 111px; } }
 .ingredients_modal .modal-content {
   width: 714px !important; }
 @media screen and (max-width: 428px) {
   .ingredients_modal .modal-content {
-    width: 485px !important; } }
+    width: 470px !important; } }
+@media screen and (max-width: 375px) {
+  .ingredients_modal .modal-content {
+    width: 436px !important; } }
+@media screen and (max-width: 360px) {
+  .ingredients_modal .modal-content {
+    width: 417px !important; } }
+@media screen and (max-width: 320px) {
+  .ingredients_modal .modal-content {
+    width: 381px !important; } }
   .ingredients_modal .modal-content .modal-header {
     border-bottom: 1px solid #dee2e6 !important; }
     .ingredients_modal .modal-content .modal-header h5 {
@@ -1945,6 +1968,10 @@ footer {
       font-size: 23px;
       line-height: 120%;
       color: #393D46; }
+@media screen and (max-width: 428px) {
+  .ingredients_modal .modal-content .modal-header h5 {
+    position: relative;
+    left: 62px; } }
 
 .checkout_guest {
   margin-left: 27px;
