@@ -28,6 +28,9 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 360px;
     }
+    @include max-screen(390px){
+      width: 345px;
+    }
     @include max-screen(375px) {
       width: 324px;
     }
@@ -49,6 +52,9 @@ $light_grey: #5F6C81;
     color: #5F6C81;
     @include max-screen(428px) {
       width: 345px;
+    }
+    @include max-screen(390px){
+      width: 331px;
     }
     @include max-screen(375px) {
       width: 299px;
@@ -104,6 +110,9 @@ $light_grey: #5F6C81;
     }
     @include max-screen(414px) {
       width: 382px;
+    }
+    @include max-screen(390px){
+      width: 357px;
     }
     @include max-screen(375px) {
       width: 342px;
@@ -213,6 +222,9 @@ $light_grey: #5F6C81;
     }
     @include max-screen(414px) {
       width: 296px;
+    }
+    @include max-screen(390px){
+      width: 270px;
     }
     @include max-screen(375px) {
       width: 255px;

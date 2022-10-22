@@ -45,6 +45,9 @@ $light_grey: #5F6C81;
     @include max-screen(428px) {
       width: 315px;
     }
+    @include max-screen(390px){
+      width: 291px;
+    }
     @include max-screen(375px){
       width: 281px;
     }

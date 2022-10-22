@@ -12,6 +12,14 @@ $light_grey: #5F6C81;
 }
 
 .account-details {
+  .head_cart{
+    @include max-screen(390px){
+      margin-left: -18px;
+    }
+    @include max-screen(360px){
+      margin-left: -37px;
+    }
+  }
   .sign {
     font-family: $main_font;
     font-style: normal;
@@ -34,42 +42,121 @@ $light_grey: #5F6C81;
     color: #393D46;
     text-decoration: none;
     margin-left: 94px;
+    @include max-screen(390px){
+      margin-left: 65px;
+    }
+    @include max-screen(360px){
+      margin-left: 97px;
+    }
+    @include max-screen(320px){
+      margin-left: 57px;
+    }
   }
 
   .small-line {
     margin-left: 217px;
+    @include max-screen(390px){
+      margin-left: 168px;
+    }
+    @include max-screen(360px){
+      margin-left: 180px;
+    }
+    @include max-screen(320px){
+      margin-left: 142px;
+    }
   }
 
   .first_cart {
     max-width: 790px;
     margin-left: 37px;
     padding-bottom: 111px;
+    @include max-screen(428px){
+      margin-left: 23px;
+    }
+    @include max-screen(390px){
+      margin-left: 8px;
+    }
+    @include max-screen(375px){
+      margin-left: 4px;
+    }
+    @include max-screen(360px){
+      margin-left: -7px;
+    }
   }
 
   .second_cart {
     max-width: 790px;
     margin-left: 37px;
     padding-bottom: 163px;
+    @include max-screen(428px){
+      margin-left: 23px;
+    }
+    @include max-screen(390px){
+      margin-left: 17px;
+    }
+    @include max-screen(375px){
+      margin-left: 5px;
+    }
+    @include max-screen(360px){
+      margin-left: -7px;
+    }
   }
 
   .mr-317 {
     margin-right: 317px;
+    @include max-screen(428px){
+      margin-right: 232px;
+    }
+    @include max-screen(390px){
+      margin-right: 216px;
+    }
+    @include max-screen(320px){
+      margin-right: 182px;
+    }
   }
 
   .mr-296 {
     margin-right: 296px;
+    @include max-screen(428px){
+      margin-right: 194px;
+    }
   }
 
   .mr-324 {
     margin-right: 324px;
+    @include max-screen(428px){
+      margin-right: 232px;
+      @include max-screen(390px){
+        margin-right: 219px;
+      }
+      @include max-screen(320px){
+        margin-right: 191px;
+      }
+    }
   }
+
 
   .mr-271 {
     margin-right: 271px;
+    @include max-screen(428px){
+      margin-right: 199px;
+    }
+    @include max-screen(320px){
+      margin-right: 188px;
+    }
   }
 
   .mr-256 {
     margin-right: 256px;
+    @include max-screen(428px){
+      margin-right: 170px;
+    }
+    @include max-screen(414px){
+      margin-right: 161px;
+    }
+    @include max-screen(390px){
+      margin-right: 152px;
+    }
   }
 
   .mb-51 {
@@ -86,6 +173,9 @@ $light_grey: #5F6C81;
 
   .edit {
     margin-left: 540px;
+    @include max-screen(428px){
+      margin-left: 155px;
+    }
   }
 
   .save {
@@ -104,6 +194,27 @@ $light_grey: #5F6C81;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    border: 1px solid #393D46;
+    &:hover {
+      background-color: transparent!important;
+      color: black !important;
+      transition: 0.5s;
+    }
+    @include max-screen(428px){
+      width: 361px;
+    }
+    @include max-screen(414px){
+      width: 352px;
+    }
+    @include max-screen(390px){
+      width: 338px;
+    }
+    @include max-screen(375px){
+      width: 337px;
+    }
+    @include max-screen(320px){
+      width: 298px;
+    }
   }
 
   h5 {
@@ -122,6 +233,9 @@ $light_grey: #5F6C81;
     font-size: 15px;
     line-height: 120%;
     color: #191A1C;
+    @include max-screen(390px){
+     font-size: 14px;
+    }
   }
 
   p {

@@ -105,6 +105,9 @@ $light_grey: #5F6C81;
       @include max-screen(414px) {
         width: 363px;
       }
+      @include max-screen(390px){
+        width: 343px;
+      }
       @include max-screen(375px) {
         width: 333px;
       }
@@ -208,9 +211,17 @@ $light_grey: #5F6C81;
         text-align: center;
         padding-top: 13px;
         text-decoration: none;
+        &:hover {
+          background-color: transparent;
+          color: black !important;
+          transition: 0.5s;
+        }
         @include max-screen(428px) {
           margin-left: -152px;
           width: 300px;
+        }
+        @include max-screen(390px){
+          width: 276px;
         }
         @include max-screen(375px) {
           width: 261px;
@@ -344,6 +355,9 @@ $light_grey: #5F6C81;
         width: 199px;
         margin-left: 87px;
       }
+      @include max-screen(390px){
+        width: 174px;
+      }
       @include max-screen(375px){
         width: 163px;
       }
@@ -360,6 +374,9 @@ $light_grey: #5F6C81;
     width: 714px !important;
     @include max-screen(428px) {
       width: 470px !important;
+    }
+    @include max-screen(390px){
+      width: 445px!important;
     }
     @include max-screen(375px){
       width: 436px!important;

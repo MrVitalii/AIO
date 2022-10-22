@@ -24,8 +24,8 @@ $light_grey: #5F6C81;
     @include max-screen(428px) {
       width: 100% !important;
     }
-    @include max-screen(412px){
-      width: 99%!important;
+    @include max-screen(412px) {
+      width: 99% !important;
     }
     @include max-screen(390px) {
       width: 98% !important;
@@ -68,6 +68,9 @@ $light_grey: #5F6C81;
       left: 7%;
       width: 347px;
       font-size: 52px;
+    }
+    @include max-screen(390px) {
+      left: 4%;
     }
     @include max-screen(360px) {
       left: 4%;
@@ -189,7 +192,7 @@ $light_grey: #5F6C81;
     @include max-screen(428px) {
       width: 182.33px;
     }
-    @include max-screen(412px){
+    @include max-screen(412px) {
       width: 180.33px;
     }
     @include max-screen(390px) {
