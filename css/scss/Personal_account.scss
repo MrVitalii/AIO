@@ -12,6 +12,12 @@ $light_grey: #5F6C81;
 }
 
 .personal_account {
+  .total_price {
+    @include max-screen(1024px) {
+      margin-left: 27px;
+    }
+  }
+
   .tracking {
     padding-top: 36px;
     padding-left: 36px;
@@ -39,7 +45,16 @@ $light_grey: #5F6C81;
     margin-top: 3vh;
     width: 785px;
     position: relative;
-    right: 74px
+    right: 74px;
+    @include max-screen(992px) {
+      right: 50px;
+    }
+    @include max-screen(820px) {
+      right: 35px;
+    }
+    @include max-screen(428px) {
+      width: 527px;
+    }
   }
 
   #progressbar li {

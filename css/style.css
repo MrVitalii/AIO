@@ -2403,6 +2403,9 @@ footer {
     line-height: 120%;
     color: #393D46; }
 
+@media screen and (max-width: 1024px) {
+  .personal_account .total_price {
+    margin-left: 27px; } }
 .personal_account .tracking {
   padding-top: 36px;
   padding-left: 36px;
@@ -2425,6 +2428,15 @@ footer {
   width: 785px;
   position: relative;
   right: 74px; }
+@media screen and (max-width: 992px) {
+  .personal_account #progressbar {
+    right: 50px; } }
+@media screen and (max-width: 820px) {
+  .personal_account #progressbar {
+    right: 35px; } }
+@media screen and (max-width: 428px) {
+  .personal_account #progressbar {
+    width: 527px; } }
 .personal_account #progressbar li {
   list-style-type: none;
   width: 25%;
