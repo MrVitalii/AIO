@@ -1009,6 +1009,11 @@ footer {
     padding-left: 43%;
     margin-bottom: 15px;
     border: #393D46; }
+    .checkout .sign_in:hover {
+      background-color: transparent !important;
+      color: black !important;
+      transition: 0.5s !important;
+      border: 1px solid black; }
   @media screen and (max-width: 768px) {
     .checkout .sign_in {
       width: 699px; } }
@@ -1031,6 +1036,10 @@ footer {
     color: #191A1C;
     background-color: transparent !important;
     margin-bottom: 236px; }
+    .checkout .create:hover {
+      background-color: #393D46 !important;
+      color: white !important;
+      transition: 0.5s !important; }
   @media screen and (max-width: 768px) {
     .checkout .create {
       width: 699px; } }

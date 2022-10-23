@@ -89,6 +89,12 @@ $light_grey: #5F6C81;
     padding-left: 43%;
     margin-bottom: 15px;
     border: #393D46;
+    &:hover {
+      background-color: transparent!important;
+      color: black !important;
+      transition: 0.5s!important;
+      border: 1px solid black;
+    }
     @include max-screen(768px){
       width: 699px;
     }
@@ -113,6 +119,11 @@ $light_grey: #5F6C81;
     color: $black;
     background-color: transparent !important;
     margin-bottom: 236px;
+    &:hover {
+      background-color: $grey!important;
+      color: white !important;
+      transition: 0.5s!important;
+    }
     @include max-screen(768px){
       width: 699px;
     }
