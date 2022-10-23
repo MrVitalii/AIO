@@ -15,6 +15,16 @@ $light_grey: #5F6C81;
 .checkout_guest {
   margin-left: 27px;
   width: 790px;
+  @include max-screen(1024px) {
+    margin-top: 500px;
+    z-index: 40;
+  }
+  @include max-screen(360px) {
+    margin-left: 10px;
+  }
+  @include max-screen(360px) {
+    margin-left: 4px;
+  }
 
   h1 {
 
@@ -30,6 +40,9 @@ $light_grey: #5F6C81;
 
   span {
     margin-left: 164px;
+    @include max-screen(320px) {
+      margin-left: 125px;
+    }
   }
 
   .delivery {
@@ -48,6 +61,25 @@ $light_grey: #5F6C81;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    &:hover {
+      background-color: transparent !important;
+      color: $black !important;
+      transition: 0.5s !important;
+      border: 1px solid black;
+    }
+    @include max-screen(768px) {
+      width: 706px;
+    }
+    @include max-screen(428px) {
+      width: 345px;
+      padding-left: 28%;
+    }
+    @include max-screen(390px) {
+      width: 310px;
+    }
+    @include max-screen(320px) {
+      width: 283px;
+    }
   }
 
   .payment {
@@ -65,10 +97,33 @@ $light_grey: #5F6C81;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+
+    &:hover {
+      background-color: transparent !important;
+      color: $black !important;
+      transition: 0.5s !important;
+      border: 1px solid black;
+    }
+
+    @include max-screen(768px) {
+      width: 706px;
+    }
+    @include max-screen(428px) {
+      width: 345px;
+    }
+    @include max-screen(390px) {
+      width: 310px;
+    }
+    @include max-screen(320px) {
+      width: 283px;
+    }
   }
 
   .form-group {
     margin-top: 30px;
+    @include max-screen(320px) {
+      margin-left: -2px;
+    }
   }
 
   .sign {
@@ -80,6 +135,7 @@ $light_grey: #5F6C81;
     text-decoration: none;
     text-align: center;
     color: #393D46;
+    z-index: 20;
   }
 
   .guest {
@@ -92,6 +148,9 @@ $light_grey: #5F6C81;
     color: rgba(57, 61, 70, 0.5);
     text-decoration: none;
     margin-left: 94px;
+    @include max-screen(320px) {
+      margin-left: 55px;
+    }
   }
 
   #exampleFormControlSelect1 {
@@ -107,7 +166,13 @@ $light_grey: #5F6C81;
     border: 1px solid #D2D4DA;
     appearance: none;
     background: url("/images/arrow_down_grey.svg") no-repeat right;
-    background-position-x: calc(100% - 8px)
+    background-position-x: calc(100% - 8px);
+    @include max-screen(390px) {
+      width: 310px;
+    }
+    @include max-screen(320px) {
+      width: 280px;
+    }
   }
 
   input {
@@ -136,16 +201,34 @@ $light_grey: #5F6C81;
     top: 429px;
     background: #FDFEFE;
     border: 1px solid #D2D4DA;
+    @include max-screen(1024px) {
+      width: 316px;
+    }
+    @include max-screen(428px) {
+      width: 340px;
+    }
+    @include max-screen(390px) {
+      width: 310px;
+    }
+    @include max-screen(320px) {
+      width: 280px;
+    }
   }
 
   .last-name {
     position: relative;
     left: 274px;
+    @include max-screen(428px) {
+      left: 2px;
+    }
   }
 
   .province {
     position: relative;
     left: 284px;
+    @include max-screen(428px) {
+      left: 2px;
+    }
 
     #inputState {
       appearance: none;
@@ -156,11 +239,26 @@ $light_grey: #5F6C81;
 
   .address {
     width: 710px !important;
+    @include max-screen(768px) {
+      width: 680px !important;
+    }
+    @include max-screen(428px) {
+      width: 337px !important;
+    }
+    @include max-screen(390px) {
+      width: 310px !important;
+    }
+    @include max-screen(320px) {
+      width: 280px !important;
+    }
   }
 
   .phone-number {
     position: relative;
     left: 345px;
+    @include max-screen(428px) {
+      left: 2px;
+    }
   }
 
   .delivery_pay {
@@ -211,6 +309,9 @@ $light_grey: #5F6C81;
 
   .border-top {
     width: 710px;
+    @include max-screen(768px) {
+      width: auto;
+    }
   }
 
   .form-check {
@@ -220,11 +321,37 @@ $light_grey: #5F6C81;
 
 .shop_cart_guest {
   margin-left: 234px;
+  @include max-screen(1024px) {
+    margin-left: 114px;
+    right: 84%;
+  }
+  @include max-screen(820px) {
+    right: 105%;
+  }
+  @include max-screen(768px) {
+    right: 113%;
+  }
+  @include max-screen(428px) {
+    right: 119%;
+  }
+  @include max-screen(414px) {
+    right: 124%;
+  }
+  @include max-screen(390px) {
+    right: 123%;
+  }
+  @include max-screen(360px) {
+    right: 131%;
+  }
+  @include max-screen(320px) {
+    right: 138%;
+  }
 
 
   .shop_cart {
     margin-left: 125px;
     left: 5%;
+
 
     p {
       font-family: $main_font;
@@ -313,6 +440,21 @@ $light_grey: #5F6C81;
     left: 330px;
     bottom: 126px;
     line-height: 10px;
+    @include max-screen(428px) {
+      left: 298px;
+    }
+    @include max-screen(414px) {
+      left: 290px;
+    }
+    @include max-screen(390px) {
+      left: 268px;
+    }
+    @include max-screen(360px) {
+      left: 245px;
+    }
+    @include max-screen(320px) {
+      left: 200px;
+    }
 
     .head-price {
       margin-left: -7px !important;
@@ -445,6 +587,36 @@ $light_grey: #5F6C81;
   margin-left: 125px;
   right: 34%;
   top: 140px;
+  @include max-screen(1024px) {
+    margin-left: 125px;
+    right: 132%;
+    top: 140px;
+  }
+  @include max-screen(992px) {
+    right: 134%;
+  }
+  @include max-screen(820px) {
+    right: 166%;
+  }
+  @include max-screen(768px) {
+    right: 178%;
+  }
+  @include max-screen(428px) {
+    right: 240%;
+  }
+  @include max-screen(414px) {
+    right: 245%;
+  }
+  @include max-screen(390px) {
+    right: 250%;
+  }
+  @include max-screen(360px) {
+    right: 258%;
+  }
+  @include max-screen(320px) {
+    right: 283%;
+  }
+
 
   p {
     font-family: $main_font;
@@ -483,6 +655,22 @@ $light_grey: #5F6C81;
     left: 330px;
     bottom: 126px;
     line-height: 10px;
+    @include max-screen(428px) {
+      left: 299px;
+    }
+    @include max-screen(414px) {
+      left: 294px;
+    }
+    @include max-screen(390px) {
+      left: 276px;
+    }
+    @include max-screen(360px) {
+      left: 239px;
+    }
+    @include max-screen(320px) {
+      left: 200px;
+    }
+
 
     .low-price {
       margin-left: 8px !important;

@@ -94,6 +94,12 @@ $light_grey: #5F6C81;
 .overall_vitamins {
   padding-top: 130px;
   padding-bottom: 163px;
+  @include max-screen(1024px){
+    padding-top: 0;
+  }
+  @include max-screen(428px){
+    margin-top: -305px;
+  }
 
   .d-block {
     @include max-screen(1024px) {

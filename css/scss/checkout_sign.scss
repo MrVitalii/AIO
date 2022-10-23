@@ -18,6 +18,9 @@ $light_grey: #5F6C81;
 
 .checkout {
   margin-left: 27px;
+  @include max-screen(390px){
+    margin-left: 19px;
+  }
 
   #exampleInputEmail1 {
     width: 340px;
@@ -48,10 +51,13 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 169px;
     }
+    @include max-screen(390px){
+      width: 160px;
+    }
     @include max-screen(375px) {
       width: 145px;
     }
-    @include max-screen(375px) {
+    @include max-screen(360px) {
       width: 134px;
     }
   }
@@ -107,6 +113,9 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 333px;
     }
+    @include max-screen(390px){
+      width: 327px;
+    }
     @include max-screen(375px) {
       width: 295px;
     }
@@ -132,6 +141,9 @@ $light_grey: #5F6C81;
     }
     @include max-screen(414px) {
       width: 332px;
+    }
+    @include max-screen(390px){
+      width: 327px;
     }
     @include max-screen(375px) {
       width: 293px;
@@ -214,11 +226,14 @@ $light_grey: #5F6C81;
   @include max-screen(414px) {
     left: -120%;
   }
+  @include max-screen(390px){
+    left: -127%;
+  }
   @include max-screen(375px) {
     left: -129%;
   }
   @include max-screen(360px) {
-    left: -134%;
+    left: -130%;
   }
 
   p {
@@ -264,11 +279,14 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       left: 277px;
     }
+    @include max-screen(390px){
+      left: 263px;
+    }
     @include max-screen(375px) {
       left: 260px;
     }
     @include max-screen(360px) {
-      left: 243px;
+      left: 238px;
     }
 
     .low-price {
@@ -306,6 +324,9 @@ $light_grey: #5F6C81;
   margin-left: 227px;
   @include max-screen(414px) {
     margin-left: 207px !important;
+  }
+  @include max-screen(390px){
+    margin-left: 196px!important;
   }
   @include max-screen(375px) {
     margin-left: 190px !important;
@@ -396,11 +417,14 @@ $light_grey: #5F6C81;
     left: -240%;
     top: 482px;
   }
+  @include max-screen(390px){
+    left: -252%;
+  }
   @include max-screen(375px) {
     left: -258%;
   }
   @include max-screen(360px) {
-    left: -263%;
+    left: -259%;
   }
 }
 
