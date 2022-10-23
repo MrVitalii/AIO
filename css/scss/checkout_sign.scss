@@ -12,6 +12,10 @@ $light_grey: #5F6C81;
 }
 
 
+.sign_section {
+  margin-bottom: 362px;
+}
+
 .checkout {
   margin-left: 27px;
 
@@ -27,6 +31,9 @@ $light_grey: #5F6C81;
     height: 48px;
     background: rgba(255, 255, 255, 0.82);
     border: 1px solid #D2D4DA;
+    @include max-screen(375px) {
+      margin-left: 13px;
+    }
   }
 
   #exampleInputPassword2 {
@@ -34,6 +41,19 @@ $light_grey: #5F6C81;
     height: 48px;
     background: rgba(255, 255, 255, 0.82);
     border: 1px solid #D2D4DA;
+    @include max-screen(428px) {
+      width: 181px;
+      margin-left: 14px;
+    }
+    @include max-screen(414px) {
+      width: 169px;
+    }
+    @include max-screen(375px) {
+      width: 145px;
+    }
+    @include max-screen(375px) {
+      width: 134px;
+    }
   }
 
   #exampleInputEmail2 {
@@ -41,6 +61,15 @@ $light_grey: #5F6C81;
     height: 48px;
     background: #FDFEFE;
     border: 1px solid #D2D4DA;
+    @include max-screen(428px) {
+      width: 180px;
+    }
+    @include max-screen(414px) {
+      width: 165px;
+    }
+    @include max-screen(375px) {
+      width: 145px;
+    }
   }
 
   .form-check-label {
@@ -57,9 +86,24 @@ $light_grey: #5F6C81;
     width: 715px;
     height: 48px;
     background-color: #393D46 !important;
-    padding: 12px 248px 16px 332px;
+    padding-left: 43%;
     margin-bottom: 15px;
     border: #393D46;
+    @include max-screen(768px){
+      width: 699px;
+    }
+    @include max-screen(428px) {
+      width: 366px;
+      text-align: center !important;
+      margin-bottom: 15px;
+      border: #393D46;
+    }
+    @include max-screen(414px) {
+      width: 333px;
+    }
+    @include max-screen(375px) {
+      width: 295px;
+    }
   }
 
   .create {
@@ -69,6 +113,18 @@ $light_grey: #5F6C81;
     color: $black;
     background-color: transparent !important;
     margin-bottom: 236px;
+    @include max-screen(768px){
+      width: 699px;
+    }
+    @include max-screen(428px) {
+      width: 367px;
+    }
+    @include max-screen(414px) {
+      width: 332px;
+    }
+    @include max-screen(375px) {
+      width: 293px;
+    }
   }
 
   .form-group {
@@ -108,17 +164,51 @@ $light_grey: #5F6C81;
     text-align: right;
     letter-spacing: 0.4px;
     color: #191A1C;
+    @include max-screen(428px) {
+      letter-spacing: 0.0px;
+      position: relative;
+      left: 16%;
+    }
   }
 
   .email_group {
     margin-left: 170px !important;
+    @include max-screen(428px) {
+      margin-left: 72px !important;
+    }
+    @include max-screen(414px) {
+      margin-left: 65px !important;
+    }
   }
-
 }
 
 .shop_cart {
   margin-left: 125px;
   left: 5%;
+  @include max-screen(1024px) {
+    left: -85%;
+    margin-top: 333px;
+  }
+  @include max-screen(820px){
+    left: -105%;
+  }
+  @include max-screen(768px){
+    left: -111%;
+  }
+  @include max-screen(428px) {
+    left: -129%;
+    top: 336px;
+    margin-top: 43px;
+  }
+  @include max-screen(414px) {
+    left: -120%;
+  }
+  @include max-screen(375px) {
+    left: -129%;
+  }
+  @include max-screen(360px) {
+    left: -134%;
+  }
 
   p {
     font-family: $main_font;
@@ -157,6 +247,18 @@ $light_grey: #5F6C81;
     left: 330px;
     bottom: 126px;
     line-height: 10px;
+    @include max-screen(428px) {
+      left: 306px;
+    }
+    @include max-screen(414px) {
+      left: 277px;
+    }
+    @include max-screen(375px) {
+      left: 260px;
+    }
+    @include max-screen(360px) {
+      left: 243px;
+    }
 
     .low-price {
       margin-left: 8px !important;
@@ -191,6 +293,15 @@ $light_grey: #5F6C81;
 
 .shop_head {
   margin-left: 227px;
+  @include max-screen(414px) {
+    margin-left: 207px !important;
+  }
+  @include max-screen(375px) {
+    margin-left: 190px !important;
+  }
+  @include max-screen(360px) {
+    margin-left: 171px !important;
+  }
 }
 
 .mt-5 {
@@ -232,6 +343,11 @@ $light_grey: #5F6C81;
   position: relative;
   top: -22px;
   left: 27px;
+  @include max-screen(428px) {
+    top: 0 !important;
+    left: -3px !important;
+  }
+
 }
 
 .line-through {
@@ -249,6 +365,32 @@ $light_grey: #5F6C81;
 .second_column {
   left: -29%;
   bottom: -144px;
+  @include max-screen(1024px) {
+    left: -134%;
+  }
+  @include max-screen(992px){
+    left: -135%;
+  }
+  @include max-screen(820px){
+    left: -166%;
+  }
+  @include max-screen(768px){
+    left: -176%;
+  }
+  @include max-screen(428px) {
+    left: -249%;
+    top: 482px;
+  }
+  @include max-screen(414px) {
+    left: -240%;
+    top: 482px;
+  }
+  @include max-screen(375px) {
+    left: -258%;
+  }
+  @include max-screen(360px) {
+    left: -263%;
+  }
 }
 
 .info_column {

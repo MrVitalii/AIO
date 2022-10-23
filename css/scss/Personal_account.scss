@@ -16,6 +16,9 @@ $light_grey: #5F6C81;
     @include max-screen(1024px) {
       margin-left: 27px;
     }
+    @include max-screen(428px){
+      margin-left: -10px;
+    }
   }
 
   .tracking {
@@ -25,6 +28,9 @@ $light_grey: #5F6C81;
 
     .border-bottom {
       width: 600px;
+      @include max-screen(428px){
+        width: auto;
+      }
     }
 
     .title {
@@ -181,6 +187,9 @@ $light_grey: #5F6C81;
       line-height: 120%;
       color: #191A1C;
       padding-bottom: 26px;
+      @include max-screen(428px){
+        width: auto;
+      }
     }
   }
 
@@ -211,12 +220,19 @@ $light_grey: #5F6C81;
     position: relative;
     top: 62px;
     left: 3%;
+    @include max-screen(428px){
+      width: auto;
+    }
   }
 
 
   .subtotal {
     margin-left: 38px;
     margin-right: 430px;
+    @include max-screen(428px){
+      margin-left: 17px;
+      margin-right: 227px;
+    }
   }
 
   .mr-29 {

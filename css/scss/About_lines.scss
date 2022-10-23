@@ -17,6 +17,9 @@ $light_grey: #5F6C81;
   .container {
     background-image: url("../images/Overall.jpg");
     height: 629px;
+    @include max-screen(1024px){
+      width: 980px;
+    }
   }
 
   .buy {
