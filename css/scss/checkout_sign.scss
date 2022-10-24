@@ -34,8 +34,15 @@ $light_grey: #5F6C81;
     height: 48px;
     background: rgba(255, 255, 255, 0.82);
     border: 1px solid #D2D4DA;
+
     @include max-screen(375px) {
       margin-left: 13px;
+    }
+  }
+
+  .password{
+    @include max-screen(428px){
+      margin-left: 13px!important;
     }
   }
 
@@ -45,20 +52,23 @@ $light_grey: #5F6C81;
     background: rgba(255, 255, 255, 0.82);
     border: 1px solid #D2D4DA;
     @include max-screen(428px) {
-      width: 181px;
+      width: 354px;
       margin-left: 14px;
     }
     @include max-screen(414px) {
-      width: 169px;
+      width: 332px;
     }
     @include max-screen(390px){
-      width: 160px;
+      width: 330px;
     }
     @include max-screen(375px) {
-      width: 145px;
+      width: 289px;
     }
     @include max-screen(360px) {
-      width: 134px;
+      width: 295px;
+    }
+    @include max-screen(320px){
+      width: 258px;
     }
   }
 
@@ -68,13 +78,22 @@ $light_grey: #5F6C81;
     background: #FDFEFE;
     border: 1px solid #D2D4DA;
     @include max-screen(428px) {
-      width: 180px;
+      width: 357px;
     }
     @include max-screen(414px) {
-      width: 165px;
+      width: 332px;
+    }
+    @include max-screen(390px){
+      width: 326px;
     }
     @include max-screen(375px) {
-      width: 145px;
+     width: 297px;
+    }
+    @include max-screen(360px) {
+      width: 295px;
+    }
+    @include max-screen(320px){
+      width: 260px;
     }
   }
 
@@ -119,6 +138,9 @@ $light_grey: #5F6C81;
     @include max-screen(375px) {
       width: 295px;
     }
+    @include max-screen(320px){
+      width: 266px;
+    }
   }
 
   .create {
@@ -148,6 +170,9 @@ $light_grey: #5F6C81;
     @include max-screen(375px) {
       width: 293px;
     }
+    @include max-screen(320px){
+      width: 266px;
+    }
   }
 
   .form-group {
@@ -175,6 +200,9 @@ $light_grey: #5F6C81;
     color: rgba(57, 61, 70, 0.5);
     text-decoration: none;
     margin-left: 94px;
+    @include max-screen(320px){
+      margin-left: 59px;
+    }
   }
 
   .forgot {
@@ -192,15 +220,21 @@ $light_grey: #5F6C81;
       position: relative;
       left: 16%;
     }
+    @include max-screen(320px){
+      letter-spacing: -1.1px;
+      position: relative;
+      left: 26%
+    }
   }
 
   .email_group {
     margin-left: 170px !important;
     @include max-screen(428px) {
-      margin-left: 72px !important;
+      margin-left: -108px !important;
+      margin-top: 165px;
     }
-    @include max-screen(414px) {
-      margin-left: 65px !important;
+    @include max-screen(375px){
+      margin-left: -93px !important;
     }
   }
 }
@@ -219,8 +253,8 @@ $light_grey: #5F6C81;
     left: -111%;
   }
   @include max-screen(428px) {
-    left: -129%;
-    top: 336px;
+    left: -125%;
+    top: 424px;
     margin-top: 43px;
   }
   @include max-screen(414px) {
@@ -230,10 +264,13 @@ $light_grey: #5F6C81;
     left: -127%;
   }
   @include max-screen(375px) {
-    left: -129%;
+    left: -123%;
   }
   @include max-screen(360px) {
     left: -130%;
+  }
+  @include max-screen(320px){
+    left: -140%;
   }
 
   p {
@@ -274,7 +311,7 @@ $light_grey: #5F6C81;
     bottom: 126px;
     line-height: 10px;
     @include max-screen(428px) {
-      left: 306px;
+      left: 294px;
     }
     @include max-screen(414px) {
       left: 277px;
@@ -283,10 +320,13 @@ $light_grey: #5F6C81;
       left: 263px;
     }
     @include max-screen(375px) {
-      left: 260px;
+      left: 243px;
     }
     @include max-screen(360px) {
       left: 238px;
+    }
+    @include max-screen(320px){
+      left: 199px;
     }
 
     .low-price {
@@ -329,10 +369,13 @@ $light_grey: #5F6C81;
     margin-left: 196px!important;
   }
   @include max-screen(375px) {
-    margin-left: 190px !important;
+    margin-left: 184px !important;
   }
   @include max-screen(360px) {
     margin-left: 171px !important;
+  }
+  @include max-screen(320px) {
+    margin-left: 141px !important;
   }
 }
 
@@ -410,21 +453,24 @@ $light_grey: #5F6C81;
     left: -176%;
   }
   @include max-screen(428px) {
-    left: -249%;
-    top: 482px;
+    left: -246%;
+    top: 552px;
   }
   @include max-screen(414px) {
     left: -240%;
-    top: 482px;
+    top: 566px;
   }
   @include max-screen(390px){
     left: -252%;
   }
   @include max-screen(375px) {
-    left: -258%;
+    left: -251%;
   }
   @include max-screen(360px) {
     left: -259%;
+  }
+  @include max-screen(320px){
+    left: -276%;
   }
 }
 

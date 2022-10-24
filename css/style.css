@@ -967,6 +967,9 @@ footer {
   @media screen and (max-width: 375px) {
     .checkout #exampleInputPassword1 {
       margin-left: 13px; } }
+  @media screen and (max-width: 428px) {
+    .checkout .password {
+      margin-left: 13px !important; } }
   .checkout #exampleInputPassword2 {
     width: 340px;
     height: 48px;
@@ -974,20 +977,23 @@ footer {
     border: 1px solid #D2D4DA; }
   @media screen and (max-width: 428px) {
     .checkout #exampleInputPassword2 {
-      width: 181px;
+      width: 354px;
       margin-left: 14px; } }
   @media screen and (max-width: 414px) {
     .checkout #exampleInputPassword2 {
-      width: 169px; } }
+      width: 332px; } }
   @media screen and (max-width: 390px) {
     .checkout #exampleInputPassword2 {
-      width: 160px; } }
+      width: 330px; } }
   @media screen and (max-width: 375px) {
     .checkout #exampleInputPassword2 {
-      width: 145px; } }
+      width: 289px; } }
   @media screen and (max-width: 360px) {
     .checkout #exampleInputPassword2 {
-      width: 134px; } }
+      width: 295px; } }
+  @media screen and (max-width: 320px) {
+    .checkout #exampleInputPassword2 {
+      width: 258px; } }
   .checkout #exampleInputEmail2 {
     width: 340px;
     height: 48px;
@@ -995,13 +1001,22 @@ footer {
     border: 1px solid #D2D4DA; }
   @media screen and (max-width: 428px) {
     .checkout #exampleInputEmail2 {
-      width: 180px; } }
+      width: 357px; } }
   @media screen and (max-width: 414px) {
     .checkout #exampleInputEmail2 {
-      width: 165px; } }
+      width: 332px; } }
+  @media screen and (max-width: 390px) {
+    .checkout #exampleInputEmail2 {
+      width: 326px; } }
   @media screen and (max-width: 375px) {
     .checkout #exampleInputEmail2 {
-      width: 145px; } }
+      width: 297px; } }
+  @media screen and (max-width: 360px) {
+    .checkout #exampleInputEmail2 {
+      width: 295px; } }
+  @media screen and (max-width: 320px) {
+    .checkout #exampleInputEmail2 {
+      width: 260px; } }
   .checkout .form-check-label {
     margin-left: 20px; }
   .checkout .form-check-input {
@@ -1038,6 +1053,9 @@ footer {
   @media screen and (max-width: 375px) {
     .checkout .sign_in {
       width: 295px; } }
+  @media screen and (max-width: 320px) {
+    .checkout .sign_in {
+      width: 266px; } }
   .checkout .create {
     width: 715px;
     height: 48px;
@@ -1064,6 +1082,9 @@ footer {
   @media screen and (max-width: 375px) {
     .checkout .create {
       width: 293px; } }
+  @media screen and (max-width: 320px) {
+    .checkout .create {
+      width: 266px; } }
   .checkout .form-group {
     margin-top: 30px; }
   .checkout .sign {
@@ -1085,6 +1106,9 @@ footer {
     color: rgba(57, 61, 70, 0.5);
     text-decoration: none;
     margin-left: 94px; }
+  @media screen and (max-width: 320px) {
+    .checkout .guest {
+      margin-left: 59px; } }
   .checkout .forgot {
     margin-left: 0%;
     font-family: 'Inter', sans-serif;
@@ -1100,14 +1124,20 @@ footer {
       letter-spacing: 0px;
       position: relative;
       left: 16%; } }
+  @media screen and (max-width: 320px) {
+    .checkout .forgot {
+      letter-spacing: -1.1px;
+      position: relative;
+      left: 26%; } }
   .checkout .email_group {
     margin-left: 170px !important; }
   @media screen and (max-width: 428px) {
     .checkout .email_group {
-      margin-left: 72px !important; } }
-  @media screen and (max-width: 414px) {
+      margin-left: -108px !important;
+      margin-top: 165px; } }
+  @media screen and (max-width: 375px) {
     .checkout .email_group {
-      margin-left: 65px !important; } }
+      margin-left: -93px !important; } }
 
 .shop_cart {
   margin-left: 125px;
@@ -1124,8 +1154,8 @@ footer {
       left: -111%; } }
   @media screen and (max-width: 428px) {
     .shop_cart {
-      left: -129%;
-      top: 336px;
+      left: -125%;
+      top: 424px;
       margin-top: 43px; } }
   @media screen and (max-width: 414px) {
     .shop_cart {
@@ -1135,10 +1165,13 @@ footer {
       left: -127%; } }
   @media screen and (max-width: 375px) {
     .shop_cart {
-      left: -129%; } }
+      left: -123%; } }
   @media screen and (max-width: 360px) {
     .shop_cart {
       left: -130%; } }
+  @media screen and (max-width: 320px) {
+    .shop_cart {
+      left: -140%; } }
   .shop_cart p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1169,7 +1202,7 @@ footer {
     line-height: 10px; }
   @media screen and (max-width: 428px) {
     .shop_cart .prices_group {
-      left: 306px; } }
+      left: 294px; } }
   @media screen and (max-width: 414px) {
     .shop_cart .prices_group {
       left: 277px; } }
@@ -1178,10 +1211,13 @@ footer {
       left: 263px; } }
   @media screen and (max-width: 375px) {
     .shop_cart .prices_group {
-      left: 260px; } }
+      left: 243px; } }
   @media screen and (max-width: 360px) {
     .shop_cart .prices_group {
       left: 238px; } }
+  @media screen and (max-width: 320px) {
+    .shop_cart .prices_group {
+      left: 199px; } }
     .shop_cart .prices_group .low-price {
       margin-left: 8px !important; }
     .shop_cart .prices_group .head-price {
@@ -1212,10 +1248,13 @@ footer {
       margin-left: 196px !important; } }
   @media screen and (max-width: 375px) {
     .shop_head {
-      margin-left: 190px !important; } }
+      margin-left: 184px !important; } }
   @media screen and (max-width: 360px) {
     .shop_head {
       margin-left: 171px !important; } }
+  @media screen and (max-width: 320px) {
+    .shop_head {
+      margin-left: 141px !important; } }
 
 .mt-5 {
   margin-top: 32px; }
@@ -1283,21 +1322,24 @@ footer {
       left: -176%; } }
   @media screen and (max-width: 428px) {
     .second_column {
-      left: -249%;
-      top: 482px; } }
+      left: -246%;
+      top: 552px; } }
   @media screen and (max-width: 414px) {
     .second_column {
       left: -240%;
-      top: 482px; } }
+      top: 566px; } }
   @media screen and (max-width: 390px) {
     .second_column {
       left: -252%; } }
   @media screen and (max-width: 375px) {
     .second_column {
-      left: -258%; } }
+      left: -251%; } }
   @media screen and (max-width: 360px) {
     .second_column {
       left: -259%; } }
+  @media screen and (max-width: 320px) {
+    .second_column {
+      left: -276%; } }
 
 .info_column {
   position: absolute;
@@ -2708,7 +2750,7 @@ footer {
       right: 258%; } }
   @media screen and (max-width: 320px) {
     .shop_guest {
-      right: 283%; } }
+      right: 272%; } }
   .shop_guest p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
