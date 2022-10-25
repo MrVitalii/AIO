@@ -16,8 +16,8 @@ $light_grey: #5F6C81;
     @include max-screen(1024px) {
       margin-left: 27px;
     }
-    @include max-screen(428px){
-      margin-left: -10px;
+    @include max-screen(428px) {
+      margin-left: 0;
     }
   }
 
@@ -25,10 +25,14 @@ $light_grey: #5F6C81;
     padding-top: 36px;
     padding-left: 36px;
     padding-bottom: 95px;
+    @include max-screen(428px) {
+      padding-left: 0;
+    }
+
 
     .border-bottom {
       width: 600px;
-      @include max-screen(428px){
+      @include max-screen(428px) {
         width: auto;
       }
     }
@@ -47,7 +51,7 @@ $light_grey: #5F6C81;
     margin-bottom: 3vh;
     overflow: hidden;
     color: #0BD11F;;
-    padding-left: 0px;
+    padding-left: 0;
     margin-top: 3vh;
     width: 785px;
     position: relative;
@@ -58,8 +62,27 @@ $light_grey: #5F6C81;
     @include max-screen(820px) {
       right: 35px;
     }
+    @include max-screen(768px) {
+      width: 736px;
+    }
     @include max-screen(428px) {
-      width: 527px;
+      width: 420px;
+    }
+    @include max-screen(414px) {
+      width: 399px;
+      right: 27px;
+    }
+    @include max-screen(390px) {
+      width: 375px;
+    }
+    @include max-screen(375px) {
+      width: 360px;
+    }
+    @include max-screen(360px) {
+      width: 332px;
+    }
+    @include max-screen(320px) {
+      width: 289px;
     }
   }
 
@@ -69,15 +92,18 @@ $light_grey: #5F6C81;
     width: 25%;
     float: left;
     position: relative;
-    //font-weight: 400;
-    //color: rgb(160, 159, 159);
     font-family: $main_font;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 120%;
     color: #191A1C;
-
+    @include max-screen(428px) {
+      width: 32%;
+    }
+    @include max-screen(320px) {
+      font-size: 13px;
+    }
   }
 
   #progressbar #step1:before {
@@ -85,7 +111,7 @@ $light_grey: #5F6C81;
     color: #0BD11F;;
     width: 7px;
     height: 7px;
-    margin-left: 0px !important;
+    margin-left: 0 !important;
     /* padding-left: 11px !important */
   }
 
@@ -95,32 +121,29 @@ $light_grey: #5F6C81;
     width: 7px;
     height: 7px;
     margin-left: 99px;
+    @include max-screen(428px) {
+      margin-left: 70px;
+    }
+    @include max-screen(414px) {
+      margin-left: 65px;
+    }
+    @include max-screen(320px) {
+      margin-left: 51px;
+    }
   }
-
-  //#progressbar #step3:before {
-  //  content: "";
-  //  color: #fff;
-  //  width: 5px;
-  //  height: 5px;
-  //  margin-right: 32% ;
-  //  /* padding-right: 11px !important */
-  //}
 
   #progressbar #step3:before {
     content: "";
-    color: #fff;
     color: #0BD11F !important;
     width: 7px;
     height: 7px;
-    margin-right: 0px !important;
-    /* padding-right: 11px !important */
+    margin-right: 0 !important;
   }
 
   #progressbar li:before {
     line-height: 29px;
     display: block;
     font-size: 12px;
-    //background: #ddd;
     background: #0BD11F;
 
     margin: auto;
@@ -131,18 +154,23 @@ $light_grey: #5F6C81;
   #progressbar li:after {
     content: '';
     height: 1px;
-    //background: #ddd;
     background-color: #0BD11F;
     position: absolute;
-    left: 0%;
-    right: 0%;
+    left: 0;
+    right: 0;
     margin-bottom: 2vh;
     top: 3px;
     z-index: 1;
   }
 
   .progress-track {
-    padding: 0 8%;
+    padding-left: 7%;
+    @include max-screen(390px) {
+      padding-left: 9%;
+    }
+    @include max-screen(360px) {
+      padding-left: 12%;
+    }
   }
 
   #progressbar li:nth-child(1):after {
@@ -152,11 +180,6 @@ $light_grey: #5F6C81;
   #progressbar li:nth-child(2):after {
     margin-right: auto;
   }
-
-  ////#progressbar li:nth-child(3):after {
-  ////  float: left;
-  ////  width: 68%;
-  //}
 
   #progressbar li:nth-child(3):after {
     margin-left: auto;
@@ -187,7 +210,7 @@ $light_grey: #5F6C81;
       line-height: 120%;
       color: #191A1C;
       padding-bottom: 26px;
-      @include max-screen(428px){
+      @include max-screen(428px) {
         width: auto;
       }
     }
@@ -220,18 +243,35 @@ $light_grey: #5F6C81;
     position: relative;
     top: 62px;
     left: 3%;
-    @include max-screen(428px){
+    @include max-screen(428px) {
       width: auto;
     }
   }
 
-
   .subtotal {
     margin-left: 38px;
     margin-right: 430px;
-    @include max-screen(428px){
+    @include max-screen(820px) {
+      margin-right: 388px;
+    }
+    @include max-screen(428px) {
       margin-left: 17px;
-      margin-right: 227px;
+      margin-right: 202px;
+    }
+    @include max-screen(414px) {
+      margin-right: 188px;
+    }
+    @include max-screen(390px) {
+      margin-right: 168px;
+    }
+    @include max-screen(375px) {
+      margin-right: 157px;
+    }
+    @include max-screen(360px) {
+      margin-right: 160px;
+    }
+    @include max-screen(320px) {
+      margin-right: 122px;
     }
   }
 
@@ -243,6 +283,30 @@ $light_grey: #5F6C81;
     width: 790px;
     position: relative;
     right: 4%;
+    @include max-screen(820px) {
+      width: 789px;
+    }
+    @include max-screen(768px) {
+      width: 726px;
+    }
+    @include max-screen(428px) {
+      width: 429px;
+    }
+    @include max-screen(414px) {
+      width: 414px;
+    }
+    @include max-screen(390px) {
+      width: 389px;
+    }
+    @include max-screen(375px) {
+      width: 374px;
+    }
+    @include max-screen(360px) {
+      width: 358px;
+    }
+    @include max-screen(320px) {
+      width: 317px;
+    }
   }
 
   .sign {
@@ -255,6 +319,9 @@ $light_grey: #5F6C81;
     text-align: center;
     color: #393D46;
     margin-left: 38px;
+    @include max-screen(360px) {
+      margin-left: 13px;
+    }
   }
 
   .guest {
@@ -267,23 +334,61 @@ $light_grey: #5F6C81;
     color: rgba(57, 61, 70, 0.5);
     text-decoration: none;
     margin-left: 94px;
+    @include max-screen(375px) {
+      margin-left: 72px;
+    }
+    @include max-screen(320px) {
+      margin-left: 54px;
+    }
   }
 
   .vitamine {
     position: relative;
     bottom: 42px;
     right: 144px;
+    @include max-screen(428px) {
+      right: 46px;
+    }
+    @include max-screen(390px) {
+      right: 35px;
+    }
+    @include max-screen(320px) {
+      font-size: 12px;
+      right: 17px;
+    }
   }
 
   .zink {
     position: relative;
     bottom: 47px;
     right: 166px;
+    @include max-screen(428px) {
+      right: 69px;
+    }
+    @include max-screen(390px) {
+      right: 50px;
+    }
+    @include max-screen(320px) {
+      right: 27px;
+      font-size: 12px;
+    }
   }
 
   .line-through {
     position: relative;
-    left: 100px;
+    left: 40%;
+    text-decoration: line-through;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    color: rgba(57, 61, 70, 0.8) !important;
+    @include max-screen(428px) {
+      left: 30%;
+    }
+    @include max-screen(320px) {
+      left: 24%;
+    }
   }
 
   .trash {
@@ -299,6 +404,9 @@ $light_grey: #5F6C81;
 
   .orange_prices {
     color: #F4442E;
+    @include max-screen(360px) {
+      font-size: 14px;
+    }
   }
 
   .safari_only {
@@ -306,6 +414,12 @@ $light_grey: #5F6C81;
     left: 163px;
     top: 147px;
     z-index: 2;
+    @include max-screen(390px) {
+      left: 128px;
+    }
+    @include max-screen(360px) {
+      left: 125px;
+    }
   }
 
   .steps_buttons {
