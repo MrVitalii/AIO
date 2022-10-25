@@ -61,12 +61,14 @@ $light_grey: #5F6C81;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+
     &:hover {
       background-color: transparent !important;
       color: $black !important;
       transition: 0.5s !important;
       border: 1px solid black;
     }
+
     @include max-screen(768px) {
       width: 706px;
     }

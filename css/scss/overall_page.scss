@@ -28,7 +28,7 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 360px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       width: 345px;
     }
     @include max-screen(375px) {
@@ -53,7 +53,7 @@ $light_grey: #5F6C81;
     @include max-screen(428px) {
       width: 345px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       width: 331px;
     }
     @include max-screen(375px) {
@@ -94,10 +94,10 @@ $light_grey: #5F6C81;
 .overall_vitamins {
   padding-top: 130px;
   padding-bottom: 163px;
-  @include max-screen(1024px){
+  @include max-screen(1024px) {
     padding-top: 0;
   }
-  @include max-screen(428px){
+  @include max-screen(428px) {
     margin-top: -305px;
   }
 
@@ -117,7 +117,7 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 382px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       width: 357px;
     }
     @include max-screen(375px) {
@@ -231,7 +231,7 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 296px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       width: 270px;
     }
     @include max-screen(375px) {

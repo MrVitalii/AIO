@@ -105,7 +105,7 @@ $light_grey: #5F6C81;
       @include max-screen(414px) {
         width: 363px;
       }
-      @include max-screen(390px){
+      @include max-screen(390px) {
         width: 343px;
       }
       @include max-screen(375px) {
@@ -211,16 +211,18 @@ $light_grey: #5F6C81;
         text-align: center;
         padding-top: 13px;
         text-decoration: none;
+
         &:hover {
           background-color: transparent;
           color: black !important;
           transition: 0.5s;
         }
+
         @include max-screen(428px) {
           margin-left: -152px;
           width: 300px;
         }
-        @include max-screen(390px){
+        @include max-screen(390px) {
           width: 276px;
         }
         @include max-screen(375px) {
@@ -251,7 +253,6 @@ $light_grey: #5F6C81;
   }
 
   .thumbnails {
-    //display: flex;
     flex-direction: column;
     line-height: 0;
     padding-right: 10px;
@@ -270,8 +271,6 @@ $light_grey: #5F6C81;
     }
 
     img {
-      //width: 30vmin;
-      //height: 20vmin;
       object-fit: cover;
       object-position: top;
       padding-bottom: 10px;
@@ -286,13 +285,10 @@ $light_grey: #5F6C81;
     li {
       width: 75vmin;
       height: 100vmin;
-      //position: absolute;
-
       list-style-type: none;
     }
 
     img {
-      //height: 100vmin;
       object-fit: cover;
       object-position: top;
       @include max-screen(428px) {
@@ -304,9 +300,10 @@ $light_grey: #5F6C81;
 }
 
 .ingredients_modal {
-  .woman{
+  .woman {
     margin-left: 87px;
   }
+
   .modal-dialog {
     @include max-screen(1024px) {
       left: -87px;
@@ -314,7 +311,7 @@ $light_grey: #5F6C81;
     @include max-screen(768px) {
       left: -102px;
     }
-    @include max-screen(414px){
+    @include max-screen(414px) {
       left: -107px;
     }
   }
@@ -351,20 +348,20 @@ $light_grey: #5F6C81;
 
     .main_paragraph {
       width: 250px;
-      @include max-screen(428px){
+      @include max-screen(428px) {
         width: 199px;
         margin-left: 87px;
       }
-      @include max-screen(390px){
+      @include max-screen(390px) {
         width: 174px;
       }
-      @include max-screen(375px){
+      @include max-screen(375px) {
         width: 163px;
       }
-      @include max-screen(360px){
+      @include max-screen(360px) {
         width: 149px;
       }
-      @include max-screen(320px){
+      @include max-screen(320px) {
         width: 111px;
       }
     }
@@ -375,17 +372,17 @@ $light_grey: #5F6C81;
     @include max-screen(428px) {
       width: 470px !important;
     }
-    @include max-screen(390px){
-      width: 445px!important;
+    @include max-screen(390px) {
+      width: 445px !important;
     }
-    @include max-screen(375px){
-      width: 436px!important;
+    @include max-screen(375px) {
+      width: 436px !important;
     }
-    @include max-screen(360px){
-      width: 417px!important;
+    @include max-screen(360px) {
+      width: 417px !important;
     }
-    @include max-screen(320px){
-      width: 381px!important;
+    @include max-screen(320px) {
+      width: 381px !important;
     }
 
     .modal-header {
@@ -398,7 +395,7 @@ $light_grey: #5F6C81;
         font-size: 23px;
         line-height: 120%;
         color: #393D46;
-        @include max-screen(428px){
+        @include max-screen(428px) {
           position: relative;
           left: 62px;
         }

@@ -18,7 +18,7 @@ $light_grey: #5F6C81;
 
 .checkout {
   margin-left: 27px;
-  @include max-screen(390px){
+  @include max-screen(390px) {
     margin-left: 19px;
   }
 
@@ -40,9 +40,9 @@ $light_grey: #5F6C81;
     }
   }
 
-  .password{
-    @include max-screen(428px){
-      margin-left: 13px!important;
+  .password {
+    @include max-screen(428px) {
+      margin-left: 13px !important;
     }
   }
 
@@ -58,7 +58,7 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 332px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       width: 330px;
     }
     @include max-screen(375px) {
@@ -67,7 +67,7 @@ $light_grey: #5F6C81;
     @include max-screen(360px) {
       width: 295px;
     }
-    @include max-screen(320px){
+    @include max-screen(320px) {
       width: 258px;
     }
   }
@@ -83,16 +83,16 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 332px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       width: 326px;
     }
     @include max-screen(375px) {
-     width: 297px;
+      width: 297px;
     }
     @include max-screen(360px) {
       width: 295px;
     }
-    @include max-screen(320px){
+    @include max-screen(320px) {
       width: 260px;
     }
   }
@@ -114,13 +114,15 @@ $light_grey: #5F6C81;
     padding-left: 43%;
     margin-bottom: 15px;
     border: #393D46;
+
     &:hover {
-      background-color: transparent!important;
+      background-color: transparent !important;
       color: black !important;
-      transition: 0.5s!important;
+      transition: 0.5s !important;
       border: 1px solid black;
     }
-    @include max-screen(768px){
+
+    @include max-screen(768px) {
       width: 699px;
     }
     @include max-screen(428px) {
@@ -132,13 +134,13 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 333px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       width: 327px;
     }
     @include max-screen(375px) {
       width: 295px;
     }
-    @include max-screen(320px){
+    @include max-screen(320px) {
       width: 266px;
     }
   }
@@ -150,12 +152,14 @@ $light_grey: #5F6C81;
     color: $black;
     background-color: transparent !important;
     margin-bottom: 236px;
+
     &:hover {
-      background-color: $grey!important;
+      background-color: $grey !important;
       color: white !important;
-      transition: 0.5s!important;
+      transition: 0.5s !important;
     }
-    @include max-screen(768px){
+
+    @include max-screen(768px) {
       width: 699px;
     }
     @include max-screen(428px) {
@@ -164,13 +168,13 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       width: 332px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       width: 327px;
     }
     @include max-screen(375px) {
       width: 293px;
     }
-    @include max-screen(320px){
+    @include max-screen(320px) {
       width: 266px;
     }
   }
@@ -200,7 +204,7 @@ $light_grey: #5F6C81;
     color: rgba(57, 61, 70, 0.5);
     text-decoration: none;
     margin-left: 94px;
-    @include max-screen(320px){
+    @include max-screen(320px) {
       margin-left: 59px;
     }
   }
@@ -220,7 +224,7 @@ $light_grey: #5F6C81;
       position: relative;
       left: 16%;
     }
-    @include max-screen(320px){
+    @include max-screen(320px) {
       letter-spacing: -1.1px;
       position: relative;
       left: 26%
@@ -233,7 +237,7 @@ $light_grey: #5F6C81;
       margin-left: -108px !important;
       margin-top: 165px;
     }
-    @include max-screen(375px){
+    @include max-screen(375px) {
       margin-left: -93px !important;
     }
   }
@@ -246,10 +250,10 @@ $light_grey: #5F6C81;
     left: -85%;
     margin-top: 333px;
   }
-  @include max-screen(820px){
+  @include max-screen(820px) {
     left: -105%;
   }
-  @include max-screen(768px){
+  @include max-screen(768px) {
     left: -111%;
   }
   @include max-screen(428px) {
@@ -260,7 +264,7 @@ $light_grey: #5F6C81;
   @include max-screen(414px) {
     left: -120%;
   }
-  @include max-screen(390px){
+  @include max-screen(390px) {
     left: -127%;
   }
   @include max-screen(375px) {
@@ -269,7 +273,7 @@ $light_grey: #5F6C81;
   @include max-screen(360px) {
     left: -130%;
   }
-  @include max-screen(320px){
+  @include max-screen(320px) {
     left: -140%;
   }
 
@@ -316,7 +320,7 @@ $light_grey: #5F6C81;
     @include max-screen(414px) {
       left: 277px;
     }
-    @include max-screen(390px){
+    @include max-screen(390px) {
       left: 263px;
     }
     @include max-screen(375px) {
@@ -325,7 +329,7 @@ $light_grey: #5F6C81;
     @include max-screen(360px) {
       left: 238px;
     }
-    @include max-screen(320px){
+    @include max-screen(320px) {
       left: 199px;
     }
 
@@ -365,8 +369,8 @@ $light_grey: #5F6C81;
   @include max-screen(414px) {
     margin-left: 207px !important;
   }
-  @include max-screen(390px){
-    margin-left: 196px!important;
+  @include max-screen(390px) {
+    margin-left: 196px !important;
   }
   @include max-screen(375px) {
     margin-left: 184px !important;
@@ -443,13 +447,13 @@ $light_grey: #5F6C81;
   @include max-screen(1024px) {
     left: -134%;
   }
-  @include max-screen(992px){
+  @include max-screen(992px) {
     left: -135%;
   }
-  @include max-screen(820px){
+  @include max-screen(820px) {
     left: -166%;
   }
-  @include max-screen(768px){
+  @include max-screen(768px) {
     left: -176%;
   }
   @include max-screen(428px) {
@@ -460,7 +464,7 @@ $light_grey: #5F6C81;
     left: -240%;
     top: 566px;
   }
-  @include max-screen(390px){
+  @include max-screen(390px) {
     left: -252%;
   }
   @include max-screen(375px) {
@@ -469,7 +473,7 @@ $light_grey: #5F6C81;
   @include max-screen(360px) {
     left: -259%;
   }
-  @include max-screen(320px){
+  @include max-screen(320px) {
     left: -276%;
   }
 }
