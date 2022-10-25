@@ -2177,8 +2177,10 @@ footer {
       width: 311px;
       margin-left: 11px; } }
 
-.ingredients_modal .woman {
-  margin-left: 87px; }
+@media screen and (max-width: 428px) {
+  .ingredients_modal .woman {
+    position: relative;
+    left: 82px; } }
 @media screen and (max-width: 1024px) {
   .ingredients_modal .modal-dialog {
     left: -87px; } }
@@ -2200,6 +2202,9 @@ footer {
   font-size: 15px;
   line-height: 130%;
   color: #000000; }
+@media screen and (max-width: 320px) {
+  .ingredients_modal .modal-body h4 {
+    font-size: 12px; } }
 .ingredients_modal .modal-body p {
   font-family: 'Inter', sans-serif;
   font-style: normal;

@@ -180,8 +180,6 @@ $light_grey: #5F6C81;
         @include max-screen(428px) {
           right: -259px;
           @include max-screen(360px) {
-
-
             right: -258px;
           }
         }
@@ -301,7 +299,10 @@ $light_grey: #5F6C81;
 
 .ingredients_modal {
   .woman {
-    margin-left: 87px;
+    @include max-screen(428px) {
+      position: relative;
+      left: 82px;
+    }
   }
 
   .modal-dialog {
@@ -334,6 +335,9 @@ $light_grey: #5F6C81;
       font-size: 15px;
       line-height: 130%;
       color: #000000;
+      @include max-screen(320px) {
+        font-size: 12px;
+      }
     }
 
     p {
