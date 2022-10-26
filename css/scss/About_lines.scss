@@ -17,9 +17,7 @@ $light_grey: #5F6C81;
   .container {
     background-image: url("../images/Overall.jpg");
     height: 629px;
-    @include max-screen(1024px) {
-      width: 980px;
-    }
+
   }
 
   .buy {
@@ -38,6 +36,15 @@ $light_grey: #5F6C81;
     line-height: 120%;
     text-align: center;
     text-decoration: none;
+
+    &:hover {
+      background: white;
+      transition: 0.5s;
+    }
+
+    @include max-screen(320px) {
+      margin-left: 45px;
+    }
   }
 
   .main_headline {
@@ -49,7 +56,9 @@ $light_grey: #5F6C81;
     color: #191A1C;
     margin-top: 169px;
     margin-left: 85px;
-
+    @include max-screen(428px) {
+      margin-left: 0;
+    }
   }
 
   p {
@@ -62,10 +71,96 @@ $light_grey: #5F6C81;
     width: 424px;
     margin-top: 20px;
     margin-left: 85px;
+    @include max-screen(428px) {
+      margin-left: 0 !important;
+      width: 409px;
+    }
+    @include max-screen(414px) {
+      margin-left: 0;
+      width: 399px;
+    }
+    @include max-screen(390px) {
+      width: 344px;
+    }
+    @include max-screen(320px) {
+      width: 290px;
+    }
   }
 }
 
 .overall {
+  img {
+    @include max-screen(768px) {
+      width: 94% !important;
+    }
+    @include max-screen(428px) {
+      width: 100% !important;
+    }
+  }
+
+  .first-line {
+    margin-top: 120px;
+    margin-left: 10px;
+    @include max-screen(820px) {
+      margin-top: 12px;
+    }
+    @include max-screen(428px) {
+      margin-left: 20px;
+    }
+    @include max-screen(414px) {
+      margin-left: 12px;
+    }
+    @include max-screen(390px) {
+      margin-left: 3px;
+    }
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .first-img {
+    @include max-screen(1024px) {
+      position: relative;
+      bottom: 108px;
+      left: 27%;
+    }
+    @include max-screen(820px) {
+      position: relative;
+      bottom: 0;
+      left: 0%;
+    }
+    @include max-screen(768px) {
+      bottom: 686px;
+      left: 97%;
+    }
+    @include max-screen(428px) {
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .second-img {
+    @include max-screen(1024px) {
+      position: relative;
+      bottom: 471px;
+      left: 130%;
+    }
+    @include max-screen(820px) {
+      position: relative;
+      bottom: 0;
+      left: 0%;
+    }
+    @include max-screen(768px) {
+      bottom: 685px;
+      left: 97%;
+    }
+    @include max-screen(428px) {
+      bottom: 0;
+      left: 0;
+    }
+  }
+
   h1 {
     font-family: $main_font;
     font-style: normal;
@@ -74,7 +169,10 @@ $light_grey: #5F6C81;
     line-height: 120%;
     letter-spacing: 0.6px;
     color: #393D46;
-    margin-left: 85px;
+    margin-left: 65px;
+    @include max-screen(428px) {
+      margin-left: 10px;
+    }
   }
 
   p {
@@ -85,16 +183,18 @@ $light_grey: #5F6C81;
     line-height: 160%;
     color: #5F6C81;
     max-width: 550px;
-    margin-left: 72px;
+    margin-left: 52px;
+    @include max-screen(428px) {
+      margin-left: 0px;
+    }
   }
 
   .mock_up {
     margin-top: 120px;
     margin-left: 71px;
-  }
-
-  .under_column {
-    top: 181px;
+    @include max-screen(428px) {
+      margin-left: 0;
+    }
   }
 }
 
@@ -122,6 +222,15 @@ $light_grey: #5F6C81;
     line-height: 120%;
     text-align: center;
     text-decoration: none;
+
+    &:hover {
+      background: white;
+      transition: 0.5s;
+    }
+
+    @include max-screen(320px) {
+      margin-left: 45px;
+    }
   }
 
   .main_headline {
@@ -133,7 +242,18 @@ $light_grey: #5F6C81;
     color: #191A1C;
     margin-top: 169px;
     margin-left: 85px;
-
+    @include max-screen(428px) {
+      margin-left: 7px;
+    }
+    @include max-screen(390px) {
+      font-size: 74px;
+    }
+    @include max-screen(360px) {
+      font-size: 70px;
+    }
+    @include max-screen(320px) {
+      font-size: 60px;
+    }
   }
 
   p {
@@ -146,12 +266,102 @@ $light_grey: #5F6C81;
     width: 470px;
     margin-top: 20px;
     margin-left: 85px;
+    @include max-screen(428px) {
+      margin-left: 0;
+      width: 400px;
+    }
+    @include max-screen(414px) {
+      margin-left: 0;
+      width: 399px;
+    }
+    @include max-screen(390px) {
+      width: 344px;
+    }
+    @include max-screen(360px) {
+      width: 320px;
+    }
+    @include max-screen(320px) {
+      width: 296px;
+    }
   }
 }
 
 .advanced_bottles {
   padding-top: 170px;
   padding-bottom: 200px;
+
+
+  img {
+    @include max-screen(768px) {
+      width: 94% !important;
+    }
+    @include max-screen(428px) {
+      width: 100% !important;
+    }
+  }
+
+  .first-line {
+    margin-top: 120px;
+    margin-left: 10px;
+    @include max-screen(820px) {
+      margin-top: 12px;
+    }
+    @include max-screen(428px) {
+      margin-left: 20px;
+    }
+    @include max-screen(414px) {
+      margin-left: 12px;
+    }
+    @include max-screen(390px) {
+      margin-left: 3px;
+    }
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .first-img {
+    @include max-screen(1024px) {
+      position: relative;
+      bottom: 108px;
+      left: 27%;
+    }
+    @include max-screen(820px) {
+      position: relative;
+      bottom: 0;
+      left: 0%;
+    }
+    @include max-screen(768px) {
+      bottom: 686px;
+      left: 97%;
+    }
+    @include max-screen(428px) {
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .second-img {
+    @include max-screen(1024px) {
+      position: relative;
+      bottom: 471px;
+      left: 130%;
+    }
+    @include max-screen(820px) {
+      position: relative;
+      bottom: 0;
+      left: 0%;
+    }
+    @include max-screen(768px) {
+      bottom: 685px;
+      left: 97%;
+    }
+    @include max-screen(428px) {
+      bottom: 0;
+      left: 0;
+    }
+  }
 
   h1 {
     font-family: $main_font;
@@ -161,7 +371,10 @@ $light_grey: #5F6C81;
     line-height: 120%;
     letter-spacing: 0.6px;
     color: #393D46;
-    margin-left: 85px;
+    margin-left: 68px;
+    @include max-screen(428px) {
+      margin-left: 10px;
+    }
   }
 
   p {
@@ -172,17 +385,20 @@ $light_grey: #5F6C81;
     line-height: 160%;
     color: #5F6C81;
     max-width: 550px;
-    margin-left: 72px;
+    margin-left: 52px;
+    @include max-screen(428px) {
+      margin-left: 0;
+    }
   }
 
   .mock_up {
     margin-top: 120px;
     margin-left: 71px;
-  }
-
-  .under_column {
-    top: 181px;
+    @include max-screen(428px) {
+      margin-left: 0;
+    }
   }
 }
+
 
 
