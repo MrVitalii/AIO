@@ -2272,29 +2272,24 @@ footer {
   .product_page .text-product .d-flex .up {
     height: 24px;
     padding-left: 14px;
-    padding-top: 9px;
-    position: relative;
-    right: 51px;
-    bottom: 14px; }
+    padding-top: 9px; }
   @media screen and (max-width: 428px) {
     .product_page .text-product .d-flex .up {
-      right: -259px; } }
+      margin-left: 0; } }
 @media screen and (max-width: 428px) and (max-width: 360px) {
   .product_page .text-product .d-flex .up {
-    right: -258px; } }
+    margin-left: 0; } }
   .product_page .text-product .d-flex .down {
-    bottom: -10px;
-    right: 6px;
     height: 24px;
     padding-left: 14px;
     padding-top: 9px;
-    position: relative; }
+    margin-top: 24px; }
   @media screen and (max-width: 428px) {
     .product_page .text-product .d-flex .down {
-      right: -152px; } }
+      margin-left: 0; } }
   @media screen and (max-width: 360px) {
     .product_page .text-product .d-flex .down {
-      right: -151px; } }
+      margin-left: 0; } }
   .product_page .text-product .d-flex a {
     width: 330px;
     height: 48px;

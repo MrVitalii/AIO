@@ -174,29 +174,26 @@ $light_grey: #5F6C81;
         height: 24px;
         padding-left: 14px;
         padding-top: 9px;
-        position: relative;
-        right: 51px;
-        bottom: 14px;
+
         @include max-screen(428px) {
-          right: -259px;
+          margin-left: 0;
           @include max-screen(360px) {
-            right: -258px;
+            margin-left: 0;
           }
         }
       }
 
       .down {
-        bottom: -10px;
-        right: 6px;
         height: 24px;
         padding-left: 14px;
         padding-top: 9px;
-        position: relative;
+        margin-top: 24px;
+
         @include max-screen(428px) {
-          right: -152px;
+          margin-left: 0;
         }
         @include max-screen(360px) {
-          right: -151px;
+          margin-left: 0;
         }
       }
 
